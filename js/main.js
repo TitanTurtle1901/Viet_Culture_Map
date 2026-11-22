@@ -51,46 +51,38 @@
     return silhouettes;
   }
 
-  function provinceMapPreview(id, map) {
-    var province = map[id];
-    if (!province) { return ''; }
-    return '<svg viewBox="' + province.vb + '" aria-hidden="true" focusable="false">' +
-      '<path class="map-focus" d="' + province.d + '"/></svg>';
-  }
-
-  /** Đổ mảnh địa giới từ dữ liệu bản đồ vào thumbnail */
+  /** Đổ hình tỉnh (từ dữ liệu bản đồ) vào thẻ vùng miền ở trang chủ */
   function hydrateSilhouettes($root) {
-    var $targets = $root.find('[data-silhouette]:not([data-hydrated]), [data-province-map]:not([data-hydrated])');
+    var $targets = $root.find('[data-silhouette]:not([data-hydrated])');
     if (!$targets.length) { return; }
     loadSilhouettes().then(function (map) {
       $targets.each(function () {
-        var id = this.getAttribute('data-province-map') || this.getAttribute('data-silhouette');
-        var s = map[id];
+        var s = map[this.getAttribute('data-silhouette')];
         if (!s) { return; }
-        var html = this.hasAttribute('data-province-map')
-          ? provinceMapPreview(id, map)
-          : '<svg viewBox="' + s.vb + '" aria-hidden="true"><path d="' + s.d + '"/></svg>';
-        $(this).attr('data-hydrated', '1').html(html);
+        $(this).attr('data-hydrated', '1').html('<svg viewBox="' + s.vb + '" aria-hidden="true"><path d="' + s.d + '"/></svg>');
       });
-    }).catch(function () {
-      $targets.filter('[data-province-map]').siblings('.thumb-note').text('Không tải được bản đồ địa giới');
     });
   }
 
   /**
-   * Ảnh đại diện địa phương. Có file ảnh đã xác minh -> <img>.
-   * Chưa có -> nền theo miền + mảnh bản đồ địa giới thật của tỉnh (không dùng ảnh không rõ nguồn).
+   * Ảnh bìa địa phương (thẻ, popup bản đồ). Luôn là ảnh thật <img>, phủ kín, object-fit: cover.
+   * Chưa có file hoặc ảnh tải lỗi -> ảnh giữ chỗ (nền theo miền + biểu tượng), không dùng mảnh bản đồ.
    */
+  function provinceThumbFallback(unit, macro, className) {
+    return '<div class="thumb ' + (className || '') + '" data-region="' + macro + '" role="img" aria-label="' + esc(unit.name) + ' – chưa có ảnh bìa">' +
+           '<div class="thumb-icon">' + ICON.pin + '</div>' +
+           '<span class="thumb-note">Chưa có ảnh bìa</span></div>';
+  }
+
   function provinceThumb(unit, className) {
     var img = unit.summary && unit.summary.image;
     var macro = unit.macro || '';
     if (img && img.file) {
-      return '<div class="thumb ' + (className || '') + '" data-region="' + macro + '"><img loading="lazy" src="' + esc(img.file) + '" alt="' + esc(img.alt || unit.name) + '"></div>';
+      return '<div class="thumb ' + (className || '') + '" data-region="' + macro + '">' +
+             '<img loading="lazy" src="' + esc(img.file) + '" alt="' + esc(img.alt || unit.name) + '" onerror="this.onerror=null;this.parentNode.classList.add(\'is-img-error\');this.remove();">' +
+             '<div class="thumb-icon">' + ICON.pin + '</div></div>';
     }
-    // Chưa có ảnh được cấp phép -> mảnh bản đồ địa giới của tỉnh (áp dụng cho cả 34 tỉnh, thành phố)
-    return '<div class="thumb province-map-thumb ' + (className || '') + '" data-region="' + macro + '" role="img" aria-label="Mảnh bản đồ địa giới ' + esc(unit.name) + ' sau sáp nhập">' +
-           '<div class="province-map-preview" data-province-map="' + esc(unit.id) + '"></div>' +
-           '<span class="thumb-note">Mảnh bản đồ địa giới</span></div>';
+    return provinceThumbFallback(unit, macro, className);
   }
 
   /** Ảnh giữ chỗ cho địa điểm / đặc sản / nghệ thuật: dùng ảnh nếu có file, nếu không dùng biểu tượng theo loại */
