@@ -62,9 +62,9 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
 
 ## Chưa hoàn thành / hạn chế (nêu thẳng)
 
-- **Ảnh:** bộ dữ liệu chưa có ảnh nào đã xác minh giấy phép (`image-manifest.json` rỗng). Giao diện dùng ảnh giữ chỗ (hình dạng địa giới thật
-  hoặc biểu tượng) và ghi "Chưa có ảnh được cấp phép". Khi có ảnh, điền `image.file` (đường dẫn trong `assets/images/`) + thông tin ghi công
-  trong hồ sơ tỉnh; giao diện sẽ tự dùng `<img>`.
+- **Ảnh:** cả 34 thẻ địa phương dùng ảnh bìa thật (`summary.image.file` trong `data/provinces/index.json`, hiển thị `object-fit: cover`). Ảnh vẫn ghi
+  `permissionStatus: unverified` (chưa xác minh giấy phép). Nếu một địa phương chưa có `image.file` hoặc ảnh tải lỗi, giao diện hiện ảnh giữ chỗ
+  (nền theo miền + biểu tượng, ghi \"Chưa có ảnh bìa\"), không dùng mảnh bản đồ địa giới.
 - **Tagline** và **thông tin liên hệ** chưa có trong dữ liệu nên không được bịa; banner hiển thị loại đơn vị, vùng và đơn vị tiền thân; footer ghi chưa cấu hình kênh liên hệ.
 - **Đăng nhập/đăng ký chỉ là mô phỏng** (localStorage), không có xác thực thực tế.
 - Ranh giới giữa các tỉnh nhỏ ở đồng bằng Bắc Bộ khó chạm trên điện thoại; dùng nút +/− hoặc danh sách bên phải.

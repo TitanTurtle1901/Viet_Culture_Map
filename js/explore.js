@@ -107,14 +107,8 @@
   }
 
   function pageList(current, pages) {
-    var set = {};
-    [1, pages, current - 1, current, current + 1].forEach(function (p) { if (p >= 1 && p <= pages) { set[p] = 1; } });
-    var arr = Object.keys(set).map(Number).sort(function (a, b) { return a - b; });
     var out = [];
-    arr.forEach(function (p, i) {
-      if (i && p - arr[i - 1] > 1) { out.push('…'); }
-      out.push(p);
-    });
+    for (var p = 1; p <= pages; p++) { out.push(p); }
     return out;
   }
 

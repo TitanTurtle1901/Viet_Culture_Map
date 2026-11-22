@@ -49,27 +49,12 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 .thumb[data-region="bac"] { background: linear-gradient(135deg, #e3f0da, #b8d8a6); }
 .thumb[data-region="trung"] { background: linear-gradient(135deg, #f6ecc8, #e3c777); }
 .thumb[data-region="nam"] { background: linear-gradient(135deg, #d8ecee, #94c4ca); }
-.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; display: block; }
+/* Ảnh bìa chưa tải được: ẩn <img>, hiện biểu tượng giữ chỗ (ảnh bìa bình thường không hiện biểu tượng này) */
+.thumb:not(.is-img-error) > img + .thumb-icon { display: none; }
 .thumb .silhouette { position: absolute; inset: 10% 0; display: flex; align-items: center; justify-content: center; }
 .thumb .silhouette svg { height: 100%; width: auto; max-width: 90%; overflow: visible; }
 .thumb .silhouette path { fill: rgba(255, 255, 255, .78); stroke: rgba(20, 58, 75, .55); stroke-width: 1.2; vector-effect: non-scaling-stroke; stroke-linejoin: round; transition: fill .2s, stroke .2s, filter .2s, transform .2s; transform-box: fill-box; transform-origin: center; }
-/* Mảnh bản đồ địa giới (cả 34 tỉnh): mặc định nền sáng, rê chuột vào thẻ thì đổi sang màu đậm cùng tông với miền */
-.thumb .province-map-preview { position: absolute; inset: 12% 6% 16%; }
-.thumb .province-map-preview svg { display: block; width: 100%; height: 100%; overflow: visible; }
-.thumb .province-map-preview .map-focus { fill: rgba(255, 255, 255, .8); stroke: rgba(20, 58, 75, .5); stroke-width: 1.1; vector-effect: non-scaling-stroke; stroke-linejoin: round; transition: fill .2s, stroke .2s, filter .2s, transform .2s; transform-box: fill-box; transform-origin: center; }
-.card-hover:hover .thumb .map-focus, .card-hover:focus-within .thumb .map-focus,
-.province-popup:hover .thumb .map-focus, .thumb .province-map-preview .map-focus:hover {
-  fill: var(--crimson); stroke: #5a1616; stroke-width: 1.4; filter: drop-shadow(0 2px 3px rgba(60, 10, 10, .4)); transform: scale(1.04);
-}
-.card-hover:hover .thumb[data-region="bac"] .map-focus, .card-hover:focus-within .thumb[data-region="bac"] .map-focus,
-.province-popup:hover .thumb[data-region="bac"] .map-focus, .thumb[data-region="bac"] .province-map-preview .map-focus:hover {
-  fill: var(--forest); stroke: #1d4030; filter: drop-shadow(0 2px 3px rgba(15, 50, 30, .45));
-}
-.card-hover:hover .thumb[data-region="nam"] .map-focus, .card-hover:focus-within .thumb[data-region="nam"] .map-focus,
-.province-popup:hover .thumb[data-region="nam"] .map-focus, .thumb[data-region="nam"] .province-map-preview .map-focus:hover {
-  fill: #1d4a5e; stroke: #0f2e3c; filter: drop-shadow(0 2px 3px rgba(10, 40, 55, .45));
-}
-
 /* Thẻ vùng miền ở trang chủ: các hình tỉnh đổi sang màu đậm cùng tông với miền khi rê chuột vào thẻ */
 .card-hover:hover .thumb .silhouette path, .card-hover:focus-within .thumb .silhouette path {
   fill: var(--crimson); stroke: #5a1616; stroke-width: 1.4; filter: drop-shadow(0 2px 3px rgba(60, 10, 10, .4)); transform: scale(1.04);
@@ -80,7 +65,6 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 .card-hover:hover .thumb[data-region="nam"] .silhouette path, .card-hover:focus-within .thumb[data-region="nam"] .silhouette path {
   fill: #1d4a5e; stroke: #0f2e3c; filter: drop-shadow(0 2px 3px rgba(10, 40, 55, .45));
 }
-.thumb.province-map-thumb .thumb-note { background: rgba(255, 253, 246, .78); border-radius: .25rem; padding: .08rem .3rem; }
 .thumb .thumb-note { position: absolute; left: .5rem; bottom: .35rem; font-size: .65rem; color: rgba(20, 58, 75, .75); letter-spacing: .01em; }
 .thumb .thumb-icon { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: rgba(20, 58, 75, .45); }
 .thumb .thumb-icon svg { width: 34%; height: auto; max-width: 64px; }
