@@ -5,7 +5,7 @@
   "region": "Đông Bắc",
   "summary": {
     "image": {
-      "file": "assets/images/Quảng Ninh/province/Quảng Ninh.jpg",
+      "file": "assets/images/Quảng Ninh/province/Quang-Ninh.jpg",
       "alt": "Thành phố Quảng Ninh – ảnh đại diện; quyền sử dụng chưa xác minh.",
       "sourceId": null,
       "permissionStatus": "unverified"
@@ -118,7 +118,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/destinations/Vườn quốc gia Bái Tử Long.jpg",
+          "file": "assets/images/Quảng Ninh/destinations/Vuon-quoc-gia-Bai-Tu-Long.jpg",
           "alt": "Vườn quốc gia Bái Tử Long – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -172,7 +172,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/destinations/Đền Cửa Ông.jpg",
+          "file": "assets/images/Quảng Ninh/destinations/Den-Cua-Ong.jpg",
           "alt": "Đền Cửa Ông – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -200,7 +200,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/destinations/Không gian du lịch Trà Cổ – Móng Cái.jpg",
+          "file": "assets/images/Quảng Ninh/destinations/Khong-gian-du-lich-Tra-Co-Mong-Cai.jpg",
           "alt": "Không gian du lịch Trà Cổ – Móng Cái – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -229,7 +229,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ – vùng Hạ Long.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/specialties/Chả mực Hạ Long.jpg",
+          "file": "assets/images/Quảng Ninh/specialties/Cha-muc-Ha-Long.jpg",
           "alt": "Chả mực Hạ Long – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -257,7 +257,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ – Vân Đồn.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/specialties/Sá Sùng Vân Đồn.jpg",
+          "file": "assets/images/Quảng Ninh/specialties/Sa-Sung-Van-Don.jpg",
           "alt": "Sá sùng Vân Đồn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -284,7 +284,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ – Tiên Yên.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/specialties/Gà Tiên Yên.jpg",
+          "file": "assets/images/Quảng Ninh/specialties/Ga-Tien-Yen.jpg",
           "alt": "Gà Tiên Yên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -311,7 +311,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ – vùng ven biển và cửa sông.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/specialties/Ngán Quảng Ninh.jpg",
+          "file": "assets/images/Quảng Ninh/specialties/Ngan-Quang-Ninh.jpg",
           "alt": "Ngán Quảng Ninh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -339,7 +339,7 @@
         "originArea": "Tỉnh Quảng Ninh cũ – vùng miền núi và trung du.",
         "currentProvinceId": "quang-ninh",
         "image": {
-          "file": "assets/images/Quảng Ninh/specialties/Rượu ba kích.jpg",
+          "file": "assets/images/Quảng Ninh/specialties/Ruou-ba-kich.jpg",
           "alt": "Rượu ba kích – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -571,7 +571,7 @@
         "name": "Hát nhà tơ – hát cửa đình",
         "category": "Hát nghi lễ; diễn xướng dân gian",
         "image": {
-          "file": "assets/images/Quảng Ninh/culture/Hát nhà tơ – hát cửa đình.jpg",
+          "file": "assets/images/Quảng Ninh/culture/Hat-nha-to-hat-cua-dinh.jpg",
           "alt": "Hát nhà tơ – hát cửa đình – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -596,7 +596,7 @@
         "name": "Hát Soóng Cọ",
         "category": "Dân ca; hát giao duyên",
         "image": {
-          "file": "assets/images/Quảng Ninh/province/Quảng Ninh.jpg",
+          "file": "assets/images/Quảng Ninh/province/Quang-Ninh.jpg",
           "alt": "Hát Soóng Cọ – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"

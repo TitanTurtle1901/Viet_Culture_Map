@@ -5,7 +5,7 @@
   "region": "Bắc Trung Bộ",
   "summary": {
     "image": {
-      "file": "assets/images/Thanh Hóa/province/Thanh Hóa.jpg",
+      "file": "assets/images/Thanh Hóa/province/Thanh-Hoa.jpg",
       "alt": "Tỉnh Thanh Hóa – ảnh đại diện chưa xác minh quyền sử dụng.",
       "sourceId": null,
       "permissionStatus": "unverified"
@@ -150,7 +150,7 @@
         "originArea": "Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/destinations/Bãi biển Sầm Sơn.jpg",
+          "file": "assets/images/Thanh Hóa/destinations/Bai-bien-Sam-Son.jpg",
           "alt": "Bãi biển Sầm Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -179,7 +179,7 @@
         "originArea": "Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/destinations/Suối cá Cẩm Lương.jpg",
+          "file": "assets/images/Thanh Hóa/destinations/Suoi-ca-Cam-Luong.jpg",
           "alt": "Suối cá Cẩm Lương – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -208,7 +208,7 @@
         "originArea": "Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/destinations/Vườn quốc gia Bến En.jpg",
+          "file": "assets/images/Thanh Hóa/destinations/Vuon-quoc-gia-Ben-En.jpg",
           "alt": "Vườn quốc gia Bến En – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -237,7 +237,7 @@
         "originArea": "Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/destinations/Cầu Hàm Rồng và quần thể di tích Hàm Rồng.jpg",
+          "file": "assets/images/Thanh Hóa/destinations/Cau-Ham-Rong-va-quan-the-di-tich-Ham-Rong.jpg",
           "alt": "Cầu Hàm Rồng và quần thể di tích Hàm Rồng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -299,7 +299,7 @@
         "originArea": "Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/specialties/Chả tôm.jpg",
+          "file": "assets/images/Thanh Hóa/specialties/Cha-tom.jpg",
           "alt": "Chả tôm Thanh Hóa – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -329,7 +329,7 @@
         "originArea": "Tứ Trụ, Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/specialties/Bánh gai Tứ Trụ.jpg",
+          "file": "assets/images/Thanh Hóa/specialties/Banh-gai-Tu-Tru.jpg",
           "alt": "Bánh gai Tứ Trụ – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -360,7 +360,7 @@
         "originArea": "Hà Yên, Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/specialties/Mắm tép Hà Yên.jpg",
+          "file": "assets/images/Thanh Hóa/specialties/Mam-tep-Ha-Yen.jpg",
           "alt": "Mắm tép Hà Yên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -389,7 +389,7 @@
         "originArea": "Thanh Hóa.",
         "currentProvinceId": "thanh-hoa",
         "image": {
-          "file": "assets/images/Thanh Hóa/specialties/Chè lam Phủ Quảng.jpg",
+          "file": "assets/images/Thanh Hóa/specialties/Che-lam-Phu-Quang.jpg",
           "alt": "Chè lam Phủ Quảng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -620,7 +620,7 @@
         "name": "Hò sông Mã",
         "category": "Dân ca; hò lao động",
         "image": {
-          "file": "assets/images/Thanh Hóa/culture/Hò sông Mã.jpg",
+          "file": "assets/images/Thanh Hóa/culture/Ho-song-Ma.jpg",
           "alt": "Hò sông Mã – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -671,7 +671,7 @@
         "name": "Dân ca Đông Anh",
         "category": "Dân ca; diễn xướng dân gian",
         "image": {
-          "file": "assets/images/Thanh Hóa/culture/Dân ca Đông Anh.jpg",
+          "file": "assets/images/Thanh Hóa/culture/Dan-ca-Dong-Anh.jpg",
           "alt": "Dân ca Đông Anh – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -696,7 +696,7 @@
         "name": "Khắp Thái",
         "category": "Dân ca; hát truyền thống",
         "image": {
-          "file": "assets/images/Thanh Hóa/culture/Khắp Thái.jpg",
+          "file": "assets/images/Thanh Hóa/culture/Khap-Thai.jpg",
           "alt": "Khắp Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"

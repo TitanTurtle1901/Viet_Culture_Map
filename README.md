@@ -1,6 +1,6 @@
 # Viet Culture Map – Bản đồ văn hóa Việt Nam
 
-Website tĩnh (HTML5, CSS3, JavaScript thuần, jQuery 3.7.1, Tailwind CSS CDN) với bản đồ SVG tương tác 34 tỉnh/thành phố.
+Website tĩnh (HTML5, CSS3, JavaScript thuần, jQuery 3.7.1 đặt sẵn trong `js/vendor/`, Tailwind CSS đã biên dịch sẵn thành `css/tailwind.css`) với bản đồ SVG tương tác 34 tỉnh/thành phố.
 Luồng chính: **bản đồ 34 đơn vị → hover → thông tin nhanh → click → hồ sơ đầy đủ.**
 
 ## Chạy dự án
@@ -10,13 +10,15 @@ Dữ liệu nạp bằng `fetch()` nên **phải chạy qua máy chủ cục b�
 1. Mở thư mục `Viet-Culture-Map` bằng VS Code.
 2. Cài extension **Live Server** → chuột phải `index.html` → *Open with Live Server*.
 
-Cần Internet để tải jQuery, Tailwind và Google Fonts từ CDN.
+Chỉ còn Google Fonts tải từ Internet (có font dự phòng của hệ thống khi offline). jQuery và Tailwind đã nằm trong dự án.
 
 ## Cấu trúc
 
 ```
 index.html  explore.html  detail.html  login.html
-css/style.css
+css/style.css      CSS riêng của dự án
+css/tailwind.css  CSS Tailwind đã biên dịch (KHÔNG sửa tay – sinh từ tools/tailwind)
+js/vendor/jquery-3.7.1.min.js
 js/data.js      lớp dữ liệu (JS thuần): tải JSON, chuẩn hóa chuỗi, phiên mô phỏng
 js/main.js      header/footer dùng chung, menu, thẻ địa phương, ảnh giữ chỗ (jQuery)
 js/map.js       bản đồ: hover, click, cảm ứng, zoom/kéo, lọc miền, danh sách
@@ -32,6 +34,8 @@ data/taxonomy.json, data/image-manifest.json
 assets/maps/vietnam-34-provinces.svg   bản đồ (34 id, sinh từ GeoJSON)
 assets/icons/vietnam-silhouette.svg    logo/favicon (từ cùng dữ liệu ranh giới)
 tools/build_map.py, tools/build_data.py   script dựng dữ liệu (chạy một lần, không thuộc website)
+tools/tailwind/          cấu hình + lệnh build css/tailwind.css
+tools/optimize_images.py nén/đổi cỡ ảnh   |   tools/check_images.py kiểm tra đường dẫn ảnh
 ```
 
 Phân công JS: `data.js` thuần (không đụng DOM); mọi thao tác DOM/sự kiện dùng jQuery. Ngoại lệ duy nhất: `wheel` dùng
@@ -69,3 +73,12 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
 - **Đăng nhập/đăng ký chỉ là mô phỏng** (localStorage), không có xác thực thực tế.
 - Ranh giới giữa các tỉnh nhỏ ở đồng bằng Bắc Bộ khó chạm trên điện thoại; dùng nút +/− hoặc danh sách bên phải.
 - Đã kiểm thử logic bằng môi trường giả lập (jsdom) cho cả 4 trang; **chưa kiểm tra thị giác trên trình duyệt thật** (bố cục Tailwind, popup sát mép, cảm ứng thật). Nên duyệt thủ công trên desktop và điện thoại.
+
+## Công cụ bảo trì
+
+- **Sửa giao diện bằng class Tailwind mới** (thêm class vào HTML/JS) → build lại CSS (cần Node.js 18+):
+  `cd tools/tailwind && npm install && npm run build`  (hoặc `npm run watch` khi đang sửa). Commit file `css/tailwind.css` sinh ra.
+- **Thêm ảnh mới** → đặt tên file chỉ gồm `A-Z a-z 0-9 . _ -` (không dấu, không khoảng trắng), rồi nén:
+  `pip install pillow && python tools/optimize_images.py` (cạnh dài ≤ 1600 px, giữ nguyên tên/định dạng).
+- **Trước khi commit/deploy** → `python tools/check_images.py`: báo đường dẫn ảnh trong JSON bị thiếu hoặc sai hoa/thường
+  (Windows bỏ qua lỗi này nhưng GitHub Pages/Linux thì ảnh sẽ vỡ), cùng tên file không an toàn. Thêm `--list-unused` để xem ảnh chưa dùng.
