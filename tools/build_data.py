@@ -168,6 +168,7 @@ for p in provinces:
         "searchNames": {
             "destinations": [x["name"] for x in d["destinations"]],
             "specialties": [x["name"] for x in d["specialties"]],
+            "arts": [x["name"] for x in (d.get("arts") or [])],
         },
     })
 

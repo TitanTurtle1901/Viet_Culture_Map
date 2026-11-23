@@ -359,6 +359,23 @@
     return t ? t.id : 'overview';
   }
 
+  function openLinkedItem() {
+    var kind = D.getParam('itemKind'), name = D.getParam('itemName');
+    var key = kind === 'specialty' ? 'specialties' : kind === 'destination' ? 'destinations' : kind === 'art' ? 'arts' : '';
+    if (!key || !name) { return; }
+    var normalized = D.normalize(name), items = registry[key] || [];
+    var index = items.findIndex(function (item) { return D.normalize(item.name) === normalized; });
+    if (index < 0) {
+      var tokens = normalized.split(' ').filter(Boolean);
+      index = items.findIndex(function (item) {
+        var itemName = D.normalize(item.name);
+        return tokens.length && tokens.every(function (token) { return itemName.indexOf(token) >= 0; });
+      });
+    }
+    activateTab(key, false);
+    if (index >= 0) { openItem(key + '|' + index); }
+  }
+
   function render() {
     document.title = prov.name + ' – Viet Culture Map';
     var d = prov.detail;
@@ -470,6 +487,7 @@
       prov = res[0]; sources = res[1];
       bind();
       render();
+      openLinkedItem();
       $('#detail-loading').addClass('hidden');
       $('#detail-root').removeClass('hidden');
     }).catch(function (err) { fail(err.message || 'Đã xảy ra lỗi khi tải dữ liệu. Hãy chạy dự án bằng VS Code Live Server.'); });

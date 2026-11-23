@@ -23,6 +23,8 @@
   };
 
   var KIND_ICON = { destination: ICON.pin, specialty: ICON.bowl, art: ICON.music };
+  var quickSearchRecords = null;
+  var quickSearchLoad = null;
 
   /* ---------- Ảnh đại diện / ảnh giữ chỗ ---------- */
   var silhouettes = null; // Promise<{id: {d, vb}}>
@@ -190,6 +192,193 @@
           '</nav></div>' +
       '</header>'
     );
+    enhanceQuickSearchForms();
+  }
+
+  function enhanceQuickSearchForms() {
+    var $headerForm = $('#header-search-form');
+    if ($headerForm.length && !$headerForm.find('input[type="search"]').hasClass('quick-search-input')) {
+      $headerForm.wrap('<div class="quick-search-wrap quick-search-wrap-header"></div>');
+      $headerForm.find('input[type="search"]').addClass('quick-search-input').attr({ 'aria-controls': 'header-search-results', 'aria-expanded': 'false', 'aria-autocomplete': 'list' });
+      $headerForm.after('<div id="header-search-results" class="search-results hidden" role="listbox" aria-label="Kết quả tìm kiếm"></div>');
+    }
+    var $heroForm = $('#hero-search-form');
+    if ($heroForm.length && !$heroForm.find('input[type="search"]').hasClass('quick-search-input')) {
+      $heroForm.wrap('<div class="quick-search-wrap quick-search-wrap-hero"></div>');
+      $heroForm.find('input[type="search"]').addClass('quick-search-input').attr({ 'aria-controls': 'hero-search-results', 'aria-expanded': 'false', 'aria-autocomplete': 'list' });
+      $heroForm.after('<div id="hero-search-results" class="search-results hidden" role="listbox" aria-label="Kết quả tìm kiếm"></div>');
+    }
+    var $exploreInput = $('#q');
+    if ($exploreInput.length && !$('#explore-search-results').length) {
+      $exploreInput.addClass('quick-search-input').attr({ 'aria-controls': 'explore-search-results', 'aria-expanded': 'false', 'aria-autocomplete': 'list' });
+      $exploreInput.parent().addClass('quick-search-wrap').append('<div id="explore-search-results" class="search-results hidden" role="listbox" aria-label="Kết quả tìm kiếm"></div>');
+    }
+  }
+
+  /* ---------- Quick search ---------- */
+  function loadQuickSearchRecords() {
+    if (!quickSearchLoad) {
+      quickSearchLoad = D.loadContext().then(function (ctx) {
+        var rows = [], seen = {};
+        ctx.units.forEach(function (unit) {
+          var province = { kind: 'province', label: D.shortName(unit.name), unit: unit };
+          province.normalized = D.normalize(province.label);
+          rows.push(province);
+          (unit.formerUnits || []).forEach(function (former) {
+            rows.push({ kind: 'former', label: former.name, unit: unit, normalized: D.normalize(former.name) });
+          });
+          ['destinations', 'specialties', 'arts'].forEach(function (field) {
+            (unit.searchNames[field] || []).forEach(function (label) {
+              var kind = field === 'specialties' ? 'specialty' : field === 'arts' ? 'art' : 'destination';
+              var key = kind + '|' + unit.id + '|' + D.normalize(label);
+              if (seen[key]) { return; }
+              seen[key] = true;
+              rows.push({ kind: kind, label: label, unit: unit, normalized: D.normalize(label) });
+            });
+          });
+        });
+        quickSearchRecords = rows;
+        return rows;
+      }).catch(function (err) { quickSearchLoad = null; throw err; });
+    }
+    return quickSearchLoad;
+  }
+
+  function quickSearchMatches(query) {
+    if (!quickSearchRecords) { return []; }
+    var normalized = D.normalize(query), tokens = normalized.split(' ').filter(Boolean);
+    if (!tokens.length) { return []; }
+    return quickSearchRecords.map(function (row) {
+      if (!tokens.every(function (token) { return row.normalized.indexOf(token) >= 0; })) { return null; }
+      var rank = row.normalized === normalized ? 0 : row.normalized.indexOf(normalized) === 0 ? 1 : 2;
+      var kindRank = row.kind === 'specialty' ? 0 : row.kind === 'destination' ? 1 : row.kind === 'art' ? 2 : row.kind === 'province' ? 3 : 4;
+      return { row: row, rank: rank, kindRank: kindRank };
+    }).filter(Boolean).sort(function (a, b) {
+      return a.rank - b.rank || a.kindRank - b.kindRank || a.row.label.localeCompare(b.row.label, 'vi') ||
+        D.shortName(a.row.unit.name).localeCompare(D.shortName(b.row.unit.name), 'vi');
+    }).map(function (entry) { return entry.row; });
+  }
+
+  function editDistance(a, b) {
+    var rows = a.length + 1, cols = b.length + 1, dp = [];
+    for (var i = 0; i < rows; i++) { dp[i] = [i]; }
+    for (var j = 1; j < cols; j++) { dp[0][j] = j; }
+    for (var r = 1; r < rows; r++) {
+      for (var c = 1; c < cols; c++) {
+        dp[r][c] = Math.min(dp[r - 1][c] + 1, dp[r][c - 1] + 1, dp[r - 1][c - 1] + (a.charAt(r - 1) === b.charAt(c - 1) ? 0 : 1));
+        if (r > 1 && c > 1 && a.charAt(r - 1) === b.charAt(c - 2) && a.charAt(r - 2) === b.charAt(c - 1)) {
+          dp[r][c] = Math.min(dp[r][c], dp[r - 2][c - 2] + 1);
+        }
+      }
+    }
+    return dp[a.length][b.length];
+  }
+
+  function fuzzyQuickSearchMatches(query) {
+    if (!quickSearchRecords) { return []; }
+    var tokens = D.normalize(query).split(' ').filter(Boolean);
+    var letterCount = tokens.join('').length;
+    if (letterCount < 3) { return []; }
+    var maxTotal = Math.max(1, Math.floor(letterCount * 0.22));
+    var ranked = quickSearchRecords.map(function (row) {
+      var words = row.normalized.split(' '), score = 0;
+      for (var i = 0; i < tokens.length; i++) {
+        var best = Infinity, token = tokens[i];
+        words.forEach(function (word) {
+          var distance = word.indexOf(token) >= 0 || token.indexOf(word) >= 0 ? 0 : editDistance(token, word);
+          if (distance < best) { best = distance; }
+        });
+        var tokenLimit = token.length >= 8 ? 2 : 1;
+        if (best > tokenLimit) { return null; }
+        score += best;
+      }
+      return score <= maxTotal ? { row: row, score: score } : null;
+    }).filter(Boolean);
+    ranked.sort(function (a, b) {
+      return a.score - b.score || a.row.label.localeCompare(b.row.label, 'vi') ||
+        D.shortName(a.row.unit.name).localeCompare(D.shortName(b.row.unit.name), 'vi');
+    });
+    return ranked.map(function (entry) { return entry.row; });
+  }
+
+  function quickSearchUrl(row) {
+    var url = 'detail.html?id=' + encodeURIComponent(row.unit.id);
+    if (row.kind === 'specialty' || row.kind === 'destination' || row.kind === 'art') {
+      url += '&itemKind=' + encodeURIComponent(row.kind) + '&itemName=' + encodeURIComponent(row.label);
+      url += row.kind === 'specialty' ? '#dac-san' : row.kind === 'art' ? '#nghe-thuat' : '#dia-diem';
+    }
+    return url;
+  }
+
+  function renderQuickSearch(input) {
+    var $input = $(input), resultsId = $input.attr('aria-controls'), $results = resultsId ? $('#' + resultsId) : $();
+    var query = String($input.val() || '').trim();
+    if (!$results.length) { return; }
+    if (!query) { $results.addClass('hidden').empty(); $input.attr('aria-expanded', 'false'); return; }
+    if (!quickSearchRecords) {
+      $results.removeClass('hidden').html('<p class="search-results-note">\u0110ang t\u00ecm...</p>');
+      loadQuickSearchRecords().then(function () {
+        if (String($input.val() || '').trim() === query) { renderQuickSearch(input); scheduleExactOpen(input); }
+      }).catch(function () { $results.html('<p class="search-results-note">Ch\u01b0a t\u1ea3i đ\u01b0\u1ee3c d\u1eef li\u1ec7u t\u00ecm ki\u1ebfm.</p>'); });
+      return;
+    }
+    var matches = quickSearchMatches(query), fuzzy = false;
+    if (!matches.length) { matches = fuzzyQuickSearchMatches(query); fuzzy = matches.length > 0; }
+    var html = matches.map(function (row) {
+      var context = row.kind === 'province' ? 'Hồ sơ địa phương' : D.shortName(row.unit.name);
+      return '<a class="search-result" role="option" href="' + esc(quickSearchUrl(row)) + '">' +
+        '<span class="search-result-copy"><span class="search-result-name">' + esc(row.label) + '</span>' +
+        '<span class="search-result-meta">' + esc(context) + '</span></span>' +
+        '<span class="search-result-action">Mở trang <span aria-hidden="true">→</span></span></a>';
+    }).join('');
+    var note = fuzzy ? '<p class="search-results-note">Kh\u00f4ng t\u00ecm th\u1ea5y ch\u00ednh x\u00e1c. G\u1ee3i ý g\u1ea7n đ\u00fang:</p>' : '';
+    $results.html(note + (html || '<p class="search-results-note">Kh\u00f4ng t\u00ecm th\u1ea5y m\u1ee5c ph\u00f9 h\u1ee3p.</p>')).removeClass('hidden');
+    $input.attr('aria-expanded', 'true');
+  }
+
+  function scheduleExactOpen(input) {
+    global.clearTimeout(input._quickSearchTimer);
+    if (!quickSearchRecords) { return; }
+    var query = D.normalize($(input).val());
+    if (!query) { return; }
+    var exact = quickSearchRecords.filter(function (row) { return row.normalized === query; });
+    if (exact.length !== 1) { return; }
+    input._quickSearchTimer = global.setTimeout(function () {
+      if (D.normalize($(input).val()) === query) { global.location.href = quickSearchUrl(exact[0]); }
+    }, 650);
+  }
+
+  function openQuickSearch(input) {
+    if (!input) { return; }
+    var query = String($(input).val() || '').trim();
+    if (!query) { return; }
+    global.clearTimeout(input._quickSearchTimer);
+    if (!quickSearchRecords) { loadQuickSearchRecords().then(function () { openQuickSearch(input); }); return; }
+    var normalized = D.normalize(query), exact = quickSearchRecords.filter(function (row) { return row.normalized === normalized; });
+    var matches = quickSearchMatches(query);
+    if (exact.length === 1) { global.location.href = quickSearchUrl(exact[0]); }
+    else if (matches.length === 1) { global.location.href = quickSearchUrl(matches[0]); }
+    else { renderQuickSearch(input); }
+  }
+
+  function bindQuickSearch() {
+    enhanceQuickSearchForms();
+    $(document).on('input', '.quick-search-input', function () { renderQuickSearch(this); scheduleExactOpen(this); });
+    $(document).on('keydown', '.quick-search-input', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); openQuickSearch(this); }
+      else if (e.key === 'Escape') { global.clearTimeout(this._quickSearchTimer); $(this).val('').trigger('input'); }
+    });
+    $(document).on('submit', '#header-search-form, #hero-search-form', function (e) {
+      e.preventDefault();
+      openQuickSearch($(this).find('.quick-search-input')[0]);
+    });
+    $(document).on('click', 'a[href^="explore.html?q="]', function (e) {
+      var input = $('#hero-search-input')[0];
+      if (!input) { return; }
+      var query = new global.URL(this.href, global.location.href).searchParams.get('q');
+      if (query) { e.preventDefault(); $(input).val(query).trigger('input').trigger('focus'); }
+    });
+    loadQuickSearchRecords().catch(function () {});
   }
 
   /* ---------- Footer ---------- */
@@ -291,5 +480,6 @@
     renderHeader();
     renderFooter();
     bindShell();
+    bindQuickSearch();
   });
 })(window, jQuery);

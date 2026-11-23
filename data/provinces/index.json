@@ -78,6 +78,12 @@
           "Nước mắm Phú Quốc",
           "Gỏi cá trích Phú Quốc",
           "Tung lò mò (lạp xưởng bò Chăm)"
+        ],
+        "arts": [
+          "Đờn ca tài tử Nam Bộ",
+          "Nghệ thuật sân khấu Dì kê của người Khmer",
+          "Nghệ thuật diễn tấu trống Chhay-dăm của người Khmer",
+          "Dàn nhạc ngũ âm Khmer"
         ]
       }
     },
@@ -164,6 +170,12 @@
           "Gà đồi Yên Thế",
           "Bánh đa Kế",
           "Rượu làng Vân"
+        ],
+        "arts": [
+          "Dân ca Quan họ Bắc Ninh",
+          "Nghề làm tranh dân gian Đông Hồ",
+          "Thực hành Then của người Tày, Nùng",
+          "Ca trù"
         ]
       }
     },
@@ -251,6 +263,12 @@
           "Bánh tằm Ngan Dừa",
           "Bún bò cay Bạc Liêu",
           "Lẩu mắm U Minh"
+        ],
+        "arts": [
+          "Đờn ca tài tử Nam Bộ",
+          "Vọng cổ và nghệ thuật sân khấu cải lương",
+          "Nghệ thuật Nhạc trống lớn của người Khmer",
+          "Múa truyền thống Khmer"
         ]
       }
     },
@@ -322,6 +340,12 @@
           "Hành tím Vĩnh Châu",
           "Khóm Cầu Đúc",
           "Gạo ST25"
+        ],
+        "arts": [
+          "Đờn ca tài tử Nam Bộ",
+          "Sân khấu Dù kê Khmer",
+          "Sân khấu Rô băm Khmer",
+          "Dàn nhạc ngũ âm Khmer"
         ]
       }
     },
@@ -382,6 +406,9 @@
           "Lạp sườn Cao Bằng",
           "Miến dong Phia Đén",
           "Khẩu sli"
+        ],
+        "arts": [
+          "Hát Then – đàn tính"
         ]
       }
     },
@@ -448,6 +475,11 @@
           "Nước mắm Nam Ô",
           "Bánh tráng Túy Loan",
           "Bánh ít lá gai"
+        ],
+        "arts": [
+          "Bài chòi Trung Bộ",
+          "Tuồng xứ Quảng",
+          "Hò bá trạo trong lễ Cầu ngư"
         ]
       }
     },
@@ -514,6 +546,11 @@
           "Cơm lam",
           "Cá ngừ đại dương",
           "Tôm hùm Sông Cầu"
+        ],
+        "arts": [
+          "Không gian văn hóa cồng chiêng Tây Nguyên",
+          "Nghệ thuật Bài Chòi",
+          "Trình diễn trống đôi – cồng ba – chiêng năm"
         ]
       }
     },
@@ -573,6 +610,10 @@
           "Pa pỉnh tộp",
           "Thịt trâu gác bếp",
           "Chè Shan tuyết Tủa Chùa"
+        ],
+        "arts": [
+          "Múa Xòe Thái",
+          "Hát Then – đàn tính"
         ]
       }
     },
@@ -639,6 +680,10 @@
           "Hồ tiêu Lộc Ninh",
           "Gà thả vườn Bình Phước",
           "Cá lóc nướng trui"
+        ],
+        "arts": [
+          "Cồng chiêng trong đời sống văn hóa S’tiêng",
+          "Dân ca và diễn xướng Chơ-ro"
         ]
       }
     },
@@ -703,6 +748,10 @@
           "Quýt hồng Lai Vung",
           "Xoài Cao Lãnh",
           "Hủ tiếu Mỹ Tho"
+        ],
+        "arts": [
+          "Đờn ca tài tử Nam Bộ",
+          "Cải lương Nam Bộ"
         ]
       }
     },
@@ -769,6 +818,11 @@
           "Bánh ít lá gai",
           "Rượu Bàu Đá",
           "Nem Chợ Huyện"
+        ],
+        "arts": [
+          "Cồng chiêng Bahnar và Jrai",
+          "Nghệ thuật Bài chòi Bình Định",
+          " Hát bội Bình Định"
         ]
       }
     },
@@ -831,6 +885,11 @@
           "Cốm làng Vòng",
           "Tri thức chế biến và thưởng thức Chả cá Lã Vọng",
           "Gốm sứ Bát Tràng"
+        ],
+        "arts": [
+          "Ca trù",
+          "Hội hát Chèo Tàu Tổng Gối",
+          "Múa rối nước vùng Thạch Thất"
         ]
       }
     },
@@ -892,6 +951,10 @@
           "Kẹo cu đơ Hà Tĩnh",
           "Cam bù Hương Sơn",
           "Mực Thạch Kim – Cửa Sót"
+        ],
+        "arts": [
+          "Dân ca Ví, Giặm Nghệ Tĩnh",
+          "Ca trù"
         ]
       }
     },
@@ -959,6 +1022,11 @@
           "Bánh đậu xanh Hải Dương",
           "Vải thiều Thanh Hà",
           "Rươi Tứ Kỳ"
+        ],
+        "arts": [
+          "Hát đúm Thủy Nguyên",
+          "Múa rối nước vùng đồng bằng",
+          "Ca trù trong không gian văn hóa Bắc Bộ"
         ]
       }
     },
@@ -1029,6 +1097,11 @@
           "Bánh khọt Vũng Tàu",
           "Gỏi cá trích Côn Đảo",
           "Măng cụt Lái Thiêu"
+        ],
+        "arts": [
+          "Đờn ca tài tử Nam Bộ",
+          "Cải lương Nam Bộ",
+          "Múa và diễn xướng truyền thống Chơ-ro"
         ]
       }
     },
@@ -1091,6 +1164,11 @@
           "Bánh khoái",
           "Mè xửng Huế",
           "Tôm chua Huế"
+        ],
+        "arts": [
+          "Nhã nhạc cung đình Huế",
+          "Ca Huế",
+          "Tuồng cung đình Huế"
         ]
       }
     },
@@ -1156,6 +1234,11 @@
           "Gà Đông Tảo",
           "Tương Bần",
           "Mắm cáy Diêm Điền"
+        ],
+        "arts": [
+          "Chèo Thái Bình",
+          "Hát Trống quân Hưng Yên",
+          "Nghệ thuật chạm bạc Đồng Xâm"
         ]
       }
     },
@@ -1222,6 +1305,11 @@
           "Bún cá Nha Trang",
           "Nho Ninh Thuận",
           "Táo Ninh Thuận"
+        ],
+        "arts": [
+          "Nghề làm gốm Chăm Bàu Trúc",
+          "Dệt thổ cẩm Chăm Mỹ Nghiệp",
+          "Hò bá trạo"
         ]
       }
     },
@@ -1283,6 +1371,11 @@
           "Pa pỉnh tộp",
           "Xôi tím",
           "Chè Tân Uyên"
+        ],
+        "arts": [
+          "Hát Then và đàn tính",
+          "Múa Xòe Thái",
+          "Nghệ thuật trình diễn khèn Mông"
         ]
       }
     },
@@ -1353,6 +1446,11 @@
           "Nước mắm Phan Thiết",
           "Rượu vang Đà Lạt",
           "Hạt tiêu Đắk Nông"
+        ],
+        "arts": [
+          "Âm nhạc cồng chiêng Tây Nguyên",
+          "Nghệ thuật diễn xướng Chăm",
+          "Dân ca và diễn xướng dân gian K’Ho"
         ]
       }
     },
@@ -1415,6 +1513,11 @@
           "Khâu nhục",
           "Na Chi Lăng",
           "Quýt Bắc Sơn"
+        ],
+        "arts": [
+          "Hát Sli của người Nùng",
+          "Hát Then và đàn tính",
+          "Múa sư tử của người Tày, Nùng"
         ]
       }
     },
@@ -1481,6 +1584,11 @@
           "Gạo nếp Tú Lệ",
           "Chè Shan tuyết Suối Giàng",
           "Gạo Séng Cù"
+        ],
+        "arts": [
+          "Múa Xòe Thái",
+          "Hát Then và đàn tính",
+          "Khèn Mông"
         ]
       }
     },
@@ -1543,6 +1651,11 @@
           "Cam Vinh",
           "Cháo lươn Nghệ An",
           "Giò bê Nam Đàn"
+        ],
+        "arts": [
+          "Dân ca Ví, Giặm Nghệ Tĩnh",
+          "Hò sông Lam và dân ca địa phương",
+          "Dân ca và nhạc cụ truyền thống người Thái"
         ]
       }
     },
@@ -1614,6 +1727,11 @@
           "Rượu Kim Sơn",
           "Phở Nam Định",
           "Kẹo Sìu Châu"
+        ],
+        "arts": [
+          "Hát văn / chầu văn",
+          "Hát Xẩm",
+          "Chèo vùng đồng bằng Bắc Bộ"
         ]
       }
     },
@@ -1683,6 +1801,11 @@
           "Chè Bát Tiên Phú Thọ",
           "Cơm lam vùng Hòa Bình",
           "Bánh tai Phú Thọ"
+        ],
+        "arts": [
+          "Hát Xoan Phú Thọ",
+          "Hát Soọng cô",
+          "Âm nhạc cồng chiêng Mường"
         ]
       }
     },
@@ -1749,6 +1872,11 @@
           "Sâm Ngọc Linh",
           "Cà phê Măng Đen",
           "Don Quảng Ngãi"
+        ],
+        "arts": [
+          "Nghệ thuật Bài chòi",
+          "Không gian âm nhạc cồng chiêng Ba Na – Xơ Đăng",
+          "Diễn xướng và hội đua thuyền tứ linh"
         ]
       }
     },
@@ -1810,6 +1938,11 @@
           "Gà Tiên Yên",
           "Ngán Quảng Ninh",
           "Rượu ba kích"
+        ],
+        "arts": [
+          "Hát nhà tơ – hát cửa đình",
+          "Hát Soóng Cọ",
+          "Then và đàn tính của người Tày"
         ]
       }
     },
@@ -1876,6 +2009,11 @@
           "Cháo canh Quảng Bình",
           "Cà phê Khe Sanh",
           "Nước mắm vùng Cửa Việt"
+        ],
+        "arts": [
+          "Hò khoan Lệ Thủy",
+          "Nghệ thuật Bài chòi Trung Bộ",
+          "Dân ca và hò lao động vùng ven biển"
         ]
       }
     },
@@ -1938,6 +2076,10 @@
           "Sữa và sản phẩm sữa Mộc Châu",
           "Mận hậu Sơn La",
           "Thịt trâu gác bếp"
+        ],
+        "arts": [
+          "Nghệ thuật Xòe Thái",
+          "Nghệ thuật trình diễn khèn Mông"
         ]
       }
     },
@@ -2004,6 +2146,11 @@
           "Mãng cầu Bà Đen",
           "Gạo Nàng Thơm Chợ Đào",
           "Lạp xưởng Cần Đước"
+        ],
+        "arts": [
+          "Nhạc lễ Cao Đài",
+          "Đờn ca tài tử Nam Bộ",
+          "Hò và dân ca vùng Long An"
         ]
       }
     },
@@ -2070,6 +2217,12 @@
           "Bánh chưng Bờ Đậu",
           "Cơm lam Định Hóa",
           "Khâu nhục vùng Ba Bể"
+        ],
+        "arts": [
+          "Hát Then và đàn tính",
+          "Hát Soọng Cô",
+          "Múa Tắc Xình",
+          "Hát Sli của người Nùng"
         ]
       }
     },
@@ -2132,6 +2285,12 @@
           "Bánh gai Tứ Trụ",
           "Mắm tép Hà Yên",
           "Chè lam Phủ Quảng"
+        ],
+        "arts": [
+          "Hò sông Mã",
+          "Trò Xuân Phả",
+          "Dân ca Đông Anh",
+          "Khắp Thái"
         ]
       }
     },
@@ -2198,6 +2357,11 @@
           "Thắng cố",
           "Mèn mén",
           "Thịt treo gác bếp"
+        ],
+        "arts": [
+          "Hát Then – đàn tính",
+          "Khèn Mông",
+          "Dân ca và trống đồng Lô Lô"
         ]
       }
     },
@@ -2279,6 +2443,12 @@
           "Bưởi Năm Roi Mỹ Hòa",
           "Cam sành Tam Bình",
           "Sầu riêng Cái Mơn"
+        ],
+        "arts": [
+          "Đờn ca tài tử Nam Bộ",
+          "Hát Sắc bùa Phú Lễ",
+          "Nghệ thuật Rô-băm Khmer",
+          "Sân khấu Dù kê Khmer"
         ]
       }
     }
