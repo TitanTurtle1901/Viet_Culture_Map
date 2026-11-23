@@ -5,7 +5,7 @@
   "region": "Đông Nam Bộ",
   "summary": {
     "image": {
-      "file": "assets/images/Đồng Nai/province/Đồng Nai.jpg",
+      "file": "assets/images/Đồng Nai/province/Dong-Nai.jpg",
       "alt": "Thành phố Đồng Nai – ảnh đại diện; quyền sử dụng chưa xác minh.",
       "sourceId": null,
       "permissionStatus": "unverified"
@@ -138,7 +138,7 @@
         "originArea": "Đồng Nai cũ – khu vực rừng và hồ Trị An.",
         "currentProvinceId": "dong-nai",
         "image": {
-          "file": "assets/images/Đồng Nai/destinations/Khu dự trữ sinh quyển thế giới Đồng Nai.jpg",
+          "file": "assets/images/Đồng Nai/destinations/Khu-du-tru-sinh-quyen-the-gioi-Dong-Nai.jpg",
           "alt": "Khu dự trữ sinh quyển thế giới Đồng Nai – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -168,7 +168,7 @@
         "originArea": "Đồng Nai cũ – hồ Trị An và vùng phụ cận.",
         "currentProvinceId": "dong-nai",
         "image": {
-          "file": "assets/images/Đồng Nai/destinations/Hồ Trị An.jpg",
+          "file": "assets/images/Đồng Nai/destinations/Ho-Tri-An.jpg",
           "alt": "Hồ Trị An – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -230,7 +230,7 @@
         "originArea": "Bình Phước cũ – vùng Bù Đăng cũ.",
         "currentProvinceId": "dong-nai",
         "image": {
-          "file": "assets/images/Đồng Nai/province/Đồng Nai.jpg",
+          "file": "assets/images/Đồng Nai/province/Dong-Nai.jpg",
           "alt": "Không gian văn hóa Sóc Bom Bo – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -261,7 +261,7 @@
         "originArea": "Đồng Nai cũ – thành phố Biên Hòa cũ.",
         "currentProvinceId": "dong-nai",
         "image": {
-          "file": "assets/images/Đồng Nai/destinations/Cù lao Phố và di tích thương cảng Biên Hòa.jpg",
+          "file": "assets/images/Đồng Nai/destinations/Cu-lao-Pho-va-di-tich-thuong-cang-Bien-Hoa.jpg",
           "alt": "Cù lao Phố và các di tích thương cảng Biên Hòa – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -320,7 +320,7 @@
         "originArea": "Đồng Nai cũ – vùng Tân Triều, Vĩnh Cửu cũ.",
         "currentProvinceId": "dong-nai",
         "image": {
-          "file": "assets/images/Đồng Nai/specialties/Bưởi Tân Triều.jpg",
+          "file": "assets/images/Đồng Nai/specialties/Buoi-Tan-Trieu.jpg",
           "alt": "Bưởi Tân Triều – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -348,7 +348,7 @@
         "originArea": "Bình Phước cũ – vùng Lộc Ninh.",
         "currentProvinceId": "dong-nai",
         "image": {
-          "file": "assets/images/Bình Phước/specialties/Hồ tiêu Lộc Ninh.jpg",
+          "file": "assets/images/Bình Phước/specialties/Ho-tieu-Loc-Ninh.jpg",
           "alt": "Hồ tiêu Lộc Ninh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -638,7 +638,7 @@
         "name": "Cồng chiêng trong đời sống văn hóa S’tiêng",
         "category": "Âm nhạc truyền thống; Diễn xướng cộng đồng",
         "image": {
-          "file": "assets/images/Bình Phước/culture/Cồng chiêng trong đời sống văn hóa S’tiêng.jpg",
+          "file": "assets/images/Bình Phước/culture/Cong-chieng-trong-doi-song-van-hoa-S-tieng.jpg",
           "alt": "Cồng chiêng trong đời sống văn hóa S’tiêng – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"

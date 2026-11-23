@@ -5,7 +5,7 @@
   "region": "Bắc Trung Bộ",
   "summary": {
     "image": {
-      "file": "assets/images/Nghệ An/province/Nghệ An.jpg",
+      "file": "assets/images/Nghệ An/province/Nghe-An.jpg",
       "alt": "Tỉnh Nghệ An – ảnh đại diện chưa xác minh quyền sử dụng.",
       "sourceId": null,
       "permissionStatus": "unverified"
@@ -121,7 +121,7 @@
         "originArea": "Nghệ An – khu vực Vườn quốc gia Pù Mát.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/destinations/Thác Khe Kèm.jpg",
+          "file": "assets/images/Nghệ An/destinations/Thac-Khe-Kem.jpg",
           "alt": "Thác Khe Kèm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -148,7 +148,7 @@
         "originArea": "Nghệ An – vùng ven biển Cửa Lò cũ.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/destinations/Biển Cửa Lò.jpg",
+          "file": "assets/images/Nghệ An/destinations/Bien-Cua-Lo.jpg",
           "alt": "Biển Cửa Lò – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -175,7 +175,7 @@
         "originArea": "Nghệ An – vùng Thanh Chương.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/destinations/Đảo chè Thanh Chương.jpg",
+          "file": "assets/images/Nghệ An/destinations/Dao-che-Thanh-Chuong.jpg",
           "alt": "Đảo chè Thanh Chương – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -202,7 +202,7 @@
         "originArea": "Nghệ An – tuyến giao thông chiến lược trong kháng chiến chống Mỹ.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/destinations/Khu di tích lịch sử Truông Bồn.jpg",
+          "file": "assets/images/Nghệ An/destinations/Khu-di-tich-lich-su-Truong-Bon.jpg",
           "alt": "Khu di tích lịch sử Truông Bồn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -229,7 +229,7 @@
         "originArea": "Nghệ An – vùng Diễn Châu cũ.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/destinations/Đền Cuông.jpg",
+          "file": "assets/images/Nghệ An/destinations/Den-Cuong.jpg",
           "alt": "Đền Cuông – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -287,7 +287,7 @@
         "originArea": "Nghệ An – vùng Nam Đàn.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/specialties/Tương Nam Đàn.jpg",
+          "file": "assets/images/Nghệ An/specialties/Tuong-Nam-Dan.jpg",
           "alt": "Tương Nam Đàn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -316,7 +316,7 @@
         "originArea": "Nghệ An – các vùng trồng cam thuộc khu vực Nghệ An.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/specialties/Cam Vinh.jpg",
+          "file": "assets/images/Nghệ An/specialties/Cam-Vinh.jpg",
           "alt": "Cam Vinh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -372,7 +372,7 @@
         "originArea": "Nghệ An – vùng Nam Đàn và các cơ sở chế biến liên quan.",
         "currentProvinceId": "nghe-an",
         "image": {
-          "file": "assets/images/Nghệ An/specialties/Giò bê Nam Đàn.jpg",
+          "file": "assets/images/Nghệ An/specialties/Gio-be-Nam-Dan.jpg",
           "alt": "Giò bê Nam Đàn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -618,7 +618,7 @@
         "name": "Hò sông Lam và dân ca địa phương",
         "category": "Dân ca; hát lao động và sinh hoạt",
         "image": {
-          "file": "assets/images/Nghệ An/province/Nghệ An.jpg",
+          "file": "assets/images/Nghệ An/province/Nghe-An.jpg",
           "alt": "Hò sông Lam và dân ca địa phương – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -641,7 +641,7 @@
         "name": "Dân ca và nhạc cụ truyền thống người Thái",
         "category": "Âm nhạc truyền thống; diễn xướng cộng đồng",
         "image": {
-          "file": "assets/images/Nghệ An/culture/Dân ca và nhạc cụ truyền thống người Thái.jpg",
+          "file": "assets/images/Nghệ An/culture/Dan-ca-va-nhac-cu-truyen-thong-nguoi-Thai.jpg",
           "alt": "Dân ca và nhạc cụ truyền thống người Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"

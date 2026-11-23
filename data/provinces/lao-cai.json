@@ -95,7 +95,7 @@
         "originArea": "Lào Cai cũ – dãy Hoàng Liên Sơn.",
         "currentProvinceId": "lao-cai",
         "image": {
-          "file": "assets/images/Lào Cai/destinations/đinh-fansipan.jpg",
+          "file": "assets/images/Lào Cai/destinations/dinh-fansipan.jpg",
           "alt": "Đỉnh Fansipan",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -205,7 +205,7 @@
         "originArea": "Yên Bái cũ – vùng Nghĩa Lộ.",
         "currentProvinceId": "lao-cai",
         "image": {
-          "file": "assets/images/Yên Bái/destinations/canh-dong-muong-lò.jpg",
+          "file": "assets/images/Yên Bái/destinations/canh-dong-muong-lo.jpg",
           "alt": "Cánh đồng Mường Lò ",
           "sourceId": null,
           "permissionStatus": "unverified"

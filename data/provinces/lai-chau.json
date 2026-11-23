@@ -5,7 +5,7 @@
   "region": "Tây Bắc",
   "summary": {
     "image": {
-      "file": "assets/images/Lai Châu/province/Lai Châu.jpg",
+      "file": "assets/images/Lai Châu/province/Lai-Chau.jpg",
       "alt": "Tỉnh Lai Châu – ảnh đại diện chưa xác minh quyền sử dụng.",
       "sourceId": null,
       "permissionStatus": "unverified"
@@ -90,7 +90,7 @@
         "originArea": "Lai Châu cũ – khu vực đèo Ô Quy Hồ.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/destinations/Cầu kính Rồng Mây.jpg",
+          "file": "assets/images/Lai Châu/destinations/Cau-kinh-Rong-May.jpg",
           "alt": "Khu du lịch sinh thái Cầu kính Rồng Mây – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -117,7 +117,7 @@
         "originArea": "Lai Châu cũ – cộng đồng người Mông.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/destinations/Bản du lịch cộng đồng Sin Suối Hồ.jpg",
+          "file": "assets/images/Lai Châu/destinations/Ban-du-lich-cong-dong-Sin-Suoi-Ho.jpg",
           "alt": "Bản du lịch cộng đồng Sin Suối Hồ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -173,7 +173,7 @@
         "originArea": "Lai Châu cũ – khu vực thành phố Lai Châu trước sắp xếp.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/destinations/Động Pu Sam Cáp.jpg",
+          "file": "assets/images/Lai Châu/destinations/Dong-Pu-Sam-Cap.jpg",
           "alt": "Động Pu Sam Cáp – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -200,7 +200,7 @@
         "originArea": "Lai Châu cũ – vùng núi Hoàng Liên Sơn.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/destinations/Đỉnh Putaleng.jpg",
+          "file": "assets/images/Lai Châu/destinations/Dinh-Putaleng.jpg",
           "alt": "Đỉnh Putaleng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -227,7 +227,7 @@
         "originArea": "Lai Châu cũ – cộng đồng các dân tộc vùng thành phố Lai Châu trước đây.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/destinations/Chợ đêm San Thàng.jpg",
+          "file": "assets/images/Lai Châu/destinations/Cho-dem-San-Thang.jpg",
           "alt": "Chợ đêm San Thàng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -256,7 +256,7 @@
         "originArea": "Các cộng đồng Thái và một số cộng đồng vùng Tây Bắc, trong đó có Lai Châu.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/specialties/Thịt trâu gác bếp.jpg",
+          "file": "assets/images/Lai Châu/specialties/Thit-trau-gac-bep.jpg",
           "alt": "Thịt trâu gác bếp – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -340,7 +340,7 @@
         "originArea": "Lai Châu cũ – vùng chè Tân Uyên.",
         "currentProvinceId": "lai-chau",
         "image": {
-          "file": "assets/images/Lai Châu/destinations/Chè Tân Uyên.jpg",
+          "file": "assets/images/Lai Châu/destinations/Che-Tan-Uyen.jpg",
           "alt": "Chè Tân Uyên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -546,7 +546,7 @@
         "name": "Hát Then và đàn tính",
         "category": "Âm nhạc truyền thống; diễn xướng nghi lễ",
         "image": {
-          "file": "assets/images/Lai Châu/culture/Hát Then và đàn tính.jpg",
+          "file": "assets/images/Lai Châu/culture/Hat-Then-va-dan-tinh.jpg",
           "alt": "Hát Then và đàn tính – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -572,7 +572,7 @@
         "name": "Múa Xòe Thái",
         "category": "Múa dân gian; nghệ thuật cộng đồng",
         "image": {
-          "file": "assets/images/Lai Châu/culture/Múa Xòe Thái.jpg",
+          "file": "assets/images/Lai Châu/culture/Mua-Xoe-Thai.jpg",
           "alt": "Múa Xòe Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
@@ -597,7 +597,7 @@
         "name": "Nghệ thuật trình diễn khèn Mông",
         "category": "Âm nhạc và múa dân gian",
         "image": {
-          "file": "assets/images/Lai Châu/culture/Nghệ thuật trình diễn khèn Mông.jpg",
+          "file": "assets/images/Lai Châu/culture/Nghe-thuat-trinh-dien-khen-Mong.jpg",
           "alt": "Nghệ thuật trình diễn khèn Mông – ảnh tư liệu chưa xác minh quyền sử dụng.",
           "sourceId": null,
           "permissionStatus": "unverified"
