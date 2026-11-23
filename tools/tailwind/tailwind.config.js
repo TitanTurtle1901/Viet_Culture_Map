@@ -1,5 +1,8 @@
-/* Cấu hình Tailwind CDN dùng chung cho mọi trang (nạp sau script Tailwind). */
-tailwind.config = {
+/* Cấu hình Tailwind dùng khi BUILD css/tailwind.css (thay cho Tailwind CDN). */
+const path = require('path');
+const root = path.resolve(__dirname, '../..');
+module.exports = {
+  content: [root + '/*.html', root + '/js/**/*.js'],
   theme: {
     extend: {
       colors: {
