@@ -715,7 +715,7 @@
       "Trường hành chính chưa điền vị trí trung tâm do chưa đối chiếu quyết định trụ sở cấp tỉnh sau hợp nhất.",
       "Biển số 47 và 78 là mã liên quan đến hai địa phương tiền thân theo thông tư; cần kiểm tra nếu có thay đổi mới về đăng ký xe.",
       "Địa chỉ hiện hành cho nhiều điểm ở vùng Phú Yên cũ cần cập nhật theo danh sách xã/phường mới.",
-      "Ảnh và tọa độ chưa đủ căn cứ nên để null/unverified."
+      "Tọa độ chưa đủ căn cứ nên để null."
     ],
     "sourceIds": [
       "src-135",

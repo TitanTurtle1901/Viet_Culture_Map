@@ -981,7 +981,6 @@
         "Dữ liệu điểm đến và văn hóa được cố ý bao quát cả hai địa phương tiền thân; originArea chỉ rõ khu vực tiền thân, không quy mọi di sản cho một tỉnh cũ.",
         "Tình trạng di sản UNESCO được phân loại riêng: Quan họ (2009, Danh sách đại diện); Đông Hồ (2025, Danh sách cần bảo vệ khẩn cấp); Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc (2025, Di sản Thế giới); Then (2019); Kéo co Hữu Chấp (2015); Ca trù (2009, Danh sách cần bảo vệ khẩn cấp).",
         "Mộc bản chùa Vĩnh Nghiêm: thông tin Ký ức thế giới khu vực châu Á – Thái Bình Dương cần bổ sung đường dẫn chương trình/biên bản ghi danh trực tiếp; không nhầm với Mộc bản triều Nguyễn.",
-        "Ảnh được để null và permissionStatus=unverified cho tới khi xác minh giấy phép, tác giả, nguồn trực tiếp và quyền sử dụng.",
         "Các tọa độ, giờ mở cửa, phí tham quan và số liệu khí tượng chưa được xác minh đồng bộ nên không tự điền."
       ],
       "sourceIds": [

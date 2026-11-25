@@ -107,7 +107,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/province/Province-Cover.jpg",
-          "alt": "Thành phố Bắc Ninh.",
+          "alt": "Thành phố Bắc Ninh",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Thành phố Bắc Ninh được thành lập ngày 20/09/2026 trên toàn bộ địa giới tỉnh Bắc Ninh mới, vốn hợp nhất Bắc Giang và Bắc Ninh cũ từ 01/07/2025. Không gian văn hóa rộng từ vùng đồng bằng Kinh Bắc với Quan họ, tranh Đông Hồ, chùa cổ và làng nghề đến vùng trung du – miền núi phía Bắc với Tây Yên Tử, chùa Vĩnh Nghiêm, khởi nghĩa Yên Thế, vải thiều Lục Ngạn và các cộng đồng Tày, Nùng, Dao, Sán Chay.",
@@ -362,7 +362,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Cao Bằng/province/background_CaoBang.jpg",
-          "alt": "Ảnh đại diện Tỉnh Cao Bằng.",
+          "alt": "Ảnh đại diện tỉnh Cao Bằng .",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Cao Bằng là tỉnh miền núi biên giới phía Bắc, nổi bật với cảnh quan karst, Công viên địa chất toàn cầu UNESCO Non nước Cao Bằng, thác Bản Giốc và các địa chỉ lịch sử như Pác Bó. Không gian văn hóa Tày, Nùng và các cộng đồng địa phương được thể hiện qua thực hành Then, lễ hội, ẩm thực và nghề truyền thống.",
@@ -498,7 +498,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Đắk Lắk/province/dak-lak.jpg",
-          "alt": "Ảnh đại diện Tỉnh Đắk Lắk",
+          "alt": "Ảnh đại diện Tỉnh Đắk Lắk.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Đắk Lắk mới được hình thành từ Đắk Lắk và Phú Yên trước đây, nối không gian cao nguyên bazan với duyên hải Nam Trung Bộ. Bản sắc của tỉnh mới gồm văn hóa cồng chiêng, cộng đồng Ê Đê – M’nông, cà phê Buôn Ma Thuột, cùng di sản biển và văn hóa Chăm ở khu vực Phú Yên cũ.",
@@ -699,7 +699,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Đồng Tháp/province/Province-Cover.jpg",
-          "alt": "Phong cảnh sông nước và hoa sen Đồng Tháp",
+          "alt": "Phong cảnh sông nước và hoa sen Đồng Tháp.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Tỉnh Đồng Tháp mới được hình thành từ Tiền Giang và Đồng Tháp trước đây. Không gian văn hóa kết nối sông Tiền, Đồng Tháp Mười, vùng miệt vườn, làng hoa, di tích Gò Tháp và hệ sinh thái Tràm Chim.",
@@ -832,7 +832,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Hà Nội/province/Province-Cover.jpg",
-          "alt": "Ảnh đại diện toàn cảnh Hà Nội",
+          "alt": "Ảnh đại diện toàn cảnh Hà Nội.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Hà Nội là Thủ đô của Việt Nam, nằm ở phía tây bắc trung tâm đồng bằng châu thổ sông Hồng. Không gian văn hóa của thành phố kết hợp di sản kinh đô Thăng Long, khu phố thị lịch sử, các làng cổ và làng nghề; địa giới cấp tỉnh được giữ nguyên trong đợt sắp xếp năm 2025.",
@@ -966,7 +966,7 @@
       "summary": {
         "image": {
           "file": "assets/images/TP Hải Phòng/province/Province-Cover.jpg",
-          "alt": "Thành phố Hải Phòng",
+          "alt": "Thành phố Hải Phòng.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Hải Phòng mới kết nối di sản đô thị cảng, biển đảo Cát Bà với Côn Sơn – Kiếp Bạc và các làng nghề Hải Dương.",
@@ -1041,7 +1041,7 @@
       "summary": {
         "image": {
           "file": "assets/images/TP HCM/destinations/Independence-Palace.jpg",
-          "alt": "Thành phố Hồ Chí Minh",
+          "alt": "Thành phố Hồ Chí Minh.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "TP.HCM mới nối không gian Sài Gòn – Chợ Lớn, Bình Dương làng nghề và vùng biển đảo Bà Rịa – Vũng Tàu.",
@@ -1286,7 +1286,7 @@
           "Nem Ninh Hòa",
           "Bún cá Nha Trang",
           "Nho Ninh Thuận",
-          "Táo Ninh Thuận"
+          "Táo xanh Ninh Thuận"
         ],
         "arts": [
           "Nghề làm gốm Chăm Bàu Trúc",
@@ -1312,7 +1312,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Lai Châu/province/Lai-Chau.jpg",
-          "alt": "Tỉnh Lai Châu",
+          "alt": "Tỉnh Lai Châu.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Lai Châu là tỉnh miền núi biên giới Tây Bắc với cảnh quan Hoàng Liên Sơn, các bản làng Thái, Mông, Dao và nhiều cộng đồng khác. Văn hóa Then, Xòe Thái, chợ phiên và du lịch cộng đồng là những lớp bản sắc quan trọng.",
@@ -1385,7 +1385,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Lâm Đồng/province/Province-Cover.jpg",
-          "alt": "Tỉnh Lâm Đồng",
+          "alt": "Tỉnh Lâm Đồng.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Lâm Đồng mới kết nối ba không gian tiền thân: cao nguyên Lâm Đồng, không gian địa chất – văn hóa Đắk Nông và dải duyên hải Bình Thuận. Đà Lạt, Tà Đùng, Mũi Né, văn hóa cồng chiêng, Chăm và các sản phẩm nông nghiệp là những lớp bản sắc tiêu biểu.",
@@ -1521,7 +1521,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Lào Cai/province/background_LaoCai.jpg",
-          "alt": "Tỉnh Lào Cai",
+          "alt": "Ảnh nền tỉnh Lào Cai",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Tỉnh Lào Cai mới hình thành từ Lào Cai và Yên Bái trước đây, kết nối Sa Pa – Fansipan, Bắc Hà, Y Tý với Mù Cang Chải, Mường Lò và hồ Thác Bà. Không gian này có nhiều cộng đồng Thái, Mông, Dao, Giáy, Tày với di sản Xòe Thái, Then và tri thức canh tác ruộng bậc thang.",
@@ -1805,7 +1805,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Quảng Ngãi/province/Province-Cover.jpg",
-          "alt": "Tỉnh Quảng Ngãi.",
+          "alt": "Tỉnh Quảng Ngãi",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Quảng Ngãi mới kết nối dải duyên hải Quảng Ngãi cũ với cao nguyên Kon Tum cũ. Lý Sơn, Sa Huỳnh, Sơn Mỹ, Măng Đen, nhà thờ gỗ Kon Tum, văn hóa Ba Na – Xơ Đăng – Hrê và lễ Khao lề thế lính Hoàng Sa là những lớp bản sắc tiêu biểu.",
@@ -1871,7 +1871,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Quảng Ninh/province/Quang-Ninh.jpg",
-          "alt": "Thành phố Quảng Ninh",
+          "alt": "Thành phố Quảng Ninh.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Quảng Ninh không sáp nhập cấp tỉnh trong đợt năm 2025; từ 01/09/2026 toàn bộ tỉnh Quảng Ninh cũ được thành lập thành phố trực thuộc Trung ương. Vịnh Hạ Long, Yên Tử, Bái Tử Long, Cô Tô và văn hóa các cộng đồng Tày, Dao, Sán Dìu là những lớp bản sắc tiêu biểu.",
@@ -1940,7 +1940,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Quảng Trị/destinations/Quang-Tri-Ancient-Citadel.jpg",
-          "alt": "Tỉnh Quảng Trị",
+          "alt": "Tỉnh Quảng Trị.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Quảng Trị mới hình thành từ Quảng Bình và Quảng Trị cũ, nối liền dải di sản thiên nhiên Phong Nha – Kẻ Bàng với các di tích giới tuyến, địa đạo, nghĩa trang và văn hóa làng biển – Trường Sơn. Hò khoan Lệ Thủy, Hiền Lương – Bến Hải và cà phê Khe Sanh là những nội dung tiêu biểu.",
@@ -2075,7 +2075,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Tây Ninh/province/Province-Cover.jpg",
-          "alt": "Tỉnh Tây Ninh",
+          "alt": "Tỉnh Tây Ninh.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Tây Ninh mới kế thừa toàn bộ Tây Ninh và Long An cũ. Núi Bà Đen, Tòa Thánh Cao Đài, căn cứ Trung ương Cục miền Nam cùng vùng sông Vàm Cỏ, làng nghề Trảng Bàng và Đồng Tháp Mười tạo nên không gian văn hóa đa dạng.",
@@ -2145,7 +2145,7 @@
       "summary": {
         "image": {
           "file": "assets/images/Thái Nguyên/province/Province-Cover.jpg",
-          "alt": "Tỉnh Thái Nguyên",
+          "alt": "Tỉnh Thái Nguyên.",
           "permissionStatus": "verified"
         },
         "shortIntroduction": "Thái Nguyên mới kế thừa Bắc Kạn và Thái Nguyên cũ, kết nối hồ Ba Bể, ATK Định Hóa – Chợ Đồn, vùng chè Tân Cương và văn hóa đa dân tộc Việt Bắc.",

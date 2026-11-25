@@ -518,7 +518,7 @@
       "Tỉnh mới hình thành từ toàn bộ Tiền Giang và Đồng Tháp cũ; chính quyền mới hoạt động từ 01/07/2025.",
       "Diện tích 5.938,64 km² và quy mô dân số 4.370.046 người theo thông tin hành chính do Văn phòng UBND tỉnh công bố ngày 22/10/2026; dân số là quy mô trong Nghị quyết 202/2025/QH15, không phải số dân điều tra cuối năm 2026.",
       "Trung tâm chính trị-hành chính đặt tại phường Mỹ Tho; số liệu cấp xã được nguồn 22/10/2026 ghi 102 đơn vị (82 xã, 20 phường).",
-      "Một số vị trí hiện hành của điểm đến vùng Tiền Giang cũ cần kiểm tra lại cấp xã/phường sau sắp xếp; tọa độ và ảnh chưa xác minh giấy phép nên để null/unverified.",
+      "Một số vị trí hiện hành của điểm đến vùng Tiền Giang cũ cần kiểm tra lại cấp xã/phường sau sắp xếp; tọa độ chưa xác minh nguồn nên để null.",
       "Đặc sản và lễ hội được ghi theo nguồn gốc vùng tiền thân, không khẳng định chỉ thuộc riêng tỉnh mới.",
       "Mô tả ranh giới các tỉnh giáp ranh được để trống chờ đối chiếu bản đồ địa giới số chính thức; không suy diễn từ ranh giới các đơn vị tiền thân."
     ],

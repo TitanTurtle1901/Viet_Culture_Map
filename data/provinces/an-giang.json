@@ -1106,7 +1106,7 @@
       "Trường administrativeCenter ghi địa điểm trụ sở Văn phòng UBND tỉnh tại phường Rạch Giá; cần bổ sung quyết định chính thức nếu website muốn dùng khái niệm “trung tâm hành chính”.",
       "Các địa điểm, món ăn, lễ hội và nghệ thuật được gắn originArea để bảo tồn nguồn gốc từ hai tỉnh tiền thân; phường/xã hiện hành được dùng ở trường location khi nguồn đã xác minh.",
       "Óc Eo – Ba Thê là Di tích quốc gia đặc biệt và nằm trong Danh sách dự kiến UNESCO; chưa phải Di sản Thế giới đã được ghi danh.",
-      "Ảnh chưa đưa vào sử dụng vì chưa xác minh được bản quyền/giấy phép và dòng ghi công. Tọa độ được để null nếu chưa đối chiếu nguồn tọa độ đáng tin cậy.",
+      "Tọa độ được để null nếu chưa đối chiếu nguồn tọa độ đáng tin cậy.",
       "Danh mục văn hóa là lớp dữ liệu nền, chưa bao phủ đầy đủ 102 xã/phường/đặc khu hoặc tất cả các cộng đồng và di sản trong tỉnh."
     ],
     "sourceIds": [

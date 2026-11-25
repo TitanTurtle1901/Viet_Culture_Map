@@ -605,7 +605,7 @@
       "Diện tích 2.514,81 km² và quy mô dân số 3.567.943 là số liệu trong hồ sơ sắp xếp năm 2025; dân số là quy mô dân số trong nghị quyết, không phải điều tra cuối năm 2026.",
       "Nguồn Thống kê Hưng Yên xác nhận 104 đơn vị cấp xã gồm 93 xã và 11 phường; trung tâm chính trị-hành chính tại khu vực Hưng Yên cũ.",
       "Điểm đến vùng Thái Bình cũ cần cập nhật chính xác địa chỉ xã mới; một số di sản và nghệ thuật còn cần quyết định công nhận gốc.",
-      "Ảnh, tọa độ và thông tin tham quan chưa đủ điều kiện cấp phép nên để null/unverified.",
+      "Tọa độ và thông tin tham quan chưa đủ căn cứ nên để null.",
       "Mô tả ranh giới các tỉnh giáp ranh được để trống chờ đối chiếu bản đồ địa giới số chính thức; không suy diễn từ ranh giới các đơn vị tiền thân."
     ],
     "sourceIds": [

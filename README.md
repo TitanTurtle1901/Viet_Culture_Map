@@ -82,3 +82,6 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
   `pip install pillow && python tools/optimize_images.py` (cạnh dài ≤ 1600 px, giữ nguyên tên/định dạng).
 - **Trước khi commit/deploy** → `python tools/check_images.py`: báo đường dẫn ảnh trong JSON bị thiếu hoặc sai hoa/thường
   (Windows bỏ qua lỗi này nhưng GitHub Pages/Linux thì ảnh sẽ vỡ), cùng tên file không an toàn. Thêm `--list-unused` để xem ảnh chưa dùng.
+- **Dựng lại dữ liệu từ bundle** → `python tools/build_data.py <bundle.json> .` (thêm `--dry-run` để chỉ báo cáo). Script giữ lại kết quả rà soát hiện tại
+  (`researchStatus`, `lastVerified`, `notes`, `permissionStatus` + `alt` của ảnh trùng đường dẫn chính xác), bỏ `sourceId` của ảnh, và **dừng, không ghi file nào**
+  nếu bundle cũ làm một trạng thái `verified` bị hạ (`--force` mới cho phép). `python tools/build_data.py --check .` kiểm tra `index.json` khớp các hồ sơ chi tiết.

@@ -908,7 +908,7 @@
       "Mã đơn vị hành chính cấp tỉnh 86 theo Quyết định 19/2025/QĐ-TTg; biển số 64, 71, 84 theo Thông tư 51/2025/TT-BCA.",
       "Trung tâm chính trị – hành chính đặt tại địa bàn Vĩnh Long cũ; UBND tỉnh ở số 88 Võ Văn Kiệt, phường Long Châu theo thông tin trụ sở ngày 30/06/2025.",
       "Một trang thông tin địa phương về 124 xã/phường ghi quy mô dân số 4.257.581 người, khác số 4.194.633 trong hồ sơ Tờ trình 114/TTr-UBND; hồ sơ hiện dùng số trong tờ trình và đánh dấu cần đối chiếu trước phát hành.",
-      "Ảnh, tọa độ và giờ mở cửa chưa được xác minh quyền sử dụng/nguồn trực tiếp; các trường này để null hoặc unverified."
+      "Tọa độ và giờ mở cửa chưa được xác minh nguồn trực tiếp nên để null."
     ],
     "sourceIds": [
       "src-335",

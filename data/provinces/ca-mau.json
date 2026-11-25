@@ -1104,7 +1104,7 @@
       "Mục administrativeCenter để null vì chưa đối chiếu được văn bản chính thức hiện hành ghi rõ trụ sở/trung tâm hành chính sau khi tổ chức chính quyền địa phương hai cấp.",
       "Các điểm đến, đặc sản, lễ hội, nghệ thuật đều có originArea để lưu lại nguồn gốc từ Cà Mau cũ, Bạc Liêu cũ hoặc vùng Nam Bộ; địa chỉ xã/phường hiện hành còn thiếu ở một số điểm được ghi chú trực tiếp trong trường location.",
       "Danh mục của Bộ VHTTDL nêu 08 di sản văn hóa phi vật thể được ghi danh trên địa bàn tỉnh: 01 di sản UNESCO (Đờn ca tài tử) và 07 di sản quốc gia; không tự gán các danh hiệu này cho lễ hội/địa điểm khác.",
-      "Ảnh minh họa đã được người biên soạn xác nhận quyền sử dụng (dự án phi lợi nhuận); các ảnh chưa có file giữ permissionStatus unverified. Danh mục image-manifest chưa được cập nhật.",
+      "Ảnh minh họa đã được người biên soạn xác nhận quyền sử dụng (dự án phi lợi nhuận), permissionStatus = verified; danh mục image-manifest chưa được cập nhật.",
       "Tọa độ, khí hậu chi tiết, số liệu dân số hiện trạng theo kỳ thống kê mới nhất, trang phục truyền thống và giờ mở cửa/giá vé chưa được điền nếu chưa có nguồn trực tiếp phù hợp."
     ],
     "sourceIds": [
