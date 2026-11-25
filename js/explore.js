@@ -11,6 +11,7 @@
   var D = global.VCM.data, U = global.VCM.ui, esc = D.escapeHtml;
   var ctx = null;
   var state = { q: '', region: 'all', former: '', sort: 'asc', per: 9, page: 1 };
+  var shownIds = {}; // các thẻ đang hiển thị (dùng để thẻ giữ nguyên không bị mờ lại khi đang gõ tìm kiếm)
 
   /* ---------- Trạng thái <-> URL ---------- */
   function readUrl() {
@@ -85,7 +86,27 @@
   }
 
   /* ---------- Hiển thị ---------- */
-  function render() {
+  /**
+   * Hiệu ứng xuất hiện cho thẻ: dùng lại .reveal / .is-in và IntersectionObserver dùng chung (main.js),
+   * giống Trang chủ và Giới thiệu (fade + trượt nhẹ từ dưới lên, mỗi thẻ chỉ chạy 1 lần).
+   * Stagger: thẻ đã nằm trong màn hình lúc render xuất hiện lần lượt; thẻ ở dưới được xếp
+   * lệch theo cột và tự xuất hiện khi cuộn tới.
+   */
+  function staggerReveal($grid) {
+    var cards = $grid.children('.reveal:not(.is-in)').get();
+    if (!cards.length) { return; }
+    var cols = Math.max(1, global.getComputedStyle($grid[0]).gridTemplateColumns.split(' ').length);
+    var vh = global.innerHeight || document.documentElement.clientHeight, order = 0;
+    cards.forEach(function (el, i) {
+      var inView = el.getBoundingClientRect().top < vh;
+      var delay = inView ? Math.min(order++, 8) * 80 : (i % cols) * 90;
+      el.style.setProperty('--reveal-delay', delay + 'ms');
+    });
+    U.observeReveal($grid);
+  }
+
+  /** keepSeen = true (khi đang gõ tìm kiếm): thẻ vốn đã hiển thị giữ nguyên, chỉ thẻ mới mới có hiệu ứng -> không nhấp nháy */
+  function render(keepSeen) {
     var rows = compute();
     var total = rows.length;
     var pages = Math.max(1, Math.ceil(total / state.per));
@@ -97,9 +118,15 @@
       ? 'Tìm thấy ' + total + ' địa phương · hiển thị ' + (start + 1) + '–' + (start + slice.length)
       : 'Không có địa phương nào khớp.');
 
+    var prev = keepSeen === true ? shownIds : {};
+    shownIds = {};
     $('#explore-grid').toggleClass('hidden', !total).html(slice.map(function (r) {
-      return U.provinceCard(r.unit, ctx, { cta: 'Xem chi tiết', matchNote: r.notes.join(' · ') });
+      shownIds[r.unit.id] = true;
+      // Bọc thẻ trong <div class="reveal"> (giống "Địa phương nổi bật" ở Trang chủ) để không đụng hiệu ứng hover của thẻ
+      return '<div class="reveal' + (prev[r.unit.id] ? ' is-in' : '') + '">' +
+        U.provinceCard(r.unit, ctx, { cta: 'Xem chi tiết', matchNote: r.notes.join(' · ') }) + '</div>';
     }).join(''));
+    staggerReveal($('#explore-grid'));
     $('#empty-state').toggleClass('hidden', total > 0);
     U.hydrateSilhouettes($('#explore-grid'));
     renderPagination(pages);
@@ -159,7 +186,7 @@
     $('#q').on('input', function () {
       var v = $(this).val();
       clearTimeout(t);
-      t = setTimeout(function () { state.q = v.trim(); state.page = 1; render(); }, 180);
+      t = setTimeout(function () { state.q = v.trim(); state.page = 1; render(true); }, 180);
     });
     $('#sort').on('change', function () { state.sort = $(this).val(); state.page = 1; render(); });
     $('#former').on('change', function () { state.former = $(this).val(); state.page = 1; render(); });

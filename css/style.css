@@ -32,13 +32,63 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 .mobile-menu { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
 .mobile-menu.is-open { max-height: 28rem; }
 
-/* ---------- Hero ---------- */
+/* ---------- Hero (toàn màn hình) ----------
+   Nền: ảnh bìa các tỉnh do home.js chèn vào .hero-media (chuyển cảnh mờ dần).
+   .hero-bg giữ lại làm nền dự phòng khi ảnh chưa tải xong hoặc bị lỗi. */
 .hero-bg {
   background:
     radial-gradient(ellipse at 80% 10%, rgba(196, 144, 44, .35), transparent 55%),
     linear-gradient(160deg, #0f2e3c 0%, #1d4a5e 45%, #2f6a3f 100%);
 }
-.hero-mountains { position: absolute; inset: auto 0 0 0; height: 38%; opacity: .5; pointer-events: none; }
+.hero {
+  position: relative; display: flex; flex-direction: column;
+  min-height: 100vh; min-height: 100svh; /* fallback cho trình duyệt cũ chưa hỗ trợ svh */
+  padding: 6rem 0 1.25rem;
+}
+.hero-media { position: absolute; inset: 0; overflow: hidden; }
+.hero-slide {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 50%;
+  opacity: 0; transition: opacity 1.6s ease; will-change: opacity;
+}
+.hero-slide.is-active { opacity: 1; }
+/* Lớp phủ tối: đậm ở mép trên (navbar) và mép dưới (chỉ dẫn cuộn), nhẹ ở giữa để vẫn thấy ảnh */
+.hero-overlay {
+  position: absolute; inset: 0; pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(10, 33, 43, .66) 0%, rgba(10, 33, 43, .38) 26%, rgba(10, 33, 43, .46) 60%, rgba(10, 33, 43, .82) 100%),
+    radial-gradient(ellipse at 50% 45%, rgba(10, 33, 43, .32), transparent 70%);
+}
+.hero-content { position: relative; z-index: 2; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; padding-bottom: 2rem; }
+.hero-content .quick-search-wrap-hero { width: 100%; } /* ô tìm kiếm được main.js bọc thêm 1 div: phải giãn đủ rộng trong flex */
+.hero-title, .hero-lead, .hero-eyebrow, .hero-hints { text-shadow: 0 2px 18px rgba(0, 0, 0, .45); }
+.hero-eyebrow { margin-bottom: 1rem; }
+.hero-lead { margin-top: 1.25rem; }
+.hero-cta {
+  margin-top: 1.75rem; display: inline-flex; align-items: center; gap: .5rem; min-height: 2.9rem; padding: .7rem 1.6rem; border-radius: 9999px;
+  color: #fff; font-weight: 600; border: 1.5px solid rgba(255, 255, 255, .75); background: rgba(255, 255, 255, .12);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); transition: background .2s, color .2s, border-color .2s;
+}
+.hero-cta:hover, .hero-cta:focus-visible { background: #fff; color: var(--deep); border-color: #fff; }
+.hero-cta svg { animation: heroNudge 1.8s ease-in-out infinite; }
+/* Chỉ dẫn cuộn xuống ở cuối Hero */
+.hero-scroll { position: relative; z-index: 2; align-self: center; display: flex; flex-direction: column; align-items: center; gap: .5rem; color: rgba(255, 255, 255, .85); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; padding: .25rem .75rem; }
+.hero-scroll:hover { color: #fff; }
+.hero-scroll-mouse { width: 1.5rem; height: 2.4rem; border: 2px solid currentColor; border-radius: 9999px; display: flex; justify-content: center; padding-top: .4rem; }
+.hero-scroll-dot { width: .22rem; height: .5rem; border-radius: 9999px; background: currentColor; animation: heroScroll 1.8s ease-in-out infinite; }
+@keyframes heroScroll { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 80% { opacity: 0; transform: translateY(.85rem); } 100% { opacity: 0; transform: translateY(.85rem); } }
+@keyframes heroNudge { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(3px); } }
+@media (max-width: 639px) {
+  .hero { padding-top: 5.25rem; }
+  .hero-content { padding-bottom: 1rem; }
+  .hero-lead { margin-top: 1rem; }
+  .hero-cta { margin-top: 1.25rem; }
+}
+@media (max-height: 560px) { .hero-scroll { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide { transition: none; }
+  .hero-cta svg, .hero-scroll-dot { animation: none; }
+  .hero-scroll-dot { opacity: 1; }
+}
 
 /* ---------- Cards ---------- */
 .card-hover { transition: transform .25s ease, box-shadow .25s ease; }
@@ -208,6 +258,7 @@ body.modal-open { overflow: hidden; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes spin { to { transform: rotate(360deg); } }
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+.reveal { transition-delay: var(--reveal-delay, 0ms); }
 .reveal.is-in { opacity: 1; transform: none; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -219,6 +270,10 @@ body.modal-open { overflow: hidden; }
 .hdr-text { color: var(--deep); }
 .site-header.on-hero:not(.is-scrolled) .hdr-text { color: #fff; }
 .site-header.on-hero:not(.is-scrolled) .nav-link::after { background: var(--ochre); }
+/* Navbar trong suốt đè lên ảnh Hero: thêm lớp mờ tối ở mép trên + bóng chữ để dễ đọc trên ảnh sáng */
+.site-header.on-hero::before { content: ""; position: absolute; inset: 0 0 -1.75rem 0; z-index: -1; pointer-events: none; background: linear-gradient(180deg, rgba(10, 33, 43, .6), rgba(10, 33, 43, 0)); transition: opacity .25s; }
+.site-header.on-hero.is-scrolled::before { opacity: 0; }
+.site-header.on-hero:not(.is-scrolled) .hdr-text { text-shadow: 0 1px 10px rgba(0, 0, 0, .4); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
 /* =========================================================
