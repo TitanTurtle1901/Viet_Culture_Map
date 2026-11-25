@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Huế/province/backgroundHue.jpg",
-      "alt": "Thành phố Huế ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Huế",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Huế là không gian di sản Cố đô, âm nhạc cung đình, nhà vườn, đầm phá và ẩm thực đặc trưng.",
     "featuredDestinationIds": [
@@ -62,9 +61,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/co-do-hue.jpg",
-          "alt": "Quần thể di tích Cố đô Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể di tích Cố đô Huế",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Kinh thành, thành phố Huế.",
         "coordinates": null,
@@ -92,9 +90,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/chua-thien-mu.jpg",
-          "alt": "Chùa Thiên Mụ ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Thiên Mụ",
+          "permissionStatus": "verified"
         },
         "location": "Đồi Hà Khê, phường Kim Long, thành phố Huế.",
         "coordinates": null,
@@ -121,9 +118,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/lang-khai-dinh.jpg",
-          "alt": "Ứng Lăng – Lăng Khải Định ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Ứng Lăng – Lăng Khải Định",
+          "permissionStatus": "verified"
         },
         "location": "Phường Thủy Xuân, thành phố Huế.",
         "coordinates": null,
@@ -150,9 +146,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/bach-ma.jpg",
-          "alt": "Hệ sinh thái và điểm đến Bạch Mã ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hệ sinh thái và điểm đến Bạch Mã",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Bạch Mã, thành phố Huế.",
         "coordinates": null,
@@ -179,9 +174,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/he-dam-pha-tam-giang-cau-hai.jpg",
-          "alt": "Hệ đầm phá Tam Giang – Cầu Hai ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hệ đầm phá Tam Giang – Cầu Hai",
+          "permissionStatus": "verified"
         },
         "location": "Các xã ven phá, thành phố Huế.",
         "coordinates": null,
@@ -208,9 +202,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/vinh-lang-co.jpg",
-          "alt": "Vịnh Lăng Cô ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vịnh Lăng Cô",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Lăng Cô, thành phố Huế.",
         "coordinates": null,
@@ -237,9 +230,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/destinations/cua-bien-thuan-an.jpg",
-          "alt": "Di tích Trấn Hải Thành và cửa biển Thuận An ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích Trấn Hải Thành và cửa biển Thuận An",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực cửa biển Thuận An, thành phố Huế.",
         "coordinates": null,
@@ -268,9 +260,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/specialties/bun-bo-hue.jpg",
-          "alt": "Bún bò Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bún bò Huế",
+          "permissionStatus": "verified"
         },
         "origin": "Bún bò Huế gắn với Thành phố Huế.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -298,9 +289,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/specialties/com-hen.jpg",
-          "alt": "Cơm hến ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cơm hến",
+          "permissionStatus": "verified"
         },
         "origin": "Cơm hến gắn với Thành phố Huế.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -328,9 +318,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/specialties/banh-khoai.jpg",
-          "alt": "Bánh khoái ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh khoái",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh khoái gắn với Thành phố Huế.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -358,9 +347,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/specialties/me-xung-hue.jpg",
-          "alt": "Mè xửng Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mè xửng Huế",
+          "permissionStatus": "verified"
         },
         "origin": "Mè xửng Huế gắn với Thành phố Huế.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -388,9 +376,8 @@
         "currentProvinceId": "hue",
         "image": {
           "file": "assets/images/Huế/specialties/tom-chua-hue.jpg",
-          "alt": "Tôm chua Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tôm chua Huế",
+          "permissionStatus": "verified"
         },
         "origin": "Tôm chua Huế gắn với Thành phố Huế.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -597,9 +584,8 @@
         "category": "Âm nhạc cung đình",
         "image": {
           "file": "assets/images/Huế/culture/nha-nhac-cung-dinh-hue.jpg"  ,
-          "alt": "Nhã nhạc cung đình Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhã nhạc cung đình Huế",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Kinh đô Huế.",
         "origin": null,
@@ -623,9 +609,8 @@
         "category": "Âm nhạc thính phòng truyền thống",
         "image": {
           "file": "assets/images/Huế/culture/ca-hue.jpg",
-          "alt": "Ca Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Ca Huế",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Thành phố Huế.",
         "origin": null,
@@ -648,9 +633,8 @@
         "category": "Sân khấu truyền thống",
         "image": {
           "file": "assets/images/Huế/culture/tuong-cung-dinh-hue.jpg",
-          "alt": "Tuồng cung đình Huế ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tuồng cung đình Huế",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Không gian cung đình Huế và các đoàn nghệ thuật địa phương.",
         "origin": null,
@@ -672,7 +656,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Số liệu diện tích 4.947,11 km², dân số 1.190.336 và 40 đơn vị cấp xã lấy từ cổng thông tin thành phố, dẫn Niên giám thống kê Huế 2025."

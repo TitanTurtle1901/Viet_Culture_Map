@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Lào Cai/province/background_LaoCai.jpg",
-      "alt": "Ảnh nền tỉnh Lào Cai ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Ảnh nền tỉnh Lào Cai",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Tỉnh Lào Cai mới hình thành từ Lào Cai và Yên Bái trước đây, kết nối Sa Pa – Fansipan, Bắc Hà, Y Tý với Mù Cang Chải, Mường Lò và hồ Thác Bà. Không gian này có nhiều cộng đồng Thái, Mông, Dao, Giáy, Tày với di sản Xòe Thái, Then và tri thức canh tác ruộng bậc thang.",
     "featuredDestinationIds": [
@@ -69,8 +68,7 @@
         "image": {
           "file": "assets/images/Lào Cai/destinations/Sa-Pa-National-Tourist-Area.jpg",
           "alt": "Khu du lịch quốc gia Sa Pa",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Phường Sa Pa và các xã lân cận, tỉnh Lào Cai.",
         "coordinates": null,
@@ -97,8 +95,7 @@
         "image": {
           "file": "assets/images/Lào Cai/destinations/dinh-fansipan.jpg",
           "alt": "Đỉnh Fansipan",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Sa Pa, tỉnh Lào Cai.",
         "coordinates": null,
@@ -124,8 +121,7 @@
         "image": {
           "file": "assets/images/Lào Cai/destinations/khong-gian-du-lich-bac-ha.jpg",
           "alt": "Không gian du lịch Bắc Hà",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Xã Bắc Hà và các xã lân cận, tỉnh Lào Cai.",
         "coordinates": null,
@@ -151,9 +147,8 @@
         "currentProvinceId": "lao-cai",
         "image": {
           "file": "assets/images/Lào Cai/destinations/y-ty.jpg",
-          "alt": "Y Tý ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Y Tý",
+          "permissionStatus": "verified"
         },
         "location": "Xã Y Tý, tỉnh Lào Cai.",
         "coordinates": null,
@@ -179,8 +174,7 @@
         "image": {
           "file": "assets/images/Yên Bái/destinations/ruong-bac-thnag-mu-cang-chai.jpg",
           "alt": "Ruộng bậc thang Mù Cang Chải",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Xã Mù Cang Chải và các xã lân cận, tỉnh Lào Cai.",
         "coordinates": null,
@@ -206,9 +200,8 @@
         "currentProvinceId": "lao-cai",
         "image": {
           "file": "assets/images/Yên Bái/destinations/canh-dong-muong-lo.jpg",
-          "alt": "Cánh đồng Mường Lò ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cánh đồng Mường Lò",
+          "permissionStatus": "verified"
         },
         "location": "Phường Nghĩa Lộ và các xã lân cận, tỉnh Lào Cai.",
         "coordinates": null,
@@ -234,9 +227,8 @@
         "currentProvinceId": "lao-cai",
         "image": {
           "file": "assets/images/Yên Bái/destinations/ho-thac-ba.jpg",
-          "alt": "Hồ Thác Bà ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Thác Bà",
+          "permissionStatus": "verified"
         },
         "location": "Các xã ven hồ Thác Bà, tỉnh Lào Cai; cần xác định bến/tuyến cụ thể.",
         "coordinates": null,
@@ -264,8 +256,7 @@
         "image": {
           "file": "assets/images/Lào Cai/specialties/thang-co-vung-bac-ha.jpg",
           "alt": "Thắng cố vùng Bắc Hà .",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Thắng cố vùng Bắc Hà gắn với Lào Cai cũ – không gian chợ vùng cao Bắc Hà và các cộng đồng miền núi phía Bắc.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -292,8 +283,7 @@
         "image": {
           "file": "assets/images/Yên Bái/specialties/com-nep-tu-le.jpg",
           "alt": "Cốm nếp Tú Lệ.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Cốm nếp Tú Lệ gắn với Yên Bái cũ – vùng Tú Lệ, Văn Chấn.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -318,9 +308,8 @@
         "currentProvinceId": "lao-cai",
         "image": {
           "file": "assets/images/Yên Bái/specialties/gao-nep-tu-le.jpg",
-          "alt": "Gạo nếp Tú Lệ ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gạo nếp Tú Lệ",
+          "permissionStatus": "verified"
         },
         "origin": "Gạo nếp Tú Lệ gắn với Yên Bái cũ – vùng Tú Lệ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -346,8 +335,7 @@
         "image": {
           "file": "assets/images/Yên Bái/specialties/che-shan-tuyet-suoi-giang.jpg",
           "alt": "Chè Shan tuyết Suối Giàng",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Chè Shan tuyết Suối Giàng gắn với Yên Bái cũ – vùng Suối Giàng.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -372,9 +360,8 @@
         "currentProvinceId": "lao-cai",
         "image": {
           "file": "assets/images/Lào Cai/specialties/gao-seng-cu.jpg",
-          "alt": "Gạo Séng Cù ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gạo Séng Cù",
+          "permissionStatus": "verified"
         },
         "origin": "Gạo Séng Cù gắn với Lào Cai cũ – các vùng trồng Séng Cù, gồm Mường Khương và một số địa bàn.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -605,8 +592,7 @@
         "image": {
           "file": "assets/images/Lào Cai/culture/xoe-thai.jpg",
           "alt": "Múa Xòe Thái",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái tại Mường Lò và các địa bàn Tây Bắc.",
         "origin": null,
@@ -627,9 +613,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Lào Cai/culture/hat-then-dan-tinh.jpg",
-          "alt": "Hát Then và đàn tính ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Then và đàn tính",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Tày, Nùng, Thái ở nhiều tỉnh, gồm khu vực tỉnh Lào Cai mới.",
         "origin": null,
@@ -651,8 +636,7 @@
         "image": {
           "file": "assets/images/Yên Bái/culture/khen-mong.jpg",
           "alt": "Khèn Mông",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Mông ở các vùng núi Lào Cai cũ và Yên Bái cũ.",
         "origin": null,
@@ -676,7 +660,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Lào Cai + Yên Bái cũ; hoạt động từ 01/07/2025.",

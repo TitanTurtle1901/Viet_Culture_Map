@@ -168,7 +168,7 @@
     var notes = listHtml(meta.notes);
     var derived = listHtml(meta.derivedFields);
     var noteInner = '<div class="flex flex-wrap items-center gap-2 mb-3">' +
-        '<span class="badge badge-warn">' + esc(STATUS_LABEL[meta.researchStatus] || meta.researchStatus || '') + '</span>' +
+        '<span class="badge ' + (meta.researchStatus === 'verified' ? 'badge-cat' : 'badge-warn') + '">' + esc(STATUS_LABEL[meta.researchStatus] || meta.researchStatus || '') + '</span>' +
         (meta.lastVerified ? '<span class="text-sm text-gray-600">Kiểm tra lần cuối: ' + esc(meta.lastVerified) + '</span>' : '') +
         (meta.asOfDate ? '<span class="text-sm text-gray-600">· Số liệu tính đến: ' + esc(meta.asOfDate) + '</span>' : '') + '</div>' +
       (notes ? '<h4 class="font-semibold text-deep-700 mt-3 mb-1">Ghi chú của người biên soạn</h4><div class="text-sm">' + notes + '</div>' : '') +

@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Lai Châu/province/Lai-Chau.jpg",
-      "alt": "Tỉnh Lai Châu – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Lai Châu.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Lai Châu là tỉnh miền núi biên giới Tây Bắc với cảnh quan Hoàng Liên Sơn, các bản làng Thái, Mông, Dao và nhiều cộng đồng khác. Văn hóa Then, Xòe Thái, chợ phiên và du lịch cộng đồng là những lớp bản sắc quan trọng.",
     "featuredDestinationIds": [
@@ -64,9 +63,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/O-Quy-Ho-Pass.jpg",
-          "alt": "Đèo Ô Quy Hồ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đèo Ô Quy Hồ.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Bình Lư, tỉnh Lai Châu.",
         "coordinates": null,
@@ -91,9 +89,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Cau-kinh-Rong-May.jpg",
-          "alt": "Khu du lịch sinh thái Cầu kính Rồng Mây – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch sinh thái Cầu kính Rồng Mây.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Bình Lư, tỉnh Lai Châu.",
         "coordinates": null,
@@ -118,9 +115,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Ban-du-lich-cong-dong-Sin-Suoi-Ho.jpg",
-          "alt": "Bản du lịch cộng đồng Sin Suối Hồ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bản du lịch cộng đồng Sin Suối Hồ.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Sin Suối Hồ, tỉnh Lai Châu.",
         "coordinates": null,
@@ -146,9 +142,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Tan-Uyen-Tea-Hills.jpg",
-          "alt": "Đồi chè Tân Uyên – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đồi chè Tân Uyên.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Tân Uyên, tỉnh Lai Châu.",
         "coordinates": null,
@@ -174,9 +169,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Dong-Pu-Sam-Cap.jpg",
-          "alt": "Động Pu Sam Cáp – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Động Pu Sam Cáp.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Đoàn Kết, tỉnh Lai Châu.",
         "coordinates": null,
@@ -201,9 +195,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Dinh-Putaleng.jpg",
-          "alt": "Đỉnh Putaleng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đỉnh Putaleng.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Tả Lèng, tỉnh Lai Châu.",
         "coordinates": null,
@@ -228,9 +221,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Cho-dem-San-Thang.jpg",
-          "alt": "Chợ đêm San Thàng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chợ đêm San Thàng.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Tân Phong, tỉnh Lai Châu.",
         "coordinates": null,
@@ -257,9 +249,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/specialties/Thit-trau-gac-bep.jpg",
-          "alt": "Thịt trâu gác bếp – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thịt trâu gác bếp.",
+          "permissionStatus": "verified"
         },
         "origin": "Thịt trâu gác bếp gắn với Các cộng đồng Thái và một số cộng đồng vùng Tây Bắc, trong đó có Lai Châu.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -285,9 +276,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/specialties/Pa-Pinh-Top-Grilled-Fish.jpg",
-          "alt": "Pa pỉnh tộp – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Pa pỉnh tộp.",
+          "permissionStatus": "verified"
         },
         "origin": "Pa pỉnh tộp gắn với Cộng đồng Thái ở Lai Châu và vùng Tây Bắc.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -313,9 +303,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/specialties/20-1200x676-1.jpg",
-          "alt": "Xôi tím – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Xôi tím.",
+          "permissionStatus": "verified"
         },
         "origin": "Xôi tím gắn với Lai Châu và các địa bàn Tây Bắc có nguyên liệu lá tạo màu tự nhiên.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -341,9 +330,8 @@
         "currentProvinceId": "lai-chau",
         "image": {
           "file": "assets/images/Lai Châu/destinations/Che-Tan-Uyen.jpg",
-          "alt": "Chè Tân Uyên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè Tân Uyên.",
+          "permissionStatus": "verified"
         },
         "origin": "Chè Tân Uyên gắn với Lai Châu cũ – vùng chè Tân Uyên.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -547,9 +535,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Lai Châu/culture/Hat-Then-va-dan-tinh.jpg",
-          "alt": "Hát Then và đàn tính – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Then và đàn tính.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Tày, Nùng, Thái; các nhóm Thái ở Lai Châu.",
         "origin": null,
@@ -573,9 +560,8 @@
         "category": "Múa dân gian; nghệ thuật cộng đồng",
         "image": {
           "file": "assets/images/Lai Châu/culture/Mua-Xoe-Thai.jpg",
-          "alt": "Múa Xòe Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Múa Xòe Thái.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái ở Lai Châu và nhiều tỉnh Tây Bắc.",
         "origin": null,
@@ -598,9 +584,8 @@
         "category": "Âm nhạc và múa dân gian",
         "image": {
           "file": "assets/images/Lai Châu/culture/Nghe-thuat-trinh-dien-khen-Mong.jpg",
-          "alt": "Nghệ thuật trình diễn khèn Mông – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật trình diễn khèn Mông.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Mông ở Lai Châu.",
         "origin": null,
@@ -622,7 +607,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Lai Châu giữ nguyên đơn vị hành chính cấp tỉnh theo Nghị quyết 202/2025/QH15.",

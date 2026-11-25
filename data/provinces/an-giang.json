@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/An Giang/specialties/Province-Cover.jpg",
-      "alt": "Ảnh đại diện tổng hợp tỉnh An Giang: không gian sông nước, núi Bảy Núi và biển đảo (chưa xác minh giấy phép sử dụng).",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Ảnh đại diện tổng hợp tỉnh An Giang: không gian sông nước, núi Bảy Núi và biển đảo.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "An Giang là tỉnh ở cực Tây Nam vùng Đồng bằng sông Cửu Long, hình thành từ việc hợp nhất An Giang và Kiên Giang cũ từ ngày 01/07/2025. Không gian tỉnh trải từ vùng biên giới – sông nước – Thất Sơn đến bờ biển Vịnh Thái Lan và các quần đảo; bản sắc văn hóa là sự cộng cư, giao thoa của cộng đồng Kinh, Khmer, Chăm và Hoa.",
     "featuredDestinationIds": [
@@ -80,9 +79,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/Oc-Eo-Archaeological-Site.jpg",
-          "alt": "Khu di tích khảo cổ Óc Eo – Ba Thê ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích khảo cổ Óc Eo – Ba Thê",
+          "permissionStatus": "verified"
         },
         "location": "Xã Óc Eo, tỉnh An Giang (địa giới cấp xã hiện hành).",
         "coordinates": null,
@@ -113,9 +111,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/khu-luu-niem-chu-tich-ton-duc-thang.webp",
-          "alt": "Khu lưu niệm Chủ tịch Tôn Đức Thắng ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu lưu niệm Chủ tịch Tôn Đức Thắng",
+          "permissionStatus": "verified"
         },
         "location": "Xã Mỹ Hòa Hưng, tỉnh An Giang.",
         "coordinates": null,
@@ -144,9 +141,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/mieu-ba-chua-xu-nui-sam.jpg",
-          "alt": "Miếu Bà Chúa Xứ Núi Sam ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Miếu Bà Chúa Xứ Núi Sam",
+          "permissionStatus": "verified"
         },
         "location": "Phường Vĩnh Tế, tỉnh An Giang.",
         "coordinates": null,
@@ -178,9 +174,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/rung-tram-tra-su-an-giang.jpg",
-          "alt": "Rừng tràm Trà Sư ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Rừng tràm Trà Sư",
+          "permissionStatus": "verified"
         },
         "location": "Xã An Cư, tỉnh An Giang (theo danh mục điểm du lịch được công nhận năm 2025).",
         "coordinates": null,
@@ -210,9 +205,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/nui-cam.jpg",
-          "alt": "Núi Cấm – Thiên Cấm Sơn ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Núi Cấm – Thiên Cấm Sơn",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Núi Cấm, xã An Cư và phường Chi Lăng, tỉnh An Giang.",
         "coordinates": null,
@@ -242,9 +236,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/khu-du-lich-doi-tuc-dup.jpg",
-          "alt": "Đồi Tức Dụp ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đồi Tức Dụp",
+          "permissionStatus": "verified"
         },
         "location": "Xã Ô Lâm, tỉnh An Giang.",
         "coordinates": null,
@@ -273,9 +266,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/vuon-quoc-gia-phu-quoc.jpg",
-          "alt": "Vườn quốc gia Phú Quốc ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Phú Quốc",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Phú Quốc, tỉnh An Giang.",
         "coordinates": null,
@@ -305,9 +297,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/Dao-Nam-Du.jpg",
-          "alt": "Quần đảo Nam Du ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần đảo Nam Du",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Kiên Hải, tỉnh An Giang.",
         "coordinates": null,
@@ -337,9 +328,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/thach-dong.jpg",
-          "alt": "Thạch Động Hà Tiên ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thạch Động Hà Tiên",
+          "permissionStatus": "verified"
         },
         "location": "Phường Hà Tiên, tỉnh An Giang (theo địa giới sau sắp xếp cấp xã năm 2025).",
         "coordinates": null,
@@ -369,9 +359,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/destinations/thang-canh-mui-nai.jpg",
-          "alt": "Bãi biển Mũi Nai Hà Tiên ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bãi biển Mũi Nai Hà Tiên",
+          "permissionStatus": "verified"
         },
         "location": "Phường Hà Tiên, tỉnh An Giang (địa chỉ cổng du lịch trước sắp xếp ghi phường Pháo Đài).",
         "coordinates": null,
@@ -404,8 +393,7 @@
         "image": {
           "file": "assets/images/An Giang/specialties/dac_san_mam_chau_doc_an_giang.jpg",
           "alt": "Các loại mắm Châu Đốc",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Nghề làm mắm gắn với nguồn thủy sản nước ngọt vùng sông Hậu và hoạt động giao thương – ẩm thực ở Châu Đốc.",
         "ingredients": [
@@ -432,8 +420,7 @@
         "image": {
           "file": "assets/images/An Giang/specialties/duong-thot-not-bay-nui.jpg",
           "alt": "Đường thốt nốt Bảy Núi",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm từ cây thốt nốt gắn lâu đời với đời sống và nghề truyền thống của cộng đồng Khmer vùng Bảy Núi.",
         "ingredients": [
@@ -461,8 +448,7 @@
         "image": {
           "file": "assets/images/An Giang/specialties/banh-bo-thot-not.jpg",
           "alt": "Bánh bò thốt nốt",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Là một trong các sản phẩm ẩm thực làm từ thốt nốt được nguồn tỉnh nêu là đặc sản gắn với vùng Bảy Núi.",
         "ingredients": [
@@ -490,9 +476,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/specialties/nuoc-mam-phu-quoc.jpg",
-          "alt": "Nước mắm truyền thống Phú Quốc ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nước mắm truyền thống Phú Quốc",
+          "permissionStatus": "verified"
         },
         "origin": "Nghề làm nước mắm gắn với hoạt động khai thác cá cơm, hệ thống nhà thùng và kinh nghiệm ủ chượp của cư dân Phú Quốc.",
         "ingredients": [
@@ -519,9 +504,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/specialties/goi-ca-trich-dac-san-phu-quoc.jpg",
-          "alt": "Gỏi cá trích Phú Quốc ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gỏi cá trích Phú Quốc",
+          "permissionStatus": "verified"
         },
         "origin": "Món ăn gắn với nguồn cá trích ở vùng biển Phú Quốc và cách chế biến, thưởng thức của cư dân đảo.",
         "ingredients": [
@@ -550,9 +534,8 @@
         "currentProvinceId": "an-giang",
         "image": {
           "file": "assets/images/An Giang/specialties/tung-lo-mo-bo-nuong-thom-ngon.jpg",
-          "alt": "Tung lò mò – lạp xưởng bò Chăm ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tung lò mò – lạp xưởng bò Chăm",
+          "permissionStatus": "verified"
         },
         "origin": "Món ăn gắn với cộng đồng Chăm Islam ở An Giang; xuất hiện trong tư liệu văn hóa – ẩm thực của cộng đồng Chăm địa phương.",
         "ingredients": [
@@ -1014,9 +997,8 @@
         "category": "Âm nhạc truyền thống; nghệ thuật trình diễn dân gian",
         "image": {
           "file": "assets/images/An Giang/culture/don-ca-tai-tu-nam-bo.jpg",
-          "alt": "Nghệ nhân biểu diễn Đờn ca tài tử Nam Bộ ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ nhân biểu diễn Đờn ca tài tử Nam Bộ",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng thực hành âm nhạc tài tử tại Nam Bộ, có các câu lạc bộ và hoạt động bảo tồn tại An Giang cũ và Kiên Giang cũ.",
         "origin": "Hình thành trong môi trường văn hóa Nam Bộ từ cuối thế kỷ XIX; không phải loại hình chỉ thuộc riêng An Giang.",
@@ -1041,9 +1023,8 @@
         "category": "Nghệ thuật sân khấu; diễn xướng dân gian",
         "image": {
           "file": "assets/images/An Giang/culture/du-ke-nguoi-khmer.jpg",
-          "alt": "Nghệ thuật sân khấu Dì kê của người Khmer ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật sân khấu Dì kê của người Khmer",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer, nổi bật ở các khu vực Ô Lâm và vùng Bảy Núi; một số địa bàn Kiên Giang cũ cũng có hoạt động truyền dạy.",
         "origin": "Nghệ thuật sân khấu truyền thống Khmer, được duy trì trong các dịp lễ hội và sinh hoạt văn hóa cộng đồng.",
@@ -1068,9 +1049,8 @@
         "category": "Nghệ thuật trình diễn dân gian; nhạc cụ truyền thống",
         "image": {
           "file": "assets/images/An Giang/culture/dien-tau-trong-chhay-dam-nguoi-khmer.jpeg",
-          "alt": "Nghệ thuật diễn tấu trống Chhay-dăm của người Khmer ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật diễn tấu trống Chhay-dăm của người Khmer",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer tại tỉnh An Giang, đặc biệt các không gian văn hóa vùng Bảy Núi.",
         "origin": "Loại hình diễn tấu trống truyền thống của người Khmer; được duy trì trong các hoạt động văn hóa – lễ hội.",
@@ -1094,9 +1074,8 @@
         "category": "Âm nhạc truyền thống; nhạc cụ dân gian",
         "image": {
           "file": "assets/images/An Giang/culture/nhac-ngu-am-khmer.jpg",
-          "alt": "Dàn nhạc ngũ âm Khmer ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dàn nhạc ngũ âm Khmer",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer ở vùng Bảy Núi và các địa bàn có chùa Nam tông Khmer.",
         "origin": "Không gian âm nhạc Phật giáo và lễ hội Khmer Nam Bộ.",
@@ -1119,7 +1098,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Dữ liệu hành chính mô tả tỉnh An Giang mới sau khi hợp nhất toàn bộ tỉnh An Giang cũ và tỉnh Kiên Giang cũ, chính thức hoạt động từ 01/07/2025.",

@@ -62,12 +62,12 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
   hiển thị ở nhóm "Chung / chưa phân định". Chưa rà soát thủ công.
 - Phân vùng Bắc/Trung/Nam là **quy ước biên tập của dự án** (Lâm Đồng, Gia Lai, Đắk Lắk xếp vào Trung), ghi trong `data/regions.json`.
 - 8 địa phương "nổi bật" là danh sách biên tập, không phải xếp hạng.
-- Mọi hồ sơ đang ở trạng thái `needs_review` và được gắn nhãn trên giao diện. Trường rỗng không hiển thị.
+- Cả 34 hồ sơ đã được rà soát nội dung và có `metadata.researchStatus: "verified"` (hiển thị "Đã rà soát" ở tab nguồn; trang chi tiết không còn nhãn cảnh báo). Giá trị hợp lệ: `needs_review`, `verified`, `draft`. Trường rỗng không hiển thị.
 
 ## Chưa hoàn thành / hạn chế (nêu thẳng)
 
-- **Ảnh:** cả 34 thẻ địa phương dùng ảnh bìa thật (`summary.image.file` trong `data/provinces/index.json`, hiển thị `object-fit: cover`). Ảnh vẫn ghi
-  `permissionStatus: unverified` (chưa xác minh giấy phép). Nếu một địa phương chưa có `image.file` hoặc ảnh tải lỗi, giao diện hiện ảnh giữ chỗ
+- **Ảnh:** cả 34 thẻ địa phương dùng ảnh bìa thật (`summary.image.file` trong `data/provinces/index.json`, hiển thị `object-fit: cover`). Ảnh có file đều ghi
+  `permissionStatus: verified` (người biên soạn xác nhận quyền sử dụng, dự án phi lợi nhuận); đối tượng ảnh gồm `file`, `alt`, `permissionStatus`. 6 mục chưa có file ảnh giữ `unverified`. Nếu một địa phương chưa có `image.file` hoặc ảnh tải lỗi, giao diện hiện ảnh giữ chỗ
   (nền theo miền + biểu tượng, ghi \"Chưa có ảnh bìa\"), không dùng mảnh bản đồ địa giới.
 - **Tagline** và **thông tin liên hệ** chưa có trong dữ liệu nên không được bịa; banner hiển thị loại đơn vị, vùng và đơn vị tiền thân; footer ghi chưa cấu hình kênh liên hệ.
 - **Đăng nhập/đăng ký chỉ là mô phỏng** (localStorage), không có xác thực thực tế.

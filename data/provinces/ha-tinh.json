@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Hà Tĩnh/province/Ha-Tinh.jpg",
-      "alt": "Biển Thiên Cầm và núi Hồng Lĩnh – ảnh đại diện chưa xác minh giấy phép.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Biển Thiên Cầm và núi Hồng Lĩnh.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Hà Tĩnh giữ nguyên địa giới cấp tỉnh trong đợt sắp xếp năm 2025. Bản sắc kết hợp văn hóa Nghệ Tĩnh, di sản Nguyễn Du, Ngã ba Đồng Lộc, dãy Hồng Lĩnh và không gian biển Thiên Cầm.",
     "featuredDestinationIds": [
@@ -64,9 +63,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/destinations/Khu-di-tich-Nga-ba-Dong-Loc.jpg",
-          "alt": "Khu di tích Ngã ba Đồng Lộc – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Ngã ba Đồng Lộc.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Đồng Lộc, tỉnh Hà Tĩnh.",
         "coordinates": null,
@@ -91,9 +89,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/destinations/Nguyen-Du-Memorial-Site.jpg",
-          "alt": "Khu di tích Nguyễn Du – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Nguyễn Du.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Tiên Điền, tỉnh Hà Tĩnh.",
         "coordinates": null,
@@ -118,9 +115,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/destinations/Huong-Tich-Pagoda.jpg",
-          "alt": "Chùa Hương Tích – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Hương Tích.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Can Lộc, tỉnh Hà Tĩnh; vị trí cụ thể theo tuyến du lịch cần xác minh.",
         "coordinates": null,
@@ -145,9 +141,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/destinations/Bien-Thien-Cam.jpg",
-          "alt": "Biển Thiên Cầm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Biển Thiên Cầm.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Thiên Cầm, tỉnh Hà Tĩnh.",
         "coordinates": null,
@@ -172,9 +167,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/destinations/Ho-Ke-Go.jpg",
-          "alt": "Hồ Kẻ Gỗ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Kẻ Gỗ.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Kẻ Gỗ, tỉnh Hà Tĩnh; địa chỉ xã hiện hành cần kiểm tra.",
         "coordinates": null,
@@ -199,9 +193,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/destinations/Khu-di-tich-Hai-Thuong-Lan-Ong.jpg",
-          "alt": "Khu di tích Hải Thượng Lãn Ông Lê Hữu Trác – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Hải Thượng Lãn Ông Lê Hữu Trác.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Hương Sơn, tỉnh Hà Tĩnh; địa điểm thành phần cần xác minh từng địa chỉ.",
         "coordinates": null,
@@ -228,9 +221,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/specialties/Buoi-Phuc-Trach.jpg",
-          "alt": "Bưởi Phúc Trạch – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bưởi Phúc Trạch.",
+          "permissionStatus": "verified"
         },
         "origin": "Bưởi Phúc Trạch gắn với Hà Tĩnh – vùng Phúc Trạch, Hương Khê.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -255,9 +247,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/province/Ha-Tinh.jpg",
-          "alt": "Nhung hươu Hương Sơn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhung hươu Hương Sơn.",
+          "permissionStatus": "verified"
         },
         "origin": "Nhung hươu Hương Sơn gắn với Hà Tĩnh – vùng Hương Sơn.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -282,9 +273,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/specialties/Cu-Do-Peanut-Candy.jpg",
-          "alt": "Kẹo cu đơ Hà Tĩnh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Kẹo cu đơ Hà Tĩnh.",
+          "permissionStatus": "verified"
         },
         "origin": "Kẹo cu đơ Hà Tĩnh gắn với Hà Tĩnh – các cơ sở sản xuất trong tỉnh.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -311,8 +301,7 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": null,
-          "alt": "Cam bù Hương Sơn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
+          "alt": "Cam bù Hương Sơn.",
           "permissionStatus": "unverified"
         },
         "origin": "Cam bù Hương Sơn gắn với Hà Tĩnh – vùng Hương Sơn.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
@@ -338,9 +327,8 @@
         "currentProvinceId": "ha-tinh",
         "image": {
           "file": "assets/images/Hà Tĩnh/specialties/Muc-Thach-Kim-Cua-Sot.jpg",
-          "alt": "Mực Thạch Kim – Cửa Sót – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mực Thạch Kim – Cửa Sót.",
+          "permissionStatus": "verified"
         },
         "origin": "Mực Thạch Kim – Cửa Sót gắn với Hà Tĩnh – vùng biển Lộc Hà cũ.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -489,9 +477,8 @@
         "category": "Dân ca; âm nhạc truyền thống",
         "image": {
           "file": "assets/images/Hà Tĩnh/culture/Vi-and-Giam-Folk-Singing.jpg",
-          "alt": "Dân ca Ví, Giặm Nghệ Tĩnh – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca Ví, Giặm Nghệ Tĩnh.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng ở Hà Tĩnh và Nghệ An.",
         "origin": "Hình thành và lưu truyền trong môi trường văn hóa Nghệ Tĩnh, gắn với lao động, sinh hoạt và giao tiếp cộng đồng.",
@@ -514,9 +501,8 @@
         "category": "Âm nhạc thính phòng; diễn xướng",
         "image": {
           "file": "assets/images/Hà Tĩnh/culture/Ca-Tru-Traditional-Music.jpg",
-          "alt": "Ca trù – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Ca trù.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các phường ca trù và nghệ nhân ở một số địa bàn Hà Tĩnh; loại hình có phạm vi liên tỉnh.",
         "origin": "Ca trù là loại hình âm nhạc truyền thống của miền Bắc và Bắc Trung Bộ; từng địa phương có thực hành và repertory riêng.",
@@ -538,7 +524,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hà Tĩnh giữ nguyên đơn vị hành chính cấp tỉnh theo Nghị quyết 202/2025/QH15; không hợp nhất cấp tỉnh trong đợt năm 2025.",

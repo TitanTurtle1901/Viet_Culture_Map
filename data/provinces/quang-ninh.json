@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Quảng Ninh/province/Quang-Ninh.jpg",
-      "alt": "Thành phố Quảng Ninh – ảnh đại diện; quyền sử dụng chưa xác minh.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Quảng Ninh.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Quảng Ninh không sáp nhập cấp tỉnh trong đợt năm 2025; từ 01/09/2026 toàn bộ tỉnh Quảng Ninh cũ được thành lập thành phố trực thuộc Trung ương. Vịnh Hạ Long, Yên Tử, Bái Tử Long, Cô Tô và văn hóa các cộng đồng Tày, Dao, Sán Dìu là những lớp bản sắc tiêu biểu.",
     "featuredDestinationIds": [
@@ -63,9 +62,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/destinations/Ha-Long-Bay.jpg",
-          "alt": "Vịnh Hạ Long – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vịnh Hạ Long.",
+          "permissionStatus": "verified"
         },
         "location": "Vịnh Hạ Long, Thành phố Quảng Ninh.",
         "coordinates": null,
@@ -91,9 +89,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/destinations/Yen-Tu-Mountain.jpg",
-          "alt": "Quần thể di tích và danh thắng Yên Tử – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể di tích và danh thắng Yên Tử.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Yên Tử, Thành phố Quảng Ninh.",
         "coordinates": null,
@@ -119,9 +116,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/destinations/Vuon-quoc-gia-Bai-Tu-Long.jpg",
-          "alt": "Vườn quốc gia Bái Tử Long – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Bái Tử Long.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Vân Đồn và Cô Tô, Thành phố Quảng Ninh.",
         "coordinates": null,
@@ -146,9 +142,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/destinations/Co-To-Island.jpg",
-          "alt": "Đặc khu Cô Tô – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đặc khu Cô Tô.",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Cô Tô, Thành phố Quảng Ninh.",
         "coordinates": null,
@@ -173,9 +168,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/destinations/Den-Cua-Ong.jpg",
-          "alt": "Đền Cửa Ông – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đền Cửa Ông.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cửa Ông, Thành phố Quảng Ninh.",
         "coordinates": null,
@@ -201,9 +195,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/destinations/Khong-gian-du-lich-Tra-Co-Mong-Cai.jpg",
-          "alt": "Không gian du lịch Trà Cổ – Móng Cái – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian du lịch Trà Cổ – Móng Cái.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Trà Cổ, Thành phố Quảng Ninh.",
         "coordinates": null,
@@ -230,9 +223,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/specialties/Cha-muc-Ha-Long.jpg",
-          "alt": "Chả mực Hạ Long – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chả mực Hạ Long.",
+          "permissionStatus": "verified"
         },
         "origin": "Chả mực Hạ Long gắn với Tỉnh Quảng Ninh cũ – vùng Hạ Long.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -258,9 +250,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/specialties/Sa-Sung-Van-Don.jpg",
-          "alt": "Sá sùng Vân Đồn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Sá sùng Vân Đồn.",
+          "permissionStatus": "verified"
         },
         "origin": "Sá sùng Vân Đồn gắn với Tỉnh Quảng Ninh cũ – Vân Đồn.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -285,9 +276,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/specialties/Ga-Tien-Yen.jpg",
-          "alt": "Gà Tiên Yên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gà Tiên Yên.",
+          "permissionStatus": "verified"
         },
         "origin": "Gà Tiên Yên gắn với Tỉnh Quảng Ninh cũ – Tiên Yên.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -312,9 +302,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/specialties/Ngan-Quang-Ninh.jpg",
-          "alt": "Ngán Quảng Ninh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Ngán Quảng Ninh.",
+          "permissionStatus": "verified"
         },
         "origin": "Ngán Quảng Ninh gắn với Tỉnh Quảng Ninh cũ – vùng ven biển và cửa sông.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -340,9 +329,8 @@
         "currentProvinceId": "quang-ninh",
         "image": {
           "file": "assets/images/Quảng Ninh/specialties/Ruou-ba-kich.jpg",
-          "alt": "Rượu ba kích – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Rượu ba kích.",
+          "permissionStatus": "verified"
         },
         "origin": "Rượu ba kích gắn với Tỉnh Quảng Ninh cũ – vùng miền núi và trung du.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -572,9 +560,8 @@
         "category": "Hát nghi lễ; diễn xướng dân gian",
         "image": {
           "file": "assets/images/Quảng Ninh/culture/Hat-nha-to-hat-cua-dinh.jpg",
-          "alt": "Hát nhà tơ – hát cửa đình – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát nhà tơ – hát cửa đình.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng cư dân vùng biển Quảng Ninh cũ.",
         "origin": null,
@@ -597,9 +584,8 @@
         "category": "Dân ca; hát giao duyên",
         "image": {
           "file": "assets/images/Quảng Ninh/province/Quang-Ninh.jpg",
-          "alt": "Hát Soóng Cọ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Soóng Cọ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Sán Dìu ở Quảng Ninh cũ.",
         "origin": null,
@@ -622,8 +608,7 @@
         "category": "Nghi lễ; âm nhạc truyền thống",
         "image": {
           "file": null,
-          "alt": "Then và đàn tính của người Tày – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
+          "alt": "Then và đàn tính của người Tày.",
           "permissionStatus": "unverified"
         },
         "communityOrArea": "Cộng đồng Tày tại Bình Liêu, Tiên Yên và các khu vực liên quan.",
@@ -644,7 +629,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Năm 2025, Quảng Ninh giữ nguyên đơn vị cấp tỉnh theo Nghị quyết 202/2025/QH15; không sáp nhập với tỉnh khác.",

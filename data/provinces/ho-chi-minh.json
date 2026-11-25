@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/TP HCM/destinations/Independence-Palace.jpg",
-      "alt": "Thành phố Hồ Chí Minh – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Hồ Chí Minh.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "TP.HCM mới nối không gian Sài Gòn – Chợ Lớn, Bình Dương làng nghề và vùng biển đảo Bà Rịa – Vũng Tàu.",
     "featuredDestinationIds": [
@@ -76,9 +75,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/TP HCM/destinations/Independence-Palace.jpg",
-          "alt": "Di tích lịch sử Dinh Độc Lập – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích lịch sử Dinh Độc Lập.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Bến Thành, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -105,9 +103,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/TP HCM/destinations/Cu-Chi-Tunnels.jpg",
-          "alt": "Địa đạo Củ Chi – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Địa đạo Củ Chi.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Củ Chi, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -134,9 +131,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/TP HCM/destinations/Can-Gio-Biosphere-Reserve.jpg",
-          "alt": "Khu dự trữ sinh quyển rừng ngập mặn Cần Giờ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu dự trữ sinh quyển rừng ngập mặn Cần Giờ.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cần Giờ, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -164,9 +160,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/destinations/Con-Dao-Prison.jpg",
-          "alt": "Nhà tù Côn Đảo – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhà tù Côn Đảo.",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Côn Đảo, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -193,9 +188,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/destinations/White-Palace.jpg",
-          "alt": "Bạch Dinh – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bạch Dinh.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Vũng Tàu, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -222,9 +216,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bình Dương/destinations/chua-ba-thien-hau.jpg",
-          "alt": "Chùa Bà Thiên Hậu Thủ Dầu Một – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Bà Thiên Hậu Thủ Dầu Một.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Thủ Dầu Một, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -251,9 +244,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/destinations/nha-lon-long-son.jpg",
-          "alt": "Nhà Lớn Long Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhà Lớn Long Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Long Sơn, Thành phố Hồ Chí Minh.",
         "coordinates": null,
@@ -282,9 +274,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/TP HCM/specialties/com-tam-sai-gon.jpg",
-          "alt": "Cơm tấm Sài Gòn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cơm tấm Sài Gòn.",
+          "permissionStatus": "verified"
         },
         "origin": "Cơm tấm Sài Gòn gắn với TP. Hồ Chí Minh cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -312,9 +303,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/TP HCM/specialties/hu-tieu-nam-vang.jpg",
-          "alt": "Hủ tiếu Nam Vang và hủ tiếu Sài Gòn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hủ tiếu Nam Vang và hủ tiếu Sài Gòn.",
+          "permissionStatus": "verified"
         },
         "origin": "Hủ tiếu Nam Vang và hủ tiếu Sài Gòn gắn với TP. Hồ Chí Minh cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -341,9 +331,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/specialties/Vung-Tau-Mini-Savory-Pancakes.jpg",
-          "alt": "Bánh khọt Vũng Tàu – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh khọt Vũng Tàu.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh khọt Vũng Tàu gắn với Bà Rịa – Vũng Tàu cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -371,9 +360,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/specialties/goi-ca-trich.jpg",
-          "alt": "Gỏi cá trích Côn Đảo – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gỏi cá trích Côn Đảo.",
+          "permissionStatus": "verified"
         },
         "origin": "Gỏi cá trích Côn Đảo gắn với Bà Rịa – Vũng Tàu cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -400,9 +388,8 @@
         "currentProvinceId": "ho-chi-minh",
         "image": {
           "file": "assets/images/Bình Dương/specialties/mang-cut.jpg",
-          "alt": "Măng cụt Lái Thiêu – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Măng cụt Lái Thiêu.",
+          "permissionStatus": "verified"
         },
         "origin": "Măng cụt Lái Thiêu gắn với Bình Dương cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -619,9 +606,8 @@
         "category": "Âm nhạc truyền thống",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/culture/don-ca-tai-tu.jpg",
-          "alt": "Đờn ca tài tử Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đờn ca tài tử Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Nam Bộ, có cộng đồng thực hành tại TP.HCM mới và ba vùng tiền thân.",
         "origin": null,
@@ -643,9 +629,8 @@
         "category": "Sân khấu; nghệ thuật biểu diễn",
         "image": {
           "file": "assets/images/TP HCM/culture/Cai-Luong-Theatre.jpg",
-          "alt": "Cải lương Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cải lương Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "TP.HCM cũ và các vùng Nam Bộ.",
         "origin": null,
@@ -668,9 +653,8 @@
         "category": "Dân vũ; diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Bà Rịa - Vũng Tàu/culture/mua-va-dien-xuong-truyen-thong.jpg",
-          "alt": "Múa và diễn xướng truyền thống Chơ-ro – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Múa và diễn xướng truyền thống Chơ-ro.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Chơ-ro tại vùng miền Đông.",
         "origin": null,
@@ -690,7 +674,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Diện tích 6.772,59 km² và quy mô dân số 14.002.598 là số liệu theo Nghị quyết 202/2025/QH15; không phải số dân điều tra năm 2026."

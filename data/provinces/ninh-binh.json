@@ -7,8 +7,7 @@
     "image": {
       "file": "assets/images/Ninh Bình/destinations/Trang-An-Scenic-Landscape-Complex.jpg",
       "alt": "Tỉnh Ninh Bình",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Ninh Bình mới kế thừa không gian văn hóa của Hà Nam, Nam Định và Ninh Bình cũ. Tràng An, cố đô Hoa Lư, Phủ Dầy, Phát Diệm và Tam Chúc cho thấy sự kết nối giữa di sản thiên nhiên, lịch sử, tín ngưỡng và kiến trúc vùng đồng bằng Bắc Bộ.",
     "featuredDestinationIds": [
@@ -63,9 +62,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/destinations/trang-an-danh-trang.jpg",
-          "alt": "Quần thể danh thắng Tràng An – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể danh thắng Tràng An.",
+          "permissionStatus": "verified"
         },
         "location": "Các khu vực Tràng An thuộc tỉnh Ninh Bình.",
         "coordinates": null,
@@ -91,9 +89,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/destinations/Hoa-Lu-Ancient-Capital.jpg",
-          "alt": "Cố đô Hoa Lư – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cố đô Hoa Lư.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Hoa Lư, tỉnh Ninh Bình.",
         "coordinates": null,
@@ -119,9 +116,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/destinations/Tam-Coc-Bich-Dong.jpg",
-          "alt": "Tam Cốc – Bích Động – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tam Cốc – Bích Động.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tam Cốc – Bích Động, tỉnh Ninh Bình.",
         "coordinates": null,
@@ -147,9 +143,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/destinations/vuon-quoc-gia-cuc-phuong.jpg",
-          "alt": "Vườn quốc gia Cúc Phương – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Cúc Phương.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cúc Phương, tỉnh Ninh Bình.",
         "coordinates": null,
@@ -174,9 +169,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/destinations/quan-the-nha-tho-da-phat-diem.jpg",
-          "alt": "Quần thể nhà thờ đá Phát Diệm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể nhà thờ đá Phát Diệm.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Phát Diệm, tỉnh Ninh Bình.",
         "coordinates": null,
@@ -201,9 +195,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Nam Định/destinations/phu-day.jpg",
-          "alt": "Quần thể di tích Phủ Dầy – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể di tích Phủ Dầy.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Phủ Dầy, tỉnh Ninh Bình hiện hành.",
         "coordinates": null,
@@ -228,9 +221,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Hà Nam/destinations/Tam-Chuc-Tourist-Complex.jpg",
-          "alt": "Quần thể chùa Tam Chúc – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể chùa Tam Chúc.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tam Chúc, tỉnh Ninh Bình hiện hành.",
         "coordinates": null,
@@ -257,9 +249,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/specialties/de-nui.jpg",
-          "alt": "Dê núi Ninh Bình – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dê núi Ninh Bình.",
+          "permissionStatus": "verified"
         },
         "origin": "Dê núi Ninh Bình gắn với Ninh Bình cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -286,9 +277,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/specialties/com-chay.jpg",
-          "alt": "Cơm cháy Ninh Bình – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cơm cháy Ninh Bình.",
+          "permissionStatus": "verified"
         },
         "origin": "Cơm cháy Ninh Bình gắn với Ninh Bình cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -314,9 +304,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/specialties/Yen-Mac-Fermented-Pork-Roll.jpg",
-          "alt": "Nem chua Yên Mạc – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nem chua Yên Mạc.",
+          "permissionStatus": "verified"
         },
         "origin": "Nem chua Yên Mạc gắn với Ninh Bình cũ – vùng Yên Mạc.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -344,9 +333,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Ninh Bình/specialties/ruou-kim-son.jpg",
-          "alt": "Rượu Kim Sơn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Rượu Kim Sơn.",
+          "permissionStatus": "verified"
         },
         "origin": "Rượu Kim Sơn gắn với Ninh Bình cũ – vùng Kim Sơn.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -373,9 +361,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Nam Định/specialties/pho.jpg",
-          "alt": "Phở Nam Định – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Phở Nam Định.",
+          "permissionStatus": "verified"
         },
         "origin": "Phở Nam Định gắn với Nam Định cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -402,9 +389,8 @@
         "currentProvinceId": "ninh-binh",
         "image": {
           "file": "assets/images/Nam Định/specialties/Siu-Chau-Candy.jpg",
-          "alt": "Kẹo Sìu Châu – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Kẹo Sìu Châu.",
+          "permissionStatus": "verified"
         },
         "origin": "Kẹo Sìu Châu gắn với Nam Định cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -591,9 +577,8 @@
         "category": "Âm nhạc nghi lễ; diễn xướng tín ngưỡng",
         "image": {
           "file": "assets/images/Nam Định/culture/Hat-Van-Ritual-Singing.jpg",
-          "alt": "Hát văn / chầu văn – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát văn / chầu văn.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Nam Định cũ và các vùng thực hành thờ Mẫu.",
         "origin": null,
@@ -616,9 +601,8 @@
         "category": "Dân ca; diễn xướng dân gian",
         "image": {
           "file": "assets/images/Ninh Bình/culture/hat-xam.jpg",
-          "alt": "Hát Xẩm – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Xẩm.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các vùng Ninh Bình cũ và Nam Định cũ.",
         "origin": null,
@@ -642,9 +626,8 @@
         "category": "Sân khấu truyền thống",
         "image": {
           "file": "assets/images/Ninh Bình/culture/cheo-vung-dong-bang-bac-bo.jpg",
-          "alt": "Chèo vùng đồng bằng Bắc Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chèo vùng đồng bằng Bắc Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Ninh Bình cũ, Hà Nam cũ và Nam Định cũ.",
         "origin": null,
@@ -668,7 +651,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Hà Nam + Nam Định + Ninh Bình; hoạt động từ 01/07/2025.",

@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Khánh Hòa/province/backgroundKhanhhoa.jpg",
-      "alt": "Vịnh biển Nha Trang và tháp Chăm Khánh Hòa ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Vịnh biển Nha Trang và tháp Chăm Khánh Hòa",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Khánh Hòa mới hợp nhất Khánh Hòa và Ninh Thuận trước đây. Hồ sơ kết nối không gian biển đảo Nha Trang với di sản Chăm, tháp cổ, làng gốm Bàu Trúc, dệt Mỹ Nghiệp và hệ sinh thái Núi Chúa.",
     "featuredDestinationIds": [
@@ -62,9 +61,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Khánh Hòa/destinations/vinh-Nha-Trang.jpg",
-          "alt": "Vịnh Nha Trang ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vịnh Nha Trang",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực ven biển Nha Trang, tỉnh Khánh Hòa.",
         "coordinates": null,
@@ -90,9 +88,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Khánh Hòa/destinations/thap-ba-ponagar.jpg",
-          "alt": "Tháp Bà Pô Nagar ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tháp Bà Pô Nagar",
+          "permissionStatus": "verified"
         },
         "location": "Phường Bắc Nha Trang, tỉnh Khánh Hòa; địa chỉ hiện hành cần kiểm tra.",
         "coordinates": null,
@@ -118,8 +115,7 @@
         "image": {
           "file": "assets/images/Ninh Thuận/destinations/thap-po-klong-garai.jpg",
           "alt": "Tháp Pô Klong Garai",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Đô Vinh, tỉnh Khánh Hòa; địa chỉ mới cần kiểm tra.",
         "coordinates": null,
@@ -146,9 +142,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Ninh Thuận/destinations/thap-hoa-lai.jpg",
-          "alt": "Tháp Hòa Lai ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tháp Hòa Lai",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Thuận Bắc, tỉnh Khánh Hòa; cần kiểm tra địa chỉ hiện hành.",
         "coordinates": null,
@@ -173,9 +168,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Ninh Thuận/destinations/vuon-quoc-gia-nui-chua.jpg",
-          "alt": "Vườn quốc gia Núi Chúa và vịnh Vĩnh Hy ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Núi Chúa và vịnh Vĩnh Hy",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Vĩnh Hải, tỉnh Khánh Hòa; tuyến tham quan và địa chỉ hiện hành cần kiểm tra.",
         "coordinates": null,
@@ -202,8 +196,7 @@
         "image": {
           "file": "assets/images/Ninh Thuận/destinations/lang-gom-bau-truc.jpg",
           "alt": "Làng gốm Chăm Bàu Trúc",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Xã Ninh Phước, tỉnh Khánh Hòa (theo địa bàn hiện hành); cần kiểm tra tên thôn/địa chỉ mới.",
         "coordinates": null,
@@ -229,9 +222,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Ninh Thuận/destinations/lang-det-tho-cam.jpg",
-          "alt": "Làng dệt thổ cẩm Chăm Mỹ Nghiệp ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng dệt thổ cẩm Chăm Mỹ Nghiệp",
+          "permissionStatus": "verified"
         },
         "location": "Xã Ninh Phước, tỉnh Khánh Hòa; địa chỉ cụ thể cần cập nhật.",
         "coordinates": null,
@@ -258,9 +250,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Khánh Hòa/specialties/yen-sao-khanh-hoa.jpg",
-          "alt": "Yến sào Khánh Hòa ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Yến sào Khánh Hòa",
+          "permissionStatus": "verified"
         },
         "origin": "Yến sào Khánh Hòa gắn với Khánh Hòa cũ – các đảo yến và vùng ven biển.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -285,9 +276,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Khánh Hòa/specialties/nem-Ninh-hoa.jpg",
-          "alt": "Nem Ninh Hòa ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nem Ninh Hòa",
+          "permissionStatus": "verified"
         },
         "origin": "Nem Ninh Hòa gắn với Khánh Hòa cũ – Ninh Hòa.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -314,9 +304,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Khánh Hòa/specialties/bun-ca-Nha-Trang.jpg",
-          "alt": "Bún cá Nha Trang ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bún cá Nha Trang",
+          "permissionStatus": "verified"
         },
         "origin": "Bún cá Nha Trang gắn với Khánh Hòa cũ – Nha Trang.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -343,9 +332,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file": "assets/images/Ninh Thuận/specialties/nho-Ninh-Thuan.jpg",
-          "alt": "Nho Ninh Thuận ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nho Ninh Thuận",
+          "permissionStatus": "verified"
         },
         "origin": "Nho Ninh Thuận gắn với Ninh Thuận cũ – các vùng trồng nho Phan Rang, Ninh Hải và phụ cận.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -370,9 +358,8 @@
         "currentProvinceId": "khanh-hoa",
         "image": {
           "file":"assets/images/Ninh Thuận/specialties/tao-xanh-Ninh-Thuan.jpg",
-          "alt": "Táo xanh Ninh Thuận ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Táo xanh Ninh Thuận",
+          "permissionStatus": "verified"
         },
         "origin": "Táo xanh Ninh Thuận gắn với Ninh Thuận cũ – các vùng trồng táo vùng Phan Rang.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -607,9 +594,8 @@
         "category": "Nghề thủ công; mỹ thuật truyền thống",
         "image": {
           "file": "assets/images/Ninh Thuận/culture/lang-gom-bau-truc.jpg",
-          "alt": "Nghề làm gốm Chăm Bàu Trúc ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghề làm gốm Chăm Bàu Trúc",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Chăm tại Bàu Trúc, Ninh Thuận cũ.",
         "origin": "Tri thức nghề truyền thống do cộng đồng Chăm trao truyền qua các thế hệ, nổi bật với kỹ thuật tạo hình không dùng bàn xoay.",
@@ -632,9 +618,8 @@
         "category": "Nghề dệt; mỹ thuật truyền thống",
         "image": {
           "file": "assets/images/Ninh Thuận/culture/lang-det-tho-cam.jpg",
-          "alt": "Dệt thổ cẩm Chăm Mỹ Nghiệp ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dệt thổ cẩm Chăm Mỹ Nghiệp",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Chăm ở Mỹ Nghiệp, Ninh Thuận cũ.",
         "origin": "Nghề dệt truyền thống được duy trì trong cộng đồng Chăm, có kỹ thuật và hoa văn gắn với đời sống, nghi lễ.",
@@ -657,9 +642,8 @@
         "category": "Diễn xướng dân gian; tín ngưỡng biển",
         "image": {
           "file": "assets/images/Khánh Hòa/culture/ho-ba-trao.jpg",
-          "alt": "Hò bá trạo ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hò bá trạo",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các cộng đồng ngư dân ven biển Khánh Hòa.",
         "origin": "Hình thức diễn xướng dân gian gắn với lễ cầu ngư và tín ngưỡng thờ cá Ông ở một số làng biển.",
@@ -681,7 +665,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Tỉnh mới hình thành từ toàn bộ Khánh Hòa cũ và Ninh Thuận cũ, chính thức hoạt động từ 01/07/2025.",

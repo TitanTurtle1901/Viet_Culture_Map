@@ -7,8 +7,7 @@
     "image": {
       "file": "assets/images/Đắk Lắk/province/dak-lak.jpg",
       "alt": "Ảnh đại diện Tỉnh Đắk Lắk.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Đắk Lắk mới được hình thành từ Đắk Lắk và Phú Yên trước đây, nối không gian cao nguyên bazan với duyên hải Nam Trung Bộ. Bản sắc của tỉnh mới gồm văn hóa cồng chiêng, cộng đồng Ê Đê – M’nông, cà phê Buôn Ma Thuột, cùng di sản biển và văn hóa Chăm ở khu vực Phú Yên cũ.",
     "featuredDestinationIds": [
@@ -69,9 +68,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/destinations/Vuon-Quoc-gia-Yok-Don.jpg",
-          "alt": "Vườn quốc gia Yok Đôn ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Yok Đôn",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Buôn Đôn, tỉnh Đắk Lắk; địa chỉ cấp xã hiện hành cần cập nhật.",
         "coordinates": null,
@@ -100,9 +98,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/destinations/Buon-Don.jpg",
-          "alt": "Không gian văn hóa – du lịch Buôn Đôn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian văn hóa – du lịch Buôn Đôn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Buôn Đôn, tỉnh Đắk Lắk; địa chỉ xã hiện hành cần cập nhật.",
         "coordinates": null,
@@ -130,9 +127,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/destinations/Dray-Sap-and-Dray-Nur-Waterfalls.jpg",
-          "alt": "Thác Dray Nur – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thác Dray Nur.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực sông Sêrêpốk; địa chỉ xã/phường mới cần xác minh.",
         "coordinates": null,
@@ -160,9 +156,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/destinations/Lak-lake.jpg",
-          "alt": "Hồ Lắk – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Lắk.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Lắk, tỉnh Đắk Lắk; địa chỉ cấp xã cần xác minh.",
         "coordinates": null,
@@ -190,9 +185,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Phú Yên/destinations/Ganh-Da-Dia-Reef.jpg",
-          "alt": "Danh thắng quốc gia đặc biệt Gành Đá Đĩa – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Danh thắng quốc gia đặc biệt Gành Đá Đĩa.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã An Ninh Đông cũ; đơn vị cấp xã mới cần rà soát.",
         "coordinates": null,
@@ -221,9 +215,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Phú Yên/destinations/Nhan-Tower.jpg",
-          "alt": "Tháp Nhạn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tháp Nhạn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tuy Hòa cũ, tỉnh Đắk Lắk; địa chỉ phường mới cần cập nhật.",
         "coordinates": null,
@@ -251,9 +244,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Phú Yên/destinations/Vinh-Vung-Ro.jpg",
-          "alt": "Vịnh Vũng Rô – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vịnh Vũng Rô.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Vũng Rô, tỉnh Đắk Lắk; địa chỉ xã/phường mới cần xác minh.",
         "coordinates": null,
@@ -283,9 +275,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/specialties/Buon-Ma-Thuot-Coffee.jpg",
-          "alt": "Cà phê Buôn Ma Thuột – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cà phê Buôn Ma Thuột.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Đắk Lắk cũ – khu vực Buôn Ma Thuột và các vùng trồng cà phê..",
         "ingredients": [
@@ -311,9 +302,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/province/dak-lak.jpg",
-          "alt": "Gà nướng Buôn Đôn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gà nướng Buôn Đôn.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Đắk Lắk cũ – vùng Buôn Đôn..",
         "ingredients": [
@@ -339,9 +329,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Đắk Lắk/specialties/Com-Lam.jpg",
-          "alt": "Cơm lam – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cơm lam.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Cộng đồng các dân tộc Tây Nguyên, trong đó có địa bàn Đắk Lắk cũ..",
         "ingredients": [
@@ -367,9 +356,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Phú Yên/specialties/Ocean-Tuna-Eye-Soup.jpg",
-          "alt": "Cá ngừ đại dương – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cá ngừ đại dương.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Phú Yên cũ – cộng đồng ngư dân và nghề cá ngừ đại dương..",
         "ingredients": [
@@ -394,9 +382,8 @@
         "currentProvinceId": "dak-lak",
         "image": {
           "file": "assets/images/Phú Yên/specialties/Tom-hum-Song-Cau.jpg",
-          "alt": "Tôm hùm Sông Cầu – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tôm hùm Sông Cầu.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Phú Yên cũ – vùng đầm, vịnh Sông Cầu..",
         "ingredients": [
@@ -648,9 +635,8 @@
         "category": "Âm nhạc truyền thống; Diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Đắk Lắk/culture/Central-Highlands-Gong-Culture-Space.jpeg",
-          "alt": "Không gian văn hóa cồng chiêng Tây Nguyên – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian văn hóa cồng chiêng Tây Nguyên.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Ê Đê, M’nông và các cộng đồng Tây Nguyên.",
         "origin": "Không gian văn hóa Tây Nguyên; tại tỉnh mới có khu vực Đắk Lắk cũ.",
@@ -673,9 +659,8 @@
         "category": "Diễn xướng dân gian; Trò chơi – âm nhạc",
         "image": {
           "file": "assets/images/Phú Yên/culture/Bai-Choi-Folk-Performance.jpg",
-          "alt": "Nghệ thuật Bài Chòi – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật Bài Chòi.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng miền Trung, gồm khu vực Phú Yên cũ.",
         "origin": "Không gian Bài Chòi Trung Bộ; tại tỉnh mới có vùng Phú Yên cũ.",
@@ -698,9 +683,8 @@
         "category": "Nghệ thuật trình diễn dân gian",
         "image": {
           "file": "assets/images/Phú Yên/culture/Trinh-dien-trong-doi-cong-ba-chieng-nam.jpg",
-          "alt": "Trình diễn trống đôi – cồng ba – chiêng năm – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Trình diễn trống đôi – cồng ba – chiêng năm.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng thực hành tại Phú Yên cũ.",
         "origin": "Địa bàn cộng đồng cụ thể cần ghi theo hồ sơ di sản gốc ở vùng Phú Yên.",
@@ -722,7 +706,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Tỉnh Đắk Lắk mới hợp nhất toàn bộ tỉnh Đắk Lắk và tỉnh Phú Yên cũ, chính quyền địa phương mới hoạt động từ 01/07/2025. Diện tích và quy mô dân số lấy từ cổng tỉnh sau sáp nhập, không phải kết quả điều tra dân số cuối năm 2026.",

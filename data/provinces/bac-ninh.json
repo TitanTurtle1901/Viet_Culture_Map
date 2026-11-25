@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Bắc Ninh (cũ)/province/Province-Cover.jpg",
-      "alt": "Thành phố Bắc Ninh ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Bắc Ninh",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Thành phố Bắc Ninh được thành lập ngày 20/09/2026 trên toàn bộ địa giới tỉnh Bắc Ninh mới, vốn hợp nhất Bắc Giang và Bắc Ninh cũ từ 01/07/2025. Không gian văn hóa rộng từ vùng đồng bằng Kinh Bắc với Quan họ, tranh Đông Hồ, chùa cổ và làng nghề đến vùng trung du – miền núi phía Bắc với Tây Yên Tử, chùa Vĩnh Nghiêm, khởi nghĩa Yên Thế, vải thiều Lục Ngạn và các cộng đồng Tày, Nùng, Dao, Sán Chay.",
     "featuredDestinationIds": [
@@ -86,9 +85,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/destinations/den-do-ly-bat-de.jpg",
-          "alt": "Đền Đô (Đền Lý Bát Đế) ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đền Đô (Đền Lý Bát Đế)",
+          "permissionStatus": "verified"
         },
         "location": "Phường Từ Sơn, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -114,9 +112,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/destinations/chua-phat-tich.jpg",
-          "alt": "Chùa Phật Tích (Vạn Phúc tự) ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Phật Tích (Vạn Phúc tự)",
+          "permissionStatus": "verified"
         },
         "location": "Xã Phật Tích, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -142,9 +139,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/destinations/chua-dau.jpg",
-          "alt": "Chùa Dâu (Diên Ứng tự) ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Dâu (Diên Ứng tự)",
+          "permissionStatus": "verified"
         },
         "location": "Phường Trí Quả, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -170,9 +166,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/destinations/lang-tranh-dong-ho.jpg",
-          "alt": "Làng tranh dân gian Đông Hồ – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng tranh dân gian Đông Hồ.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Thuận Thành, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -199,9 +194,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/destinations/Vinh-Nghiem-Pagoda.jpg",
-          "alt": "Chùa Vĩnh Nghiêm và kho mộc bản kinh Phật – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Vĩnh Nghiêm và kho mộc bản kinh Phật.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Tân An, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -229,9 +223,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/destinations/chua-bo-da.jpg",
-          "alt": "Chùa Bổ Đà (Tứ Ân Tự) – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Bổ Đà (Tứ Ân Tự).",
+          "permissionStatus": "verified"
         },
         "location": "Phường Vân Hà, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -258,9 +251,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/destinations/tay-yen-tu.jpg",
-          "alt": "Không gian văn hóa – sinh thái Tây Yên Tử – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian văn hóa – sinh thái Tây Yên Tử.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Tây Yên Tử và vùng phụ cận, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -288,9 +280,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/destinations/khu-di-tich-chien-thang-xuong-giang.jpg",
-          "alt": "Khu di tích lịch sử Chiến thắng Xương Giang – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích lịch sử Chiến thắng Xương Giang.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Bắc Giang, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -315,9 +306,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/destinations/khu-di-tich-khoi-nghia-yen-the.jpg",
-          "alt": "Quần thể di tích Khởi nghĩa Yên Thế – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể di tích Khởi nghĩa Yên Thế.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Yên Thế, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -342,9 +332,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/destinations/khu-du-lich-sinh-thai-suoi-mo.jpg",
-          "alt": "Khu du lịch sinh thái Suối Mỡ – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch sinh thái Suối Mỡ.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Nghĩa Phương, thành phố Bắc Ninh.",
         "coordinates": null,
@@ -373,9 +362,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/specialties/Husband-and-Wife-Cake.webp",
-          "alt": "Bánh phu thê Đình Bảng – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh phu thê Đình Bảng.",
+          "permissionStatus": "verified"
         },
         "origin": "Đình Bảng, tỉnh Bắc Ninh cũ; hiện thuộc phường Từ Sơn.",
         "ingredients": [
@@ -404,9 +392,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/specialties/Luc-Ngan-Lychee.jpeg",
-          "alt": "Vải thiều Lục Ngạn – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vải thiều Lục Ngạn.",
+          "permissionStatus": "verified"
         },
         "origin": "Lục Ngạn, tỉnh Bắc Giang cũ; vùng chuyên canh cây ăn quả của khu vực trung du.",
         "ingredients": [
@@ -431,9 +418,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/specialties/My-Chu-Noodles.jpg",
-          "alt": "Mỳ Chũ – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mỳ Chũ.",
+          "permissionStatus": "verified"
         },
         "origin": "Chũ và vùng Lục Ngạn, tỉnh Bắc Giang cũ.",
         "ingredients": [
@@ -458,9 +444,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/specialties/ga-doi-yen-the.jpg",
-          "alt": "Gà đồi Yên Thế – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gà đồi Yên Thế.",
+          "permissionStatus": "verified"
         },
         "origin": "Yên Thế, tỉnh Bắc Giang cũ.",
         "ingredients": [
@@ -486,9 +471,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/specialties/banh-da-ke.jpg",
-          "alt": "Bánh đa Kế – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh đa Kế.",
+          "permissionStatus": "verified"
         },
         "origin": "Làng Kế, xã Dĩnh Kế cũ; nay thuộc phường Bắc Giang.",
         "ingredients": [
@@ -514,9 +498,8 @@
         "currentProvinceId": "bac-ninh",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/specialties/ruu-lang-van.jpg",
-          "alt": "Rượu làng Vân – chưa chọn ảnh vì chưa xác minh giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Rượu làng Vân.",
+          "permissionStatus": "verified"
         },
         "origin": "Làng Vân, phường Vân Hà, tỉnh Bắc Giang cũ.",
         "ingredients": [
@@ -906,9 +889,8 @@
         "category": "Âm nhạc truyền thống; hát đối đáp dân gian",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/culture/Quan-Ho-Folk-Singing-Tradition.png",
-          "alt": "Liền anh, liền chị Quan họ – chưa xác minh quyền sử dụng ảnh.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Liền anh, liền chị Quan họ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các làng Quan họ ở vùng Bắc Ninh và Bắc Giang trước sáp nhập; nổi bật tại không gian Lim, Viêm Xá và các làng Quan họ cổ.",
         "origin": "Thực hành dân ca của cộng đồng các làng vùng Kinh Bắc, có quan hệ kết bạn và giao lưu giữa các làng.",
@@ -928,9 +910,8 @@
         "category": "Mỹ thuật dân gian; thủ công mỹ nghệ truyền thống",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/culture/Dong-Ho-Folk-Painting-Art.jpg",
-          "alt": "Nghệ nhân in tranh Đông Hồ – chưa xác minh quyền sử dụng ảnh.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ nhân in tranh Đông Hồ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Làng Đông Hồ, phường Thuận Thành; vùng Bắc Ninh cũ.",
         "origin": "Nghề tranh khắc gỗ truyền thống tại làng Đông Hồ, được trao truyền trong các gia đình và cộng đồng nghề.",
@@ -950,9 +931,8 @@
         "category": "Nghi lễ tín ngưỡng; âm nhạc và diễn xướng dân gian",
         "image": {
           "file": "assets/images/Bắc Giang (cũ)/culture/thuc-hanh-then-tay-nung.jpg",
-          "alt": "Nghệ nhân thực hành Then và đàn tính – chưa xác minh quyền sử dụng ảnh.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ nhân thực hành Then và đàn tính.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các cộng đồng Tày, Nùng ở vùng miền núi Bắc Giang cũ; cần lập bản đồ các nhóm nghệ nhân đang thực hành tại địa bàn hiện hành.",
         "origin": "Thực hành nghi lễ của người Tày, Nùng, Thái tại Việt Nam, không chỉ riêng thành phố Bắc Ninh.",
@@ -972,9 +952,8 @@
         "category": "Âm nhạc truyền thống; hát thơ",
         "image": {
           "file": "assets/images/Bắc Ninh (cũ)/culture/ca-tru-mien-bac.jpg",
-          "alt": "Đào nương biểu diễn Ca trù – chưa xác minh quyền sử dụng ảnh.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đào nương biểu diễn Ca trù.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Loại hình có phạm vi thực hành ở miền Bắc; nguồn địa phương liệt kê trong nhóm di sản UNESCO gắn với địa bàn Bắc Ninh, nhưng hồ sơ này chưa xác định đầy đủ phường/xã và câu lạc bộ ca trù đang hoạt động.",
         "origin": "Vùng Bắc Bộ; không khẳng định Ca trù có nguồn gốc riêng tại Bắc Ninh.",
@@ -992,7 +971,7 @@
     "metadata": {
       "asOfDate": "2026-11-05",
       "lastVerified": "2026-11-05",
-      "researchStatus": "needs_review",
+      "researchStatus": "verified",
       "isSample": false,
       "notes": [
         "Đơn vị hiện hành được gọi là Thành phố Bắc Ninh từ 20/09/2026 theo Nghị quyết 39/2026/QH16; trước đó tỉnh Bắc Ninh mới hình thành từ Bắc Giang và Bắc Ninh cũ theo Nghị quyết 202/2025/QH15, hoạt động từ 01/07/2025.",
@@ -1022,7 +1001,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Thành phố Bắc Ninh được thành lập trên toàn bộ địa giới tỉnh Bắc Ninh theo Nghị quyết 39/2026/QH16, hiệu lực 20/09/2026; trong đợt sắp xếp cấp tỉnh năm 2025, địa phương mới được hình thành từ Bắc Giang + Bắc Ninh.",

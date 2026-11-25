@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Đà Nẵng/province/backgroundDaNang.jpg",
-      "alt": "Thành phố Đà Nẵng ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Đà Nẵng",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Đà Nẵng mới kết nối đô thị biển với di sản Hội An, Mỹ Sơn, Cù Lao Chàm và các làng nghề xứ Quảng.",
     "featuredDestinationIds": [
@@ -64,9 +63,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Quảng Nam/destinations/do-thi-co-hoi-an.jpg",
-          "alt": "Đô thị cổ Hội An ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đô thị cổ Hội An",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực đô thị cổ Hội An, thành phố Đà Nẵng.",
         "coordinates": null,
@@ -94,9 +92,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Quảng Nam/destinations/thanh-dia-my-son.jpg",
-          "alt": "Thánh địa Mỹ Sơn ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thánh địa Mỹ Sơn",
+          "permissionStatus": "verified"
         },
         "location": "Duy Xuyên, khu vực Quảng Nam cũ, thành phố Đà Nẵng.",
         "coordinates": null,
@@ -124,9 +121,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/destinations/ngu-hanh-son.jpg",
-          "alt": "Danh thắng Ngũ Hành Sơn ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Danh thắng Ngũ Hành Sơn",
+          "permissionStatus": "verified"
         },
         "location": "Phường Ngũ Hành Sơn, thành phố Đà Nẵng.",
         "coordinates": null,
@@ -153,9 +149,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/destinations/ban-dao-son-tra.jpg",
-          "alt": "Bán đảo Sơn Trà ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bán đảo Sơn Trà",
+          "permissionStatus": "verified"
         },
         "location": "Bán đảo Sơn Trà, thành phố Đà Nẵng.",
         "coordinates": null,
@@ -182,9 +177,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Quảng Nam/destinations/cu-lao-cham.jpg",
-          "alt": "Cù Lao Chàm – Khu dự trữ sinh quyển thế giới ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cù Lao Chàm – Khu dự trữ sinh quyển thế giới",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Tân Hiệp, thành phố Đà Nẵng.",
         "coordinates": null,
@@ -212,9 +206,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/destinations/khu-du-lich-ba-na-nui-chua.jpg",
-          "alt": "Khu du lịch Bà Nà – Núi Chúa ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch Bà Nà – Núi Chúa",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Núi Chúa, thành phố Đà Nẵng.",
         "coordinates": null,
@@ -242,9 +235,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/destinations/vinh-lang-co-hai-van.jpg",
-          "alt": "Vịnh Lăng Cô – đèo Hải Vân ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vịnh Lăng Cô – đèo Hải Vân",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phía bắc thành phố Đà Nẵng, giáp thành phố Huế.",
         "coordinates": null,
@@ -274,9 +266,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/specialties/mi-quang.jpg",
-          "alt": "Mì Quảng ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mì Quảng",
+          "permissionStatus": "verified"
         },
         "origin": "Mì Quảng gắn với Quảng Nam cũ và Đà Nẵng.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -305,9 +296,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Quảng Nam/specialties/cao-lau.jpg",
-          "alt": "Cao lầu Hội An ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cao lầu Hội An",
+          "permissionStatus": "verified"
         },
         "origin": "Cao lầu Hội An gắn với Quảng Nam cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -335,9 +325,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/specialties/nuoc-mam-nam-o.jpg",
-          "alt": "Nước mắm Nam Ô ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nước mắm Nam Ô",
+          "permissionStatus": "verified"
         },
         "origin": "Nước mắm Nam Ô gắn với Đà Nẵng cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -363,9 +352,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Đà Nẵng/specialties/banh-trang-tuy-loan.jpg",
-          "alt": "Bánh tráng Túy Loan ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh tráng Túy Loan",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh tráng Túy Loan gắn với Đà Nẵng cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -393,9 +381,8 @@
         "currentProvinceId": "da-nang",
         "image": {
           "file": "assets/images/Quảng Nam/specialties/banh-it-la-gai.jpg",
-          "alt": "Bánh ít lá gai ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh ít lá gai",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh ít lá gai gắn với Quảng Nam cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -619,9 +606,8 @@
         "category": "Diễn xướng dân gian",
         "image": {
           "file": "assets/images/Đà Nẵng/culture/bai-choi.jpg",
-          "alt": "Bài chòi Trung Bộ ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bài chòi Trung Bộ",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Đà Nẵng và Quảng Nam cũ; phạm vi di sản liên tỉnh Trung Bộ.",
         "origin": null,
@@ -646,9 +632,8 @@
         "category": "Sân khấu truyền thống",
         "image": {
           "file": "assets/images/Đà Nẵng/culture/tuong-xu-quang.jpg",
-          "alt": "Tuồng xứ Quảng ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tuồng xứ Quảng",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Quảng Nam cũ và Đà Nẵng.",
         "origin": null,
@@ -672,9 +657,8 @@
         "category": "Diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Đà Nẵng/culture/ho-ba-trao-trong-le-cau-ngu.jpg",
-          "alt": "Hò bá trạo trong lễ Cầu ngư ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hò bá trạo trong lễ Cầu ngư",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Làng biển Đà Nẵng và Quảng Nam cũ.",
         "origin": null,
@@ -697,7 +681,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Địa giới thành phố mới gồm Đà Nẵng cũ và Quảng Nam cũ. Dân số 3.065.628 là quy mô trong Nghị quyết 202/2025/QH15; không phải số điều tra 2026."

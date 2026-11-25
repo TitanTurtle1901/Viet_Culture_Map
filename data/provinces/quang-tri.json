@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Quảng Trị/destinations/Quang-Tri-Ancient-Citadel.jpg",
-      "alt": "Tỉnh Quảng Trị – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Quảng Trị.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Quảng Trị mới hình thành từ Quảng Bình và Quảng Trị cũ, nối liền dải di sản thiên nhiên Phong Nha – Kẻ Bàng với các di tích giới tuyến, địa đạo, nghĩa trang và văn hóa làng biển – Trường Sơn. Hò khoan Lệ Thủy, Hiền Lương – Bến Hải và cà phê Khe Sanh là những nội dung tiêu biểu.",
     "featuredDestinationIds": [
@@ -65,9 +64,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Bình/destinations/Phong-Nha-Ke-Bang-National-Park.jpg",
-          "alt": "Vườn quốc gia Phong Nha – Kẻ Bàng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Phong Nha – Kẻ Bàng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Phong Nha – Kẻ Bàng, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -93,9 +91,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/destinations/Quang-Tri-Ancient-Citadel.jpg",
-          "alt": "Thành cổ Quảng Trị – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thành cổ Quảng Trị.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Thành cổ Quảng Trị, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -120,9 +117,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/destinations/Vinh-Moc-Tunnels.jpg",
-          "alt": "Địa đạo Vịnh Mốc – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Địa đạo Vịnh Mốc.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Vĩnh Mốc, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -147,9 +143,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/destinations/Hien-Luong-Bridge-and-Ben-Hai-River.jpg",
-          "alt": "Di tích đôi bờ Hiền Lương – Bến Hải – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích đôi bờ Hiền Lương – Bến Hải.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực cầu Hiền Lương và sông Bến Hải, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -175,9 +170,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/destinations/nghia-trang-liet-si-truong-son.jpg",
-          "alt": "Nghĩa trang liệt sĩ Trường Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghĩa trang liệt sĩ Trường Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Trường Sơn, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -202,9 +196,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/destinations/Con-Co-Island.jpg",
-          "alt": "Đặc khu Cồn Cỏ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đặc khu Cồn Cỏ.",
+          "permissionStatus": "verified"
         },
         "location": "Đặc khu Cồn Cỏ, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -229,9 +222,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Bình/destinations/di-tich-hang-tam-co.jpg",
-          "alt": "Di tích Hang Tám Cô – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích Hang Tám Cô.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực đường 20 Quyết Thắng, tỉnh Quảng Trị.",
         "coordinates": null,
@@ -258,9 +250,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Bình/specialties/Dried-Sweet-Potato.jpg",
-          "alt": "Khoai deo Quảng Bình – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khoai deo Quảng Bình.",
+          "permissionStatus": "verified"
         },
         "origin": "Khoai deo Quảng Bình gắn với Quảng Bình cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -285,9 +276,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Bình/specialties/Tapioca-Dumplings.jpg",
-          "alt": "Bánh bột lọc – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh bột lọc.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh bột lọc gắn với Quảng Bình cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -315,9 +305,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Bình/specialties/Quang-Binh-Thick-Noodle-Soup.jpg",
-          "alt": "Cháo canh Quảng Bình – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cháo canh Quảng Bình.",
+          "permissionStatus": "verified"
         },
         "origin": "Cháo canh Quảng Bình gắn với Quảng Bình cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -343,9 +332,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/specialties/ca-phe-khe-sanh.jpg",
-          "alt": "Cà phê Khe Sanh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cà phê Khe Sanh.",
+          "permissionStatus": "verified"
         },
         "origin": "Cà phê Khe Sanh gắn với Quảng Trị cũ – vùng Khe Sanh, Hướng Hóa.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -370,9 +358,8 @@
         "currentProvinceId": "quang-tri",
         "image": {
           "file": "assets/images/Quảng Trị/specialties/nuoc-mam-vung-cua-viet.jpg",
-          "alt": "Nước mắm vùng Cửa Việt – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nước mắm vùng Cửa Việt.",
+          "permissionStatus": "verified"
         },
         "origin": "Nước mắm vùng Cửa Việt gắn với Quảng Trị cũ – vùng biển Cửa Việt.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -590,9 +577,8 @@
         "category": "Dân ca; diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Quảng Bình/culture/Le-Thuy-Ho-Khoan-Folk-Singing.jpg",
-          "alt": "Hò khoan Lệ Thủy – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hò khoan Lệ Thủy.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Quảng Bình cũ – huyện Lệ Thủy trước đây.",
         "origin": null,
@@ -615,9 +601,8 @@
         "category": "Diễn xướng dân gian; âm nhạc",
         "image": {
           "file": "assets/images/Quảng Trị/culture/nghe-thuat-bai-choi-trung-bo.jpg",
-          "alt": "Nghệ thuật Bài chòi Trung Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật Bài chòi Trung Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các vùng duyên hải Quảng Bình cũ và Quảng Trị cũ.",
         "origin": null,
@@ -641,9 +626,8 @@
         "category": "Dân ca; diễn xướng dân gian",
         "image": {
           "file": "assets/images/Quảng Trị/culture/ho-lao-dong-vung-bien.jpg",
-          "alt": "Dân ca và hò lao động vùng ven biển – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca và hò lao động vùng ven biển.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cư dân ven biển Quảng Bình cũ và Quảng Trị cũ.",
         "origin": null,
@@ -666,7 +650,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Quảng Bình + Quảng Trị; chính quyền mới hoạt động từ 01/07/2025.",

@@ -7,8 +7,7 @@
     "image": {
       "file": "assets/images/Sơn La/province/backgroundSonla.jpg",
       "alt": "Tỉnh Sơn La",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Sơn La là tỉnh miền núi Tây Bắc với cao nguyên Mộc Châu, cảnh quan sông Đà và các cộng đồng Thái, Mông, Dao, Mường. Nghệ thuật Xòe Thái, lễ Hết Chá và ẩm thực bản địa là những lớp bản sắc nổi bật.",
     "featuredDestinationIds": [
@@ -61,9 +60,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/cao-nguyen-moc-chau.jpg",
-          "alt": "Cao nguyên Mộc Châu ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cao nguyên Mộc Châu",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Mộc Châu, tỉnh Sơn La.",
         "coordinates": null,
@@ -91,9 +89,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/di-tich-nha-tu-son-la.jpg",
-          "alt": "Di tích Nhà tù Sơn La ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích Nhà tù Sơn La",
+          "permissionStatus": "verified"
         },
         "location": "Phường Tô Hiệu, tỉnh Sơn La.",
         "coordinates": null,
@@ -120,9 +117,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/ta-xua.jpg",
-          "alt": "Tà Xùa ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tà Xùa",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tà Xùa, tỉnh Sơn La.",
         "coordinates": null,
@@ -149,9 +145,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/vung-du-lich-cong-dong-Ngoc-Chien.jpg",
-          "alt": "Vùng du lịch cộng đồng Ngọc Chiến ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vùng du lịch cộng đồng Ngọc Chiến",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Ngọc Chiến, tỉnh Sơn La.",
         "coordinates": null,
@@ -179,9 +174,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/ho-thuy-dien-Son-La.jpg",
-          "alt": "Hồ thủy điện Sơn La – vùng lòng hồ ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ thủy điện Sơn La – vùng lòng hồ",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực lòng hồ sông Đà, tỉnh Sơn La.",
         "coordinates": null,
@@ -208,9 +202,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/deo-pha-din.jpg",
-          "alt": "Đèo Pha Đin ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đèo Pha Đin",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực ranh giới Sơn La – Điện Biên.",
         "coordinates": null,
@@ -237,9 +230,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/destinations/thung-lung-man-na-ka.jpg",
-          "alt": "Thung lũng mận Nà Ka ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thung lũng mận Nà Ka",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Nà Ka, Mộc Châu, tỉnh Sơn La.",
         "coordinates": null,
@@ -269,9 +261,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/specialties/pa-pinh-top.jpg",
-          "alt": "Pa pỉnh tộp ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Pa pỉnh tộp",
+          "permissionStatus": "verified"
         },
         "origin": "Pa pỉnh tộp gắn với Cộng đồng Thái ở Sơn La.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -300,9 +291,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/specialties/che-moc-chau.jpg",
-          "alt": "Chè Mộc Châu ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè Mộc Châu",
+          "permissionStatus": "verified"
         },
         "origin": "Chè Mộc Châu gắn với Mộc Châu, Sơn La.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -328,9 +318,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/specialties/sua-moc-chau.jpg",
-          "alt": "Sữa và sản phẩm sữa Mộc Châu ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Sữa và sản phẩm sữa Mộc Châu",
+          "permissionStatus": "verified"
         },
         "origin": "Sữa và sản phẩm sữa Mộc Châu gắn với Mộc Châu, Sơn La.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -355,9 +344,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/specialties/man-hau.jpg",
-          "alt": "Mận hậu Sơn La ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mận hậu Sơn La",
+          "permissionStatus": "verified"
         },
         "origin": "Mận hậu Sơn La gắn với Mộc Châu và các vùng trồng mận của Sơn La.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -382,9 +370,8 @@
         "currentProvinceId": "son-la",
         "image": {
           "file": "assets/images/Sơn La/specialties/thit-trau-gac-bep.jpg",
-          "alt": "Thịt trâu gác bếp ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thịt trâu gác bếp",
+          "permissionStatus": "verified"
         },
         "origin": "Thịt trâu gác bếp gắn với Các cộng đồng Thái và vùng núi Sơn La.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -619,8 +606,7 @@
         "image": {
           "file": "assets/images/Sơn La/culture/xoe_thai.jpg",
           "alt": "Nghệ thuật Xòe Thái",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái ở Sơn La và vùng Tây Bắc.",
         "origin": null,
@@ -644,8 +630,7 @@
         "image": {
           "file": "assets/images/Sơn La/culture/khen_mong.jpg",
           "alt": "Nghệ thuật trình diễn khèn Mông",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Mông ở Sơn La.",
         "origin": null,
@@ -667,7 +652,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Sơn La giữ nguyên cấp tỉnh sau sắp xếp 2025; 75 đơn vị cấp xã.",

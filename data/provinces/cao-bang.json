@@ -7,8 +7,7 @@
     "image": {
       "file": "assets/images/Cao Bằng/province/background_CaoBang.jpg",
       "alt": "Ảnh đại diện tỉnh Cao Bằng .",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Cao Bằng là tỉnh miền núi biên giới phía Bắc, nổi bật với cảnh quan karst, Công viên địa chất toàn cầu UNESCO Non nước Cao Bằng, thác Bản Giốc và các địa chỉ lịch sử như Pác Bó. Không gian văn hóa Tày, Nùng và các cộng đồng địa phương được thể hiện qua thực hành Then, lễ hội, ẩm thực và nghề truyền thống.",
     "featuredDestinationIds": [
@@ -67,9 +66,8 @@
         "currentProvinceId": "cao-bang",
         "image": {
           "file": "assets/images/Cao Bằng/destinations/cong_vien_dia_chat.jpg",
-          "alt": "Cảnh quan Công viên địa chất toàn cầu UNESCO Non nước Cao Bằng ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cảnh quan Công viên địa chất toàn cầu UNESCO Non nước Cao Bằng",
+          "permissionStatus": "verified"
         },
         "location": "Không gian địa chất trên địa bàn tỉnh Cao Bằng.",
         "coordinates": null,
@@ -98,8 +96,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/destinations/Ban-Gioc-Waterfall.jpg",
           "alt": "Thác Bản Giốc",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Đàm Thủy cũ; địa chỉ xã hiện hành cần cập nhật theo bản đồ cấp xã.",
         "coordinates": null,
@@ -128,9 +125,8 @@
         "currentProvinceId": "cao-bang",
         "image": {
           "file": "assets/images/Cao Bằng/destinations/Pac-Bo-Historical-Site.jpg",
-          "alt": "Khu di tích quốc gia đặc biệt Pác Bó – ảnh do người dùng cung cấp, chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích quốc gia đặc biệt Pác Bó.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Trường Hà cũ; đơn vị cấp xã hiện hành cần rà soát.",
         "coordinates": null,
@@ -160,8 +156,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/destinations/Dong-Nguom-Ngao.jpg",
           "alt": "Động Ngườm Ngao",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Đàm Thủy cũ, tỉnh Cao Bằng.",
         "coordinates": null,
@@ -191,8 +186,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/destinations/Vuon-Quoc-gia-Phja-Oac-Phja-Den.jpg",
           "alt": "Vườn quốc gia Phja Oắc – Phja Đén",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Nguyên Bình cũ, tỉnh Cao Bằng.",
         "coordinates": null,
@@ -221,8 +215,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/destinations/Ho-Thang-Hen.jpg",
           "alt": "Hồ Thang Hen",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Quốc Toản cũ, tỉnh Cao Bằng.",
         "coordinates": null,
@@ -253,8 +246,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/specialties/hat-de-Trung-Khanh.jpg",
           "alt": "Hạt dẻ Trùng Khánh",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Cao Bằng cũ – vùng Trùng Khánh..",
         "ingredients": [
@@ -280,8 +272,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/specialties/lap-suon.jpg",
           "alt": "Lạp sườn Cao Bằng",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Cao Bằng cũ..",
         "ingredients": [
@@ -310,8 +301,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/specialties/mien-dong-phjia-den.jpg",
           "alt": "Miến dong Phia Đén",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Cao Bằng cũ – vùng Phia Đén, Nguyên Bình..",
         "ingredients": [
@@ -337,8 +327,7 @@
         "image": {
           "file": "assets/images/Cao Bằng/specialties/khau-sli.jpg",
           "alt": "Khẩu sli",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Cao Bằng cũ..",
         "ingredients": [
@@ -499,9 +488,8 @@
         "category": "Âm nhạc truyền thống; Diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Cao Bằng/culture/Then-Singing-and-Tinh-Zither.jpg",
-          "alt": "Hát Then – đàn tính ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Then – đàn tính",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Tày, Nùng ở Cao Bằng.",
         "origin": "Không gian các cộng đồng Tày, Nùng; thuộc di sản Then có phạm vi nhiều tỉnh.",
@@ -521,7 +509,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Tỉnh Cao Bằng hiện hành không sáp nhập cấp tỉnh trong đợt năm 2025; có sắp xếp đơn vị hành chính cấp xã. Diện tích và quy mô dân số trong hồ sơ này được lấy từ tài liệu đề án/nguồn công bố liên quan, không phải số liệu thống kê dân số cuối năm 2026.",

@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Gia Lai/province/backgroundGiaLai.jpg",
-      "alt": "Cảnh quan cao nguyên và duyên hải Gia Lai ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Cảnh quan cao nguyên và duyên hải Gia Lai",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Gia Lai mới hợp nhất Gia Lai và Bình Định trước đây, kết nối cao nguyên bazan, rừng Kon Hà Nừng, không gian Bahnar – Jrai với bờ biển Quy Nhơn và di sản Chăm, Tây Sơn.",
     "featuredDestinationIds": [
@@ -59,9 +58,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Gia Lai/destinations/ho-t-nung.jpg",
-          "alt": "Biển Hồ T’Nưng ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Biển Hồ T’Nưng",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Biển Hồ/Pleiku, tỉnh Gia Lai; cần kiểm tra địa chỉ hành chính cụ thể sau sắp xếp.",
         "coordinates": null,
@@ -86,9 +84,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Gia Lai/destinations/nui-lua-chu-dang-ya.jpg",
-          "alt": "Núi lửa Chư Đăng Ya ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Núi lửa Chư Đăng Ya",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Ia Khươl/Chư Păh, tỉnh Gia Lai; địa chỉ xã mới cần đối chiếu.",
         "coordinates": null,
@@ -113,9 +110,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Gia Lai/destinations/vuon-quoc-gia-kon-ka-kinh.jpg",
-          "alt": "Vườn quốc gia Kon Ka Kinh ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Kon Ka Kinh",
+          "permissionStatus": "verified"
         },
         "location": "Địa bàn các xã vùng Mang Yang, Kbang và Đak Đoa; ranh giới quản lý cần đối chiếu bản đồ vườn.",
         "coordinates": null,
@@ -141,9 +137,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Gia Lai/destinations/khu-bao-ton-quoc-gia-kon-chu-rang.jpg",
-          "alt": "Khu bảo tồn thiên nhiên Kon Chư Răng ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu bảo tồn thiên nhiên Kon Chư Răng",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Kbang, tỉnh Gia Lai; địa chỉ xã hiện hành cần đối chiếu.",
         "coordinates": null,
@@ -169,8 +164,7 @@
         "image": {
           "file": "assets/images/Bình Định/destinations/bao-tang-quang-trung.jpg",
           "alt": "Bảo tàng Quang Trung",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tây Sơn, tỉnh Gia Lai; địa chỉ xã mới cần xác minh.",
         "coordinates": null,
@@ -195,9 +189,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Bình Định/destinations/thap-banh-it.jpg",
-          "alt": "Tháp Bánh Ít ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tháp Bánh Ít",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tuy Phước, tỉnh Gia Lai; địa chỉ xã hiện hành cần cập nhật.",
         "coordinates": null,
@@ -222,9 +215,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Bình Định/destinations/eo-gio.jpg",
-          "alt": "Eo Gió ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Eo Gió",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực bán đảo Phương Mai, phường Quy Nhơn Đông, tỉnh Gia Lai; cần kiểm tra lại địa chỉ cấp phường.",
         "coordinates": null,
@@ -251,9 +243,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Gia Lai/specialties/pho-kho-gia-lai.jpg",
-          "alt": "Phở khô Gia Lai ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Phở khô Gia Lai",
+          "permissionStatus": "verified"
         },
         "origin": "Phở khô Gia Lai gắn với Gia Lai cũ – Pleiku.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -281,8 +272,7 @@
         "image": {
           "file": "assets/images/Gia Lai/specialties/bo-mot-nang-muoi-kien-vang.jpg",
           "alt": "Bò một nắng muối kiến vàng",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "permissionStatus": "verified"
         },
         "origin": "Bò một nắng muối kiến vàng gắn với Gia Lai cũ – vùng Krông Pa.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -309,9 +299,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Bình Định/specialties/banh-it-la-gai.jpg",
-          "alt": "Bánh ít lá gai ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh ít lá gai",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh ít lá gai gắn với Bình Định cũ – các làng nghề và đô thị vùng Quy Nhơn.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -338,9 +327,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Bình Định/specialties/ruou-bau-da.jpg",
-          "alt": "Rượu Bàu Đá ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Rượu Bàu Đá",
+          "permissionStatus": "verified"
         },
         "origin": "Rượu Bàu Đá gắn với Bình Định cũ – khu vực làng Bàu Đá.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -366,9 +354,8 @@
         "currentProvinceId": "gia-lai",
         "image": {
           "file": "assets/images/Bình Định/specialties/nem-chua-cho-huyen.jpg",
-          "alt": "Nem Chợ Huyện ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nem Chợ Huyện",
+          "permissionStatus": "verified"
         },
         "origin": "Nem Chợ Huyện gắn với Bình Định cũ – khu vực Chợ Huyện, Tuy Phước.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -586,9 +573,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Gia Lai/culture/cong-chieng-Bahnar-va-Jrai.jpg",
-          "alt": "Cồng chiêng Bahnar và Jrai ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cồng chiêng Bahnar và Jrai",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Bahnar, Jrai ở Gia Lai cũ và không gian Tây Nguyên.",
         "origin": "Âm nhạc cồng chiêng gắn với đời sống và nghi lễ của các cộng đồng Tây Nguyên.",
@@ -612,9 +598,8 @@
         "category": "Diễn xướng dân gian; trò chơi dân gian",
         "image": {
           "file": "assets/images/Bình Định/culture/nghe-thuat-bai-choi.jpg",
-          "alt": "Nghệ thuật Bài chòi Bình Định ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật Bài chòi Bình Định",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Bình Định cũ – các làng, đô thị duyên hải.",
         "origin": "Bài chòi Trung Bộ phát triển tại các cộng đồng miền Trung; Bình Định là một vùng thực hành tiêu biểu.",
@@ -637,9 +622,8 @@
         "category": "Sân khấu truyền thống",
         "image": {
           "file": "assets/images/Bình Định/culture/hat-boi.jpg",
-          "alt": " Hát bội Bình Định ",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát bội Bình Định",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Bình Định cũ – không gian văn hóa Quy Nhơn và các vùng phụ cận.",
         "origin": "Nghệ thuậthát bội có lịch sử phát triển ở Bình Định và miền Trung.",
@@ -661,7 +645,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Tỉnh Gia Lai mới hình thành từ toàn bộ Gia Lai cũ và Bình Định cũ; trung tâm hành chính tại phường Quy Nhơn.",

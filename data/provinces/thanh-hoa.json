@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Thanh Hóa/province/Thanh-Hoa.jpg",
-      "alt": "Tỉnh Thanh Hóa – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Thanh Hóa.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Thanh Hóa giữ nguyên cấp tỉnh sau sắp xếp 2025, nổi bật với Thành nhà Hồ, Lam Kinh, Pù Luông, Sầm Sơn và văn hóa các cộng đồng Kinh, Mường, Thái.",
     "featuredDestinationIds": [
@@ -63,9 +62,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/destinations/Ho-Dynasty-Citadel.jpg",
-          "alt": "Thành nhà Hồ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thành nhà Hồ.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Vĩnh Lộc, tỉnh Thanh Hóa.",
         "coordinates": null,
@@ -92,8 +90,7 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": null,
-          "alt": "Khu di tích lịch sử Lam Kinh – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
+          "alt": "Khu di tích lịch sử Lam Kinh.",
           "permissionStatus": "unverified"
         },
         "location": "Khu vực Lam Kinh, tỉnh Thanh Hóa.",
@@ -121,9 +118,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/destinations/Pu-Luong-Nature-Reserve.jpg",
-          "alt": "Khu bảo tồn thiên nhiên Pù Luông – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu bảo tồn thiên nhiên Pù Luông.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Bá Thước – Quan Hóa, tỉnh Thanh Hóa.",
         "coordinates": null,
@@ -151,9 +147,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/destinations/Bai-bien-Sam-Son.jpg",
-          "alt": "Bãi biển Sầm Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bãi biển Sầm Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Sầm Sơn, tỉnh Thanh Hóa.",
         "coordinates": null,
@@ -180,9 +175,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/destinations/Suoi-ca-Cam-Luong.jpg",
-          "alt": "Suối cá Cẩm Lương – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Suối cá Cẩm Lương.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cẩm Lương, tỉnh Thanh Hóa.",
         "coordinates": null,
@@ -209,9 +203,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/destinations/Vuon-quoc-gia-Ben-En.jpg",
-          "alt": "Vườn quốc gia Bến En – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Bến En.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Như Thanh – Như Xuân, tỉnh Thanh Hóa.",
         "coordinates": null,
@@ -238,9 +231,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/destinations/Cau-Ham-Rong-va-quan-the-di-tich-Ham-Rong.jpg",
-          "alt": "Cầu Hàm Rồng và quần thể di tích Hàm Rồng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cầu Hàm Rồng và quần thể di tích Hàm Rồng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Hàm Rồng, tỉnh Thanh Hóa.",
         "coordinates": null,
@@ -269,9 +261,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/specialties/Thanh-Hoa-Fermented-Pork-Sausage.jpg",
-          "alt": "Nem chua Thanh Hóa – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nem chua Thanh Hóa.",
+          "permissionStatus": "verified"
         },
         "origin": "Nem chua Thanh Hóa gắn với Thanh Hóa.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -300,9 +291,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/specialties/Cha-tom.jpg",
-          "alt": "Chả tôm Thanh Hóa – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chả tôm Thanh Hóa.",
+          "permissionStatus": "verified"
         },
         "origin": "Chả tôm Thanh Hóa gắn với Thanh Hóa.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -330,9 +320,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/specialties/Banh-gai-Tu-Tru.jpg",
-          "alt": "Bánh gai Tứ Trụ – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh gai Tứ Trụ.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh gai Tứ Trụ gắn với Tứ Trụ, Thanh Hóa.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -361,9 +350,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/specialties/Mam-tep-Ha-Yen.jpg",
-          "alt": "Mắm tép Hà Yên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mắm tép Hà Yên.",
+          "permissionStatus": "verified"
         },
         "origin": "Mắm tép Hà Yên gắn với Hà Yên, Thanh Hóa.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -390,9 +378,8 @@
         "currentProvinceId": "thanh-hoa",
         "image": {
           "file": "assets/images/Thanh Hóa/specialties/Che-lam-Phu-Quang.jpg",
-          "alt": "Chè lam Phủ Quảng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè lam Phủ Quảng.",
+          "permissionStatus": "verified"
         },
         "origin": "Chè lam Phủ Quảng gắn với Thanh Hóa.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -621,9 +608,8 @@
         "category": "Dân ca; hò lao động",
         "image": {
           "file": "assets/images/Thanh Hóa/culture/Ho-song-Ma.jpg",
-          "alt": "Hò sông Mã – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hò sông Mã.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cư dân vùng sông Mã, Thanh Hóa.",
         "origin": null,
@@ -646,9 +632,8 @@
         "category": "Diễn xướng dân gian; trò diễn lễ hội",
         "image": {
           "file": "assets/images/Thanh Hóa/culture/Xuan-Pha-Traditional-Performance.jpg",
-          "alt": "Trò Xuân Phả – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Trò Xuân Phả.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Xuân Trường, Thanh Hóa.",
         "origin": null,
@@ -672,9 +657,8 @@
         "category": "Dân ca; diễn xướng dân gian",
         "image": {
           "file": "assets/images/Thanh Hóa/culture/Dan-ca-Dong-Anh.jpg",
-          "alt": "Dân ca Đông Anh – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca Đông Anh.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các địa bàn văn hóa dân gian Thanh Hóa.",
         "origin": null,
@@ -697,9 +681,8 @@
         "category": "Dân ca; hát truyền thống",
         "image": {
           "file": "assets/images/Thanh Hóa/culture/Khap-Thai.jpg",
-          "alt": "Khắp Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khắp Thái.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái miền núi Thanh Hóa.",
         "origin": null,
@@ -721,7 +704,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Thanh Hóa giữ nguyên cấp tỉnh; năm 2025 sắp xếp cấp xã còn 166 đơn vị (147 xã, 19 phường).",

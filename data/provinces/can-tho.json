@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Cần Thơ/destinations/Cai-Rang-Floating-Market.jpg",
-      "alt": "Thành phố Cần Thơ – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Cần Thơ.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Cần Thơ mới kế thừa thành phố Cần Thơ, Sóc Trăng và Hậu Giang cũ. Chợ nổi Cái Răng, văn hóa Khmer – Hoa, lễ Oóc Om Bóc, đờn ca tài tử và các vùng sinh thái sông nước là những lớp bản sắc quan trọng.",
     "featuredDestinationIds": [
@@ -66,9 +65,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Cần Thơ/destinations/Cai-Rang-Floating-Market.jpg",
-          "alt": "Chợ nổi Cái Răng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chợ nổi Cái Răng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực sông Cần Thơ, thành phố Cần Thơ.",
         "coordinates": null,
@@ -95,9 +93,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Cần Thơ/destinations/Binh-Thuy-Ancient-House.jpg",
-          "alt": "Nhà cổ Bình Thủy – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhà cổ Bình Thủy.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Bình Thủy, thành phố Cần Thơ.",
         "coordinates": null,
@@ -124,9 +121,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Hậu Giang/destinations/Lung-Ngoc-Hoang-Nature-Reserve.jpg",
-          "alt": "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu bảo tồn thiên nhiên Lung Ngọc Hoàng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Phụng Hiệp, thành phố Cần Thơ.",
         "coordinates": null,
@@ -153,9 +149,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Sóc Trăng/destinations/Bat-Pagoda.jpg",
-          "alt": "Chùa Mahatup (Chùa Dơi) – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Mahatup (Chùa Dơi).",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Sóc Trăng, thành phố Cần Thơ.",
         "coordinates": null,
@@ -182,9 +177,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Sóc Trăng/destinations/Clay-Pagoda.jpg",
-          "alt": "Chùa Kh’Leang – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Kh’Leang.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Sóc Trăng, thành phố Cần Thơ.",
         "coordinates": null,
@@ -211,9 +205,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Cần Thơ/destinations/Cai-Rang-Floating-Market.jpg",
-          "alt": "Chợ nổi Ngã Năm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chợ nổi Ngã Năm.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Ngã Năm, thành phố Cần Thơ.",
         "coordinates": null,
@@ -240,9 +233,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Cần Thơ/destinations/Son-Islet.jpg",
-          "alt": "Cồn Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cồn Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cồn Sơn, thành phố Cần Thơ.",
         "coordinates": null,
@@ -271,9 +263,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Sóc Trăng/specialties/Pia-Pastry.jpg",
-          "alt": "Bánh pía Sóc Trăng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh pía Sóc Trăng.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh pía Sóc Trăng gắn với Sóc Trăng cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -301,9 +292,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Sóc Trăng/specialties/Fermented-Fish-Noodle-Soup.jpg",
-          "alt": "Bún nước lèo Sóc Trăng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bún nước lèo Sóc Trăng.",
+          "permissionStatus": "verified"
         },
         "origin": "Bún nước lèo Sóc Trăng gắn với Sóc Trăng cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -332,9 +322,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Cần Thơ/specialties/banh-tet-la-cam.jpg",
-          "alt": "Bánh tét lá cẩm – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh tét lá cẩm.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh tét lá cẩm gắn với Cần Thơ cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -362,9 +351,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Sóc Trăng/specialties/hanh-tim-vinh-chau.jpg",
-          "alt": "Hành tím Vĩnh Châu – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hành tím Vĩnh Châu.",
+          "permissionStatus": "verified"
         },
         "origin": "Hành tím Vĩnh Châu gắn với Sóc Trăng cũ – vùng Vĩnh Châu.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -389,9 +377,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Hậu Giang/specialties/khom-cau-duc.jpg",
-          "alt": "Khóm Cầu Đúc – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khóm Cầu Đúc.",
+          "permissionStatus": "verified"
         },
         "origin": "Khóm Cầu Đúc gắn với Hậu Giang cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -416,9 +403,8 @@
         "currentProvinceId": "can-tho",
         "image": {
           "file": "assets/images/Sóc Trăng/specialties/gao-st25.jpg",
-          "alt": "Gạo ST25 – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gạo ST25.",
+          "permissionStatus": "verified"
         },
         "origin": "Gạo ST25 gắn với Sóc Trăng cũ và vùng canh tác phù hợp.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -690,9 +676,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng",
         "image": {
           "file": "assets/images/Sóc Trăng/culture/don-ca-tai-tu.jpg",
-          "alt": "Đờn ca tài tử Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đờn ca tài tử Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cần Thơ, Sóc Trăng và Hậu Giang cũ; phạm vi Nam Bộ.",
         "origin": null,
@@ -717,9 +702,8 @@
         "category": "Sân khấu truyền thống; diễn xướng",
         "image": {
           "file": "assets/images/Sóc Trăng/culture/san-khau-du-khe-khmer.jpg",
-          "alt": "Sân khấu Dù kê Khmer – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Sân khấu Dù kê Khmer.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer tại Sóc Trăng cũ và vùng Nam Bộ.",
         "origin": null,
@@ -742,9 +726,8 @@
         "category": "Múa – kịch; sân khấu truyền thống",
         "image": {
           "file": "assets/images/Sóc Trăng/culture/san-khau-ro-bam.jpg",
-          "alt": "Sân khấu Rô băm Khmer – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Sân khấu Rô băm Khmer.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer Nam Bộ, trong đó có Sóc Trăng cũ.",
         "origin": null,
@@ -767,9 +750,8 @@
         "category": "Âm nhạc; nhạc cụ truyền thống",
         "image": {
           "file": "assets/images/Sóc Trăng/culture/nhac-ngu-am-khmer.jpg",
-          "alt": "Dàn nhạc ngũ âm Khmer – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dàn nhạc ngũ âm Khmer.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer tại Sóc Trăng cũ.",
         "origin": null,
@@ -792,7 +774,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ thành phố Cần Thơ + Sóc Trăng + Hậu Giang; hoạt động từ 01/07/2025.",

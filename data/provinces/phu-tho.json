@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Phú Thọ/province/Province-Cover.jpg",
-      "alt": "Tỉnh Phú Thọ ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Phú Thọ",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Phú Thọ mới kế thừa Phú Thọ, Vĩnh Phúc và Hòa Bình cũ. Tín ngưỡng thờ cúng Hùng Vương, Hát Xoan, Tây Thiên, Tam Đảo, hồ Hòa Bình và văn hóa Mường tạo nên không gian di sản đa dạng từ trung du đến miền núi.",
     "featuredDestinationIds": [
@@ -64,9 +63,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/destinations/den-Hung.jpg",
-          "alt": "Khu di tích lịch sử Đền Hùng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích lịch sử Đền Hùng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực núi Nghĩa Lĩnh, tỉnh Phú Thọ.",
         "coordinates": null,
@@ -92,9 +90,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/destinations/Xuan-Son-National-Park.jpg",
-          "alt": "Vườn quốc gia Xuân Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Xuân Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Xuân Sơn, tỉnh Phú Thọ.",
         "coordinates": null,
@@ -119,9 +116,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/destinations/danh-thang-tay-thien.jpg",
-          "alt": "Khu di tích danh thắng Tây Thiên – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích danh thắng Tây Thiên.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Đại Đình, tỉnh Phú Thọ hiện hành.",
         "coordinates": null,
@@ -146,9 +142,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/destinations/vuon-quoc-gia-tam-dao.jpg",
-          "alt": "Vườn quốc gia Tam Đảo – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Tam Đảo.",
+          "permissionStatus": "verified"
         },
         "location": "Dãy Tam Đảo thuộc địa bàn tỉnh Phú Thọ và các tỉnh giáp ranh.",
         "coordinates": null,
@@ -173,9 +168,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/destinations/ho-hoa-binh.jpg",
-          "alt": "Hồ Hòa Bình – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Hòa Bình.",
+          "permissionStatus": "verified"
         },
         "location": "Không gian hồ Hòa Bình, tỉnh Phú Thọ hiện hành.",
         "coordinates": null,
@@ -200,9 +194,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/destinations/cong-dong-mai-chau.jpg",
-          "alt": "Không gian du lịch cộng đồng Mai Châu – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian du lịch cộng đồng Mai Châu.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Mai Châu, tỉnh Phú Thọ hiện hành.",
         "coordinates": null,
@@ -230,9 +223,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/specialties/buoi-doan-hung.jpg",
-          "alt": "Bưởi Đoan Hùng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bưởi Đoan Hùng.",
+          "permissionStatus": "verified"
         },
         "origin": "Bưởi Đoan Hùng gắn với Phú Thọ cũ – huyện Đoan Hùng trước đây.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -257,9 +249,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/specialties/Thanh-Son-Fermented-Pork.jpg",
-          "alt": "Thịt chua Thanh Sơn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thịt chua Thanh Sơn.",
+          "permissionStatus": "verified"
         },
         "origin": "Thịt chua Thanh Sơn gắn với Phú Thọ cũ – vùng Thanh Sơn, cộng đồng Mường.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -287,9 +278,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/specialties/che-bat-tien.jpg",
-          "alt": "Chè Bát Tiên Phú Thọ – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè Bát Tiên Phú Thọ.",
+          "permissionStatus": "verified"
         },
         "origin": "Chè Bát Tiên Phú Thọ gắn với Phú Thọ cũ.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -314,9 +304,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/specialties/com-lam-vung-hoa-binh.jpg",
-          "alt": "Cơm lam vùng Hòa Bình – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cơm lam vùng Hòa Bình.",
+          "permissionStatus": "verified"
         },
         "origin": "Cơm lam vùng Hòa Bình gắn với Hòa Bình cũ – cộng đồng Mường và các nhóm cư dân miền núi.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -344,9 +333,8 @@
         "currentProvinceId": "phu-tho",
         "image": {
           "file": "assets/images/Phú Thọ/specialties/Tai-Rice-Cake.jpg",
-          "alt": "Bánh tai Phú Thọ – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh tai Phú Thọ.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh tai Phú Thọ gắn với Phú Thọ cũ – vùng Việt Trì và lân cận.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -608,9 +596,8 @@
         "category": "Dân ca; diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Phú Thọ/culture/hat-xoan-phu-tho.jpg",
-          "alt": "Hát Xoan Phú Thọ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Xoan Phú Thọ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các phường Xoan ở Phú Thọ cũ.",
         "origin": null,
@@ -634,9 +621,8 @@
         "category": "Dân ca; diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Phú Thọ/culture/hat-soong-co.jpg",
-          "alt": "Hát Soọng cô – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Soọng cô.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Sán Dìu tại vùng Vĩnh Phúc cũ.",
         "origin": null,
@@ -659,9 +645,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Phú Thọ/culture/am-nhac-cong-chieng-muong.jpg",
-          "alt": "Âm nhạc cồng chiêng Mường – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Âm nhạc cồng chiêng Mường.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Mường vùng Hòa Bình cũ.",
         "origin": null,
@@ -684,7 +669,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Hòa Bình + Vĩnh Phúc + Phú Thọ; chính quyền mới hoạt động từ 01/07/2025.",

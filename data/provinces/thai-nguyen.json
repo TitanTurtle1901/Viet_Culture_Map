@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Thái Nguyên/province/Province-Cover.jpg",
-      "alt": "Tỉnh Thái Nguyên – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Thái Nguyên.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Thái Nguyên mới kế thừa Bắc Kạn và Thái Nguyên cũ, kết nối hồ Ba Bể, ATK Định Hóa – Chợ Đồn, vùng chè Tân Cương và văn hóa đa dân tộc Việt Bắc.",
     "featuredDestinationIds": [
@@ -64,9 +63,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/ba-be.jpg",
-          "alt": "Hồ Ba Bể và Vườn quốc gia Ba Bể – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Ba Bể và Vườn quốc gia Ba Bể.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Ba Bể, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -94,9 +92,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/ATK-dinh-hoa.jpg",
-          "alt": "Khu di tích lịch sử quốc gia đặc biệt ATK Định Hóa – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích lịch sử quốc gia đặc biệt ATK Định Hóa.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Định Hóa, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -123,9 +120,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/cho-don.jpg",
-          "alt": "Khu di tích lịch sử ATK Chợ Đồn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích lịch sử ATK Chợ Đồn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Chợ Đồn, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -153,9 +149,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/ho-nui-coc.jpg",
-          "alt": "Hồ Núi Cốc – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Núi Cốc.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Núi Cốc, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -183,9 +178,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/ho-va-rung.jpg",
-          "alt": "Cảnh quan hồ và rừng vùng Ba Bể – Chợ Đồn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cảnh quan hồ và rừng vùng Ba Bể – Chợ Đồn.",
+          "permissionStatus": "verified"
         },
         "location": "Các xã vùng Ba Bể và Chợ Đồn, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -213,9 +207,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/dien-duom.jpg",
-          "alt": "Di tích đền Đuổm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích đền Đuổm.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Phú Lương, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -242,9 +235,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/destinations/vung-che-tan-cuong.jpg",
-          "alt": "Vùng chè Tân Cương – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vùng chè Tân Cương.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tân Cương, tỉnh Thái Nguyên.",
         "coordinates": null,
@@ -274,9 +266,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/specialties/che-tan-cuong.jpg",
-          "alt": "Chè Tân Cương – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè Tân Cương.",
+          "permissionStatus": "verified"
         },
         "origin": "Chè Tân Cương gắn với Tân Cương, Thái Nguyên cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -302,9 +293,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/specialties/mien-dong-na-ri.jpg",
-          "alt": "Miến dong Na Rì – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Miến dong Na Rì.",
+          "permissionStatus": "verified"
         },
         "origin": "Miến dong Na Rì gắn với Bắc Kạn cũ – vùng Na Rì.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -329,9 +319,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/specialties/banh-chung-bo-dau.jpg",
-          "alt": "Bánh chưng Bờ Đậu – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh chưng Bờ Đậu.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh chưng Bờ Đậu gắn với Bờ Đậu, Thái Nguyên cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -359,9 +348,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/specialties/com-lam-dinh-hoa.jpg",
-          "alt": "Cơm lam Định Hóa – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cơm lam Định Hóa.",
+          "permissionStatus": "verified"
         },
         "origin": "Cơm lam Định Hóa gắn với Định Hóa, Thái Nguyên cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -388,9 +376,8 @@
         "currentProvinceId": "thai-nguyen",
         "image": {
           "file": "assets/images/Thái Nguyên/specialties/khau-nhuc.jpg",
-          "alt": "Khâu nhục vùng Ba Bể – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khâu nhục vùng Ba Bể.",
+          "permissionStatus": "verified"
         },
         "origin": "Khâu nhục vùng Ba Bể gắn với Bắc Kạn cũ – các cộng đồng Tày/Nùng ở một số địa bàn.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -624,9 +611,8 @@
         "category": "Âm nhạc; diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Thái Nguyên/culture/hat-then-va-dan-tinh.jpg",
-          "alt": "Hát Then và đàn tính – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Then và đàn tính.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Tày, Nùng, Thái; có thực hành tại Thái Nguyên mới.",
         "origin": null,
@@ -647,9 +633,8 @@
         "category": "Dân ca; hát giao duyên",
         "image": {
           "file": "assets/images/Thái Nguyên/culture/hat-soong-co.jpg",
-          "alt": "Hát Soọng Cô – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Soọng Cô.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Sán Dìu tại Thái Nguyên cũ.",
         "origin": null,
@@ -672,9 +657,8 @@
         "category": "Múa dân gian; diễn xướng lễ hội",
         "image": {
           "file": "assets/images/Thái Nguyên/culture/mua-tac-xinh.jpg",
-          "alt": "Múa Tắc Xình – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Múa Tắc Xình.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Sán Chay tại Thái Nguyên cũ.",
         "origin": null,
@@ -697,9 +681,8 @@
         "category": "Dân ca; hát đối đáp",
         "image": {
           "file": "assets/images/Thái Nguyên/culture/hat-sli.jpg",
-          "alt": "Hát Sli của người Nùng – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Sli của người Nùng.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Nùng tại các vùng miền núi của tỉnh mới.",
         "origin": null,
@@ -719,7 +702,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Bắc Kạn + Thái Nguyên; hoạt động từ 01/07/2025.",

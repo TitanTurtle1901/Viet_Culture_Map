@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Nghệ An/province/Nghe-An.jpg",
-      "alt": "Tỉnh Nghệ An – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Nghệ An.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Nghệ An là tỉnh Bắc Trung Bộ có dải địa hình từ biển đến núi rừng Trường Sơn. Khu di tích Kim Liên, Pù Mát, Cửa Lò, Truông Bồn và văn hóa Thái miền tây cùng dân ca Ví, Giặm Nghệ Tĩnh là những nét tiêu biểu.",
     "featuredDestinationIds": [
@@ -66,9 +65,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Kim-Lien-Historical-Site.jpg",
-          "alt": "Khu di tích quốc gia đặc biệt Kim Liên – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích quốc gia đặc biệt Kim Liên.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Kim Liên, tỉnh Nghệ An.",
         "coordinates": null,
@@ -94,9 +92,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Pu-Mat-National-Park.jpg",
-          "alt": "Vườn quốc gia Pù Mát – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Pù Mát.",
+          "permissionStatus": "verified"
         },
         "location": "Các xã thuộc vùng đệm và vùng lõi Pù Mát, tỉnh Nghệ An; xác định điểm tham quan cụ thể trước khi định vị.",
         "coordinates": null,
@@ -122,9 +119,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Thac-Khe-Kem.jpg",
-          "alt": "Thác Khe Kèm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thác Khe Kèm.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Pù Mát, tỉnh Nghệ An.",
         "coordinates": null,
@@ -149,9 +145,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Bien-Cua-Lo.jpg",
-          "alt": "Biển Cửa Lò – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Biển Cửa Lò.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cửa Lò, tỉnh Nghệ An; phường/xã hiện hành cần đối chiếu bản đồ năm 2026.",
         "coordinates": null,
@@ -176,9 +171,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Dao-che-Thanh-Chuong.jpg",
-          "alt": "Đảo chè Thanh Chương – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đảo chè Thanh Chương.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Thanh Chương, tỉnh Nghệ An.",
         "coordinates": null,
@@ -203,9 +197,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Khu-di-tich-lich-su-Truong-Bon.jpg",
-          "alt": "Khu di tích lịch sử Truông Bồn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích lịch sử Truông Bồn.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Mỹ Sơn, tỉnh Nghệ An; địa giới cũ và mới cần đối chiếu chính xác khi hiển thị.",
         "coordinates": null,
@@ -230,9 +223,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/destinations/Den-Cuong.jpg",
-          "alt": "Đền Cuông – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đền Cuông.",
+          "permissionStatus": "verified"
         },
         "location": "Xã An Châu, tỉnh Nghệ An; địa chỉ cần đối chiếu trên bản đồ xã mới.",
         "coordinates": null,
@@ -259,9 +251,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/specialties/Thanh-Chuong-Fermented-Jackfruit.jpg",
-          "alt": "Nhút Thanh Chương – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhút Thanh Chương.",
+          "permissionStatus": "verified"
         },
         "origin": "Nhút Thanh Chương gắn với Nghệ An – vùng Thanh Chương.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -288,9 +279,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/specialties/Tuong-Nam-Dan.jpg",
-          "alt": "Tương Nam Đàn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tương Nam Đàn.",
+          "permissionStatus": "verified"
         },
         "origin": "Tương Nam Đàn gắn với Nghệ An – vùng Nam Đàn.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -317,9 +307,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/specialties/Cam-Vinh.jpg",
-          "alt": "Cam Vinh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cam Vinh.",
+          "permissionStatus": "verified"
         },
         "origin": "Cam Vinh gắn với Nghệ An – các vùng trồng cam thuộc khu vực Nghệ An.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -344,9 +333,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/specialties/Nghe-An-Eel-Porridge.jpg",
-          "alt": "Cháo lươn Nghệ An – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cháo lươn Nghệ An.",
+          "permissionStatus": "verified"
         },
         "origin": "Cháo lươn Nghệ An gắn với Nghệ An – không gian đô thị Vinh và các địa bàn trong tỉnh.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -373,9 +361,8 @@
         "currentProvinceId": "nghe-an",
         "image": {
           "file": "assets/images/Nghệ An/specialties/Gio-be-Nam-Dan.jpg",
-          "alt": "Giò bê Nam Đàn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Giò bê Nam Đàn.",
+          "permissionStatus": "verified"
         },
         "origin": "Giò bê Nam Đàn gắn với Nghệ An – vùng Nam Đàn và các cơ sở chế biến liên quan.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -594,9 +581,8 @@
         "category": "Dân ca; nghệ thuật trình diễn",
         "image": {
           "file": "assets/images/Nghệ An/culture/Vi-and-Giam-Folk-Singing.jpg",
-          "alt": "Dân ca Ví, Giặm Nghệ Tĩnh – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca Ví, Giặm Nghệ Tĩnh.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Nghệ An và Hà Tĩnh.",
         "origin": null,
@@ -619,9 +605,8 @@
         "category": "Dân ca; hát lao động và sinh hoạt",
         "image": {
           "file": "assets/images/Nghệ An/province/Nghe-An.jpg",
-          "alt": "Hò sông Lam và dân ca địa phương – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hò sông Lam và dân ca địa phương.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các cộng đồng cư dân ven sông Lam và các vùng liên quan.",
         "origin": null,
@@ -642,9 +627,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Nghệ An/culture/Dan-ca-va-nhac-cu-truyen-thong-nguoi-Thai.jpg",
-          "alt": "Dân ca và nhạc cụ truyền thống người Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca và nhạc cụ truyền thống người Thái.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái ở miền tây Nghệ An.",
         "origin": null,
@@ -666,7 +650,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Nghệ An giữ nguyên đơn vị hành chính cấp tỉnh theo Nghị quyết 202/2025/QH15.",

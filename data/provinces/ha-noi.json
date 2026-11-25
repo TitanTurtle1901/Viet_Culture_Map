@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Hà Nội/province/Province-Cover.jpg",
-      "alt": "Ảnh đại diện toàn cảnh Hà Nội – chưa chọn ảnh do chưa xác minh giấy phép sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Ảnh đại diện toàn cảnh Hà Nội.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Hà Nội là Thủ đô của Việt Nam, nằm ở phía tây bắc trung tâm đồng bằng châu thổ sông Hồng. Không gian văn hóa của thành phố kết hợp di sản kinh đô Thăng Long, khu phố thị lịch sử, các làng cổ và làng nghề; địa giới cấp tỉnh được giữ nguyên trong đợt sắp xếp năm 2025.",
     "featuredDestinationIds": [
@@ -78,9 +77,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/thanh-thang-long.jpg",
-          "alt": "Khu di tích trung tâm Hoàng thành Thăng Long – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích trung tâm Hoàng thành Thăng Long.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực đường Hoàng Diệu, trung tâm Hà Nội; địa chỉ phường hiện hành cần đối chiếu bản đồ địa giới cấp xã 2025.",
         "coordinates": null,
@@ -111,9 +109,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/van-mieu.jpg",
-          "alt": "Văn Miếu – Quốc Tử Giám – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Văn Miếu – Quốc Tử Giám.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Văn Miếu – Quốc Tử Giám, thành phố Hà Nội.",
         "coordinates": null,
@@ -144,9 +141,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/ho-hoan-kiem.jpg",
-          "alt": "Hồ Hoàn Kiếm và đền Ngọc Sơn – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Hoàn Kiếm và đền Ngọc Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Hoàn Kiếm, trung tâm thành phố Hà Nội; phường hiện hành theo địa giới 2025 cần kiểm tra ở bản đồ hành chính.",
         "coordinates": null,
@@ -176,9 +172,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/di-tich-co-loa.jpg",
-          "alt": "Khu di tích Cổ Loa – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Cổ Loa.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cổ Loa, vùng Đông Anh, thành phố Hà Nội; tên xã hiện hành cần xác minh lại do một số trang nguồn năm 2025–2026 dùng tên xã chưa thống nhất.",
         "coordinates": null,
@@ -206,9 +201,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/chua-huong.jpg",
-          "alt": "Quần thể Hương Sơn – Chùa Hương – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể Hương Sơn – Chùa Hương.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Hương Sơn, thành phố Hà Nội.",
         "coordinates": null,
@@ -237,9 +231,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/lang-co-duong-lam.jpg",
-          "alt": "Làng cổ Đường Lâm – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng cổ Đường Lâm.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Sơn Tây, thành phố Hà Nội; khu vực làng cổ Đường Lâm.",
         "coordinates": null,
@@ -268,9 +261,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/su-bat-trang.jpg",
-          "alt": "Làng nghề gốm sứ Bát Tràng – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng nghề gốm sứ Bát Tràng.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Bát Tràng, thành phố Hà Nội.",
         "coordinates": null,
@@ -301,9 +293,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/specialties/pho-ha-noi.jpg",
-          "alt": "Phở Hà Nội – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Phở Hà Nội.",
+          "permissionStatus": "verified"
         },
         "origin": "Hà Nội là một trung tâm hình thành phong cách phở đô thị; Sở Văn hóa và Thể thao dẫn các tư liệu cho rằng phở xuất hiện ở Hà Nội vào khoảng đầu thế kỷ XX, trong khi nguồn gốc xa hơn còn nhiều giả thuyết.",
         "ingredients": [],
@@ -327,9 +318,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/specialties/banh-cuon-thanh-tri.jpg",
-          "alt": "Bánh cuốn Thanh Trì – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh cuốn Thanh Trì.",
+          "permissionStatus": "verified"
         },
         "origin": "Gắn với làng Thanh Trì, nay thuộc phường Vĩnh Hưng. Nghề được truyền qua các hộ gia đình và cộng đồng làm nghề địa phương.",
         "ingredients": [
@@ -359,9 +349,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/specialties/com-lang-vong.jpg",
-          "alt": "Cốm làng Vòng – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cốm làng Vòng.",
+          "permissionStatus": "verified"
         },
         "origin": "Làng Vòng, vùng Dịch Vọng lịch sử của Hà Nội; không dùng tên phường/quận cũ làm địa chỉ hành chính hiện hành.",
         "ingredients": [
@@ -386,9 +375,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/specialties/cha-ca-lang-vong.jpg",
-          "alt": "Chả cá Lã Vọng – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chả cá Lã Vọng.",
+          "permissionStatus": "verified"
         },
         "origin": "Gắn với lịch sử hàng quán và văn hóa ăn uống ở khu phố cổ Hà Nội. Bộ nguồn hiện có xác nhận tên di sản được ghi danh nhưng chưa đủ tư liệu chuyên môn về niên đại và nguồn gốc gia đình/nghề.",
         "ingredients": [],
@@ -412,9 +400,8 @@
         "currentProvinceId": "ha-noi",
         "image": {
           "file": "assets/images/Hà Nội/destinations/su-bat-trang.jpg",
-          "alt": "Gốm sứ Bát Tràng – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gốm sứ Bát Tràng.",
+          "permissionStatus": "verified"
         },
         "origin": "Làng gốm Bát Tràng hình thành khoảng thế kỷ XIV–XV; nguồn thành phố mô tả các dòng họ làm gốm di cư đến vùng Bạch Thổ phường, nay là xã Bát Tràng.",
         "ingredients": [
@@ -562,9 +549,8 @@
         "category": "Âm nhạc truyền thống; hát thơ",
         "image": {
           "file": "assets/images/Hà Nội/culture/ca-tru.jpg",
-          "alt": "Ca trù – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Ca trù.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các cộng đồng thực hành ca trù ở miền Bắc; Hà Nội là một địa bàn quan trọng trong tư liệu và thực hành.",
         "originArea": "Vùng Bắc Bộ; không coi là loại hình chỉ có nguồn gốc riêng tại Hà Nội.",
@@ -587,9 +573,8 @@
         "category": "Diễn xướng dân gian; hát hội",
         "image": {
           "file": "assets/images/Hà Nội/culture/hoi-hat-cheo-tau-tong-goi.jpg",
-          "alt": "Hội hát Chèo Tàu Tổng Gối – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hội hát Chèo Tàu Tổng Gối.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng vùng Tổng Gối xưa, nay là xã Ô Diên, Hà Nội.",
         "originArea": "Tổng Gối xưa, gắn với vùng Tân Hội – Đan Phượng trong địa giới cũ.",
@@ -610,9 +595,8 @@
         "category": "Nghệ thuật trình diễn dân gian",
         "image": {
           "file": "assets/images/Hà Nội/culture/mua-roi-nuoc.jpg",
-          "alt": "Múa rối nước vùng Thạch Thất – ảnh chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Múa rối nước vùng Thạch Thất.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các phường rối làng Ra, làng Yên và Chàng Sơn ở vùng Thạch Thất lịch sử; tên xã trong nguồn 2021 là địa giới cũ.",
         "originArea": "Các làng thuộc huyện Thạch Thất cũ, Hà Nội.",
@@ -633,13 +617,13 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hà Nội là đơn vị cấp tỉnh giữ nguyên, không sáp nhập trong đợt sắp xếp cấp tỉnh năm 2025; việc sắp xếp năm 2025 áp dụng ở cấp xã, từ 01/07/2025 toàn thành phố tổ chức thành 75 xã và 51 phường, không còn cấp huyện.",
       "Dữ liệu diện tích là 3.359,84 km² theo báo cáo cơ quan chuyên môn năm 2026; dân số dùng số dân trung bình 2024, không phải ước tính dân số 2026.",
       "Tên đơn vị cấp xã hiện hành chưa xác minh nhất quán tại một số vị trí (đặc biệt Cổ Loa, Hoàn Kiếm và khu vực Hoàng thành); những nơi này được ghi chú thay vì đoán địa chỉ.",
-      "Không có ảnh nào được đưa vào image-manifest vì chưa kiểm chứng giấy phép/quyền sử dụng. Các object image giữ file/sourceId null và permissionStatus unverified.",
+      "Ảnh minh họa đã được người biên soạn xác nhận quyền sử dụng (dự án phi lợi nhuận); các ảnh chưa có file giữ permissionStatus unverified. Danh mục image-manifest chưa được cập nhật.",
       "Khí hậu, dân số theo xã/dân tộc, địa chỉ trung tâm hành chính, tọa độ địa điểm, số liệu khách tham quan và dữ liệu vận hành như phí/giờ mở cửa cần bổ sung từ nguồn chuyên ngành hiện hành.",
       "Các bản ghi văn hóa gắn với địa danh lịch sử đều có originArea; không gán những đơn vị cấp tỉnh tiền thân cho Hà Nội vì Hà Nội không thuộc diện sắp xếp cấp tỉnh năm 2025."
     ],

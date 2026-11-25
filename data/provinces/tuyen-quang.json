@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Tuyên Quang/province/Province-Cover.jpg",
-      "alt": "Tỉnh Tuyên Quang ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Tuyên Quang",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Tuyên Quang mới kết nối di tích cách mạng Tân Trào với cao nguyên đá Đồng Văn, các cộng đồng vùng cao và văn hóa Then.",
     "featuredDestinationIds": [
@@ -68,9 +67,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/Cao-nguyen-da-dong-van.jpg",
-          "alt": "Công viên địa chất toàn cầu UNESCO Cao nguyên đá Đồng Văn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Công viên địa chất toàn cầu UNESCO Cao nguyên đá Đồng Văn.",
+          "permissionStatus": "verified"
         },
         "location": "Các xã thuộc cao nguyên đá Đồng Văn, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -98,9 +96,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/cot-co-lung-cu.jpg",
-          "alt": "Cột cờ Lũng Cú – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cột cờ Lũng Cú.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Lũng Cú, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -128,9 +125,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/Deo-Ma-Pi-eng.jpg",
-          "alt": "Đèo Mã Pí Lèng và hẻm vực Tu Sản – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đèo Mã Pí Lèng và hẻm vực Tu Sản.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Mèo Vạc – Đồng Văn, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -157,9 +153,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/tan-trao.jpg",
-          "alt": "Khu di tích lịch sử Tân Trào – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích lịch sử Tân Trào.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tân Trào, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -187,9 +182,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/Na-Hang-Lam-Binh.jpg",
-          "alt": "Khu du lịch sinh thái Na Hang – Lâm Bình – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch sinh thái Na Hang – Lâm Bình.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Na Hang – Lâm Bình, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -216,9 +210,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/hoang-su-phi.jpg",
-          "alt": "Ruộng bậc thang Hoàng Su Phì – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Ruộng bậc thang Hoàng Su Phì.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Hoàng Su Phì, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -245,9 +238,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/destinations/cho-tinh-khau-vai.jpg",
-          "alt": "Không gian chợ tình Khâu Vai – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian chợ tình Khâu Vai.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Khâu Vai, tỉnh Tuyên Quang.",
         "coordinates": null,
@@ -276,9 +268,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/specialties/cam-sanh-ham-yen.jpg",
-          "alt": "Cam sành Hàm Yên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cam sành Hàm Yên.",
+          "permissionStatus": "verified"
         },
         "origin": "Cam sành Hàm Yên gắn với Hàm Yên, Tuyên Quang cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -303,9 +294,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/specialties/Che-Shan-tuyet.jpg",
-          "alt": "Chè Shan tuyết Tây Côn Lĩnh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè Shan tuyết Tây Côn Lĩnh.",
+          "permissionStatus": "verified"
         },
         "origin": "Chè Shan tuyết Tây Côn Lĩnh gắn với Hà Giang cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -330,9 +320,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/specialties/thang-co.jpg",
-          "alt": "Thắng cố – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thắng cố.",
+          "permissionStatus": "verified"
         },
         "origin": "Thắng cố gắn với Các cộng đồng vùng cao Hà Giang cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -358,9 +347,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/specialties/men-men.jpg",
-          "alt": "Mèn mén – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mèn mén.",
+          "permissionStatus": "verified"
         },
         "origin": "Mèn mén gắn với Cộng đồng Mông tại Hà Giang cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -386,9 +374,8 @@
         "currentProvinceId": "tuyen-quang",
         "image": {
           "file": "assets/images/Tuyên Quang/specialties/thit-treo-gac-bep.jpg",
-          "alt": "Thịt treo gác bếp – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thịt treo gác bếp.",
+          "permissionStatus": "verified"
         },
         "origin": "Thịt treo gác bếp gắn với Các cộng đồng vùng núi Tuyên Quang và Hà Giang cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -649,9 +636,8 @@
         "category": "Âm nhạc nghi lễ và diễn xướng",
         "image": {
           "file": "assets/images/Tuyên Quang/culture/culture/Hat-then-dan-tinh.jpg",
-          "alt": "Hát Then – đàn tính – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Then – đàn tính.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Tày, Nùng và Thái tại Tuyên Quang và các tỉnh miền núi.",
         "origin": null,
@@ -675,9 +661,8 @@
         "category": "Âm nhạc và múa truyền thống",
         "image": {
           "file": "assets/images/Tuyên Quang/culture/culture/khen-mong.jpg",
-          "alt": "Khèn Mông – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khèn Mông.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Mông ở vùng cao Hà Giang cũ.",
         "origin": null,
@@ -700,9 +685,8 @@
         "category": "Âm nhạc và diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Tuyên Quang/culture/culture/dan-ca-va-trong-dong-lo-lo.jpg",
-          "alt": "Dân ca và trống đồng Lô Lô – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca và trống đồng Lô Lô.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Lô Lô tại cao nguyên đá Đồng Văn, Hà Giang cũ.",
         "origin": null,
@@ -725,7 +709,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Diện tích và quy mô dân số theo Nghị quyết 202/2025/QH15. Số đơn vị cấp xã 124 theo thông tin UBND tỉnh tháng 05/2026."

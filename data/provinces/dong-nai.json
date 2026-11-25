@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Đồng Nai/province/Dong-Nai.jpg",
-      "alt": "Thành phố Đồng Nai – ảnh đại diện; quyền sử dụng chưa xác minh.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Thành phố Đồng Nai.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Thành phố Đồng Nai là đơn vị hành chính cấp tỉnh trực thuộc Trung ương, kế thừa toàn bộ địa bàn Đồng Nai và Bình Phước trước đây. Không gian văn hóa mới nối vùng đô thị – công nghiệp và sông Đồng Nai với rừng, hồ, văn hóa S’tiêng, M’nông, Chơ-ro và các di sản của vùng Bình Phước cũ.",
     "featuredDestinationIds": [
@@ -77,9 +76,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Đồng Nai/destinations/Cat-Tien-National-Park.jpg",
-          "alt": "Vườn quốc gia Cát Tiên – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Cát Tiên.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tân Phú và các xã lân cận của thành phố Đồng Nai; cần tra địa chỉ cụ thể theo ranh giới hiện hành.",
         "coordinates": null,
@@ -108,9 +106,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Bình Phước/destinations/Bu-Gia-Map-National-Park.jpg",
-          "alt": "Vườn quốc gia Bù Gia Mập – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Bù Gia Mập.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực biên giới phía bắc thành phố Đồng Nai; đơn vị cấp xã hiện hành cần cập nhật.",
         "coordinates": null,
@@ -139,9 +136,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Đồng Nai/destinations/Khu-du-tru-sinh-quyen-the-gioi-Dong-Nai.jpg",
-          "alt": "Khu dự trữ sinh quyển thế giới Đồng Nai – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu dự trữ sinh quyển thế giới Đồng Nai.",
+          "permissionStatus": "verified"
         },
         "location": "Phạm vi liên huyện cũ của Đồng Nai; ranh giới cụ thể cần xem bản đồ UNESCO và bản đồ hành chính mới.",
         "coordinates": null,
@@ -169,9 +165,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Đồng Nai/destinations/Ho-Tri-An.jpg",
-          "alt": "Hồ Trị An – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Trị An.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Trị An, thành phố Đồng Nai; địa chỉ cấp xã thay đổi theo bờ hồ.",
         "coordinates": null,
@@ -200,9 +195,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Bình Phước/destinations/Thac-Mo-Lake.jpg",
-          "alt": "Núi Bà Rá – hồ Thác Mơ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Núi Bà Rá – hồ Thác Mơ.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Phước Long cũ, thành phố Đồng Nai; xã/phường hiện hành cần xác minh.",
         "coordinates": null,
@@ -231,9 +225,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Đồng Nai/province/Dong-Nai.jpg",
-          "alt": "Không gian văn hóa Sóc Bom Bo – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Không gian văn hóa Sóc Bom Bo.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Bom Bo cũ; đơn vị cấp xã hiện hành cần cập nhật.",
         "coordinates": null,
@@ -262,9 +255,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Đồng Nai/destinations/Cu-lao-Pho-va-di-tich-thuong-cang-Bien-Hoa.jpg",
-          "alt": "Cù lao Phố và các di tích thương cảng Biên Hòa – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cù lao Phố và các di tích thương cảng Biên Hòa.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Hiệp Hòa cũ và vùng lân cận; địa chỉ hiện hành cần cập nhật.",
         "coordinates": null,
@@ -294,9 +286,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Bình Phước/specialties/Binh-Phuoc-Cashew-Nuts.jpg",
-          "alt": "Hạt điều Bình Phước – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hạt điều Bình Phước.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Bình Phước cũ – vùng nguyên liệu điều..",
         "ingredients": [
@@ -321,9 +312,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Đồng Nai/specialties/Buoi-Tan-Trieu.jpg",
-          "alt": "Bưởi Tân Triều – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bưởi Tân Triều.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Đồng Nai cũ – vùng Tân Triều, Vĩnh Cửu cũ..",
         "ingredients": [
@@ -349,9 +339,8 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": "assets/images/Bình Phước/specialties/Ho-tieu-Loc-Ninh.jpg",
-          "alt": "Hồ tiêu Lộc Ninh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ tiêu Lộc Ninh.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Bình Phước cũ – vùng Lộc Ninh..",
         "ingredients": [
@@ -376,8 +365,7 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": null,
-          "alt": "Gà thả vườn Bình Phước – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
+          "alt": "Gà thả vườn Bình Phước.",
           "permissionStatus": "unverified"
         },
         "origin": "Sản phẩm gắn với Bình Phước cũ – một số vùng nông thôn..",
@@ -403,8 +391,7 @@
         "currentProvinceId": "dong-nai",
         "image": {
           "file": null,
-          "alt": "Cá lóc nướng trui – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
+          "alt": "Cá lóc nướng trui.",
           "permissionStatus": "unverified"
         },
         "origin": "Sản phẩm gắn với Đồng Nai cũ và vùng Nam Bộ rộng hơn; không phải món độc quyền của thành phố..",
@@ -639,9 +626,8 @@
         "category": "Âm nhạc truyền thống; Diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Bình Phước/culture/Cong-chieng-trong-doi-song-van-hoa-S-tieng.jpg",
-          "alt": "Cồng chiêng trong đời sống văn hóa S’tiêng – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cồng chiêng trong đời sống văn hóa S’tiêng.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng S’tiêng ở Bình Phước cũ.",
         "origin": "Các cộng đồng S’tiêng tại khu vực Bình Phước cũ.",
@@ -664,8 +650,7 @@
         "category": "Dân ca; Nghệ thuật trình diễn dân gian",
         "image": {
           "file": null,
-          "alt": "Dân ca và diễn xướng Chơ-ro – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
+          "alt": "Dân ca và diễn xướng Chơ-ro.",
           "permissionStatus": "unverified"
         },
         "communityOrArea": "Cộng đồng Chơ-ro tại Đồng Nai cũ.",
@@ -688,7 +673,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Thành phố Đồng Nai hình thành từ toàn bộ tỉnh Đồng Nai và tỉnh Bình Phước cũ theo sắp xếp cấp tỉnh năm 2025; chính thức trở thành thành phố trực thuộc Trung ương từ 30/04/2026 theo Nghị quyết 30/2026/QH16. Số diện tích 12.737,18 km² và quy mô dân số 4.491.408 là số liệu được công bố trong tài liệu thành lập thành phố, không phải điều tra dân số cuối năm 2026.",

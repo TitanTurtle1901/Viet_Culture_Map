@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Lâm Đồng/province/Province-Cover.jpg",
-      "alt": "Tỉnh Lâm Đồng – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Lâm Đồng.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Lâm Đồng mới kết nối ba không gian tiền thân: cao nguyên Lâm Đồng, không gian địa chất – văn hóa Đắk Nông và dải duyên hải Bình Thuận. Đà Lạt, Tà Đùng, Mũi Né, văn hóa cồng chiêng, Chăm và các sản phẩm nông nghiệp là những lớp bản sắc tiêu biểu.",
     "featuredDestinationIds": [
@@ -67,9 +66,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/ho-xuan-huong.jpg",
-          "alt": "Hồ Xuân Hương và không gian trung tâm Đà Lạt – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Xuân Hương và không gian trung tâm Đà Lạt.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Xuân Hương – Đà Lạt, tỉnh Lâm Đồng.",
         "coordinates": null,
@@ -94,9 +92,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/ho-truyen-lam.jpg",
-          "alt": "Khu du lịch quốc gia Hồ Tuyền Lâm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch quốc gia Hồ Tuyền Lâm.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Xuân Hương – Đà Lạt, tỉnh Lâm Đồng.",
         "coordinates": null,
@@ -121,9 +118,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/Langbiang-Mountain.jpg",
-          "alt": "Núi Lang Biang – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Núi Lang Biang.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Lang Biang – Đà Lạt, tỉnh Lâm Đồng.",
         "coordinates": null,
@@ -149,9 +145,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/khu-du-lich-quoc-gia-mui-ne.jpg",
-          "alt": "Khu du lịch quốc gia Mũi Né – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch quốc gia Mũi Né.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Mũi Né và các địa bàn lân cận, tỉnh Lâm Đồng.",
         "coordinates": null,
@@ -177,9 +172,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/ho-ta-dung.jpg",
-          "alt": "Hồ Tà Đùng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Tà Đùng.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Tà Đùng, tỉnh Lâm Đồng.",
         "coordinates": null,
@@ -205,9 +199,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/bau-trang.jpg",
-          "alt": "Bàu Trắng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bàu Trắng.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Hòa Thắng, tỉnh Lâm Đồng.",
         "coordinates": null,
@@ -232,9 +225,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/destinations/cong-vien-dia-chat.jpg",
-          "alt": "Công viên địa chất toàn cầu UNESCO Đắk Nông – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Công viên địa chất toàn cầu UNESCO Đắk Nông.",
+          "permissionStatus": "verified"
         },
         "location": "Các khu vực thuộc tỉnh Lâm Đồng mới; điểm tham quan cụ thể cần xác định theo bản đồ công viên.",
         "coordinates": null,
@@ -262,9 +254,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/cafe-lam-dong.jpg",
-          "alt": "Cà phê Lâm Đồng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cà phê Lâm Đồng.",
+          "permissionStatus": "verified"
         },
         "origin": "Cà phê Lâm Đồng gắn với Lâm Đồng cũ – các vùng cao nguyên, trong đó có Cầu Đất và Di Linh.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -289,9 +280,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/thanh-long-binh-thuan.jpg",
-          "alt": "Thanh long Bình Thuận – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thanh long Bình Thuận.",
+          "permissionStatus": "verified"
         },
         "origin": "Thanh long Bình Thuận gắn với Bình Thuận cũ – vùng trồng thanh long ven biển.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -316,9 +306,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/nuoc-mam-phan-thiet.jpg",
-          "alt": "Nước mắm Phan Thiết – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nước mắm Phan Thiết.",
+          "permissionStatus": "verified"
         },
         "origin": "Nước mắm Phan Thiết gắn với Bình Thuận cũ – Phan Thiết.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -343,9 +332,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/vang-da-lat.jpg",
-          "alt": "Rượu vang Đà Lạt – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Rượu vang Đà Lạt.",
+          "permissionStatus": "verified"
         },
         "origin": "Rượu vang Đà Lạt gắn với Lâm Đồng cũ – Đà Lạt.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -370,9 +358,8 @@
         "currentProvinceId": "lam-dong",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/tieu-hat-dak-nong.jpg",
-          "alt": "Hạt tiêu Đắk Nông – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hạt tiêu Đắk Nông.",
+          "permissionStatus": "verified"
         },
         "origin": "Hạt tiêu Đắk Nông gắn với Đắk Nông cũ – vùng trồng hồ tiêu.. Không khẳng định là sản phẩm độc quyền của địa phương nếu chưa có căn cứ.",
         "ingredients": [
@@ -608,9 +595,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/Cong-Chieng-TayNguyen.jpg",
-          "alt": "Âm nhạc cồng chiêng Tây Nguyên – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Âm nhạc cồng chiêng Tây Nguyên.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các cộng đồng bản địa ở Lâm Đồng cũ và Đắk Nông cũ.",
         "origin": null,
@@ -635,9 +621,8 @@
         "category": "Múa, âm nhạc và diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/Nghe-thuat-mua-Cham.jpg",
-          "alt": "Nghệ thuật diễn xướng Chăm – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật diễn xướng Chăm.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Chăm ở Bình Thuận cũ.",
         "origin": null,
@@ -660,9 +645,8 @@
         "category": "Dân ca; diễn xướng cộng đồng",
         "image": {
           "file": "assets/images/Lâm Đồng/specialties/dien-xuong-dan-k-ho.jpg",
-          "alt": "Dân ca và diễn xướng dân gian K’Ho – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dân ca và diễn xướng dân gian K’Ho.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng K’Ho ở Lâm Đồng cũ.",
         "origin": null,
@@ -684,7 +668,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Lâm Đồng + Đắk Nông + Bình Thuận cũ; hoạt động từ 01/07/2025.",

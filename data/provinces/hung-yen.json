@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Hưng Yên/destinations/Pho-Hien-Historical-Site.jpg",
-      "alt": "Phố Hiến và cảnh quan làng quê Hưng Yên ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Phố Hiến và cảnh quan làng quê Hưng Yên",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Hưng Yên mới hợp nhất Hưng Yên và Thái Bình trước đây. Không gian văn hóa kết hợp thương cảng Phố Hiến, chùa Keo, làng nghề Đồng Xâm, hội làng và nông sản đồng bằng.",
     "featuredDestinationIds": [
@@ -62,9 +61,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Hưng Yên/destinations/Pho-Hien-Historical-Site.jpg",
-          "alt": "Quần thể di tích Phố Hiến – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quần thể di tích Phố Hiến.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Phố Hiến, tỉnh Hưng Yên; các điểm thành phần cần rà soát địa chỉ mới.",
         "coordinates": null,
@@ -90,9 +88,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Thái Bình/destinations/Keo-Pagoda.jpg",
-          "alt": "Chùa Keo (Thần Quang tự) – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Keo (Thần Quang tự).",
+          "permissionStatus": "verified"
         },
         "location": "Xã Duy Nhất, tỉnh Hưng Yên; địa chỉ mới cần xác minh trên bản đồ cấp xã.",
         "coordinates": null,
@@ -117,9 +114,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Thái Bình/destinations/lang-nghe-cham-bac-dong.jpg",
-          "alt": "Làng nghề chạm bạc Đồng Xâm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng nghề chạm bạc Đồng Xâm.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Trà Giang, tỉnh Hưng Yên (theo cổng du lịch địa phương).",
         "coordinates": null,
@@ -144,9 +140,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Hưng Yên/destinations/deb-hoa-da-trach.jpg",
-          "alt": "Đền Đa Hòa – đền Dạ Trạch – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đền Đa Hòa – đền Dạ Trạch.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Mễ Sở và xã Dạ Trạch, tỉnh Hưng Yên; địa chỉ cụ thể cần cập nhật theo đơn vị mới.",
         "coordinates": null,
@@ -171,9 +166,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Thái Bình/destinations/den-tien-la.jpg",
-          "alt": "Đền Tiên La – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đền Tiên La.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Hưng Hà, tỉnh Hưng Yên; xã hiện hành cần đối chiếu.",
         "coordinates": null,
@@ -198,9 +192,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Hưng Yên/destinations/chua-nom.jpg",
-          "alt": "Chùa Nôm và làng Nôm – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chùa Nôm và làng Nôm.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực làng Nôm, tỉnh Hưng Yên; địa chỉ xã hiện hành cần kiểm tra.",
         "coordinates": null,
@@ -227,9 +220,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Hưng Yên/specialties/nhan-long.jpg",
-          "alt": "Nhãn lồng Hưng Yên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhãn lồng Hưng Yên.",
+          "permissionStatus": "verified"
         },
         "origin": "Nhãn lồng Hưng Yên gắn với Hưng Yên cũ – vùng Phố Hiến và các vùng trồng nhãn.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -255,9 +247,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Thái Bình/specialties/Cay-Cake.jpg",
-          "alt": "Bánh cáy Làng Nguyễn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh cáy Làng Nguyễn.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh cáy Làng Nguyễn gắn với Thái Bình cũ – khu vực Làng Nguyễn, Đông Hưng.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -284,9 +275,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Hưng Yên/specialties/ga-dong-tao.jpg",
-          "alt": "Gà Đông Tảo – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gà Đông Tảo.",
+          "permissionStatus": "verified"
         },
         "origin": "Gà Đông Tảo gắn với Hưng Yên cũ – xã Đông Tảo và vùng phụ cận.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -311,9 +301,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Hưng Yên/specialties/Ban-Soybean-Sauce.jpg",
-          "alt": "Tương Bần – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tương Bần.",
+          "permissionStatus": "verified"
         },
         "origin": "Tương Bần gắn với Hưng Yên cũ – khu vực Bần Yên Nhân.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -340,9 +329,8 @@
         "currentProvinceId": "hung-yen",
         "image": {
           "file": "assets/images/Thái Bình/specialties/mam-cay-diem-dien.jpg",
-          "alt": "Mắm cáy Diêm Điền – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mắm cáy Diêm Điền.",
+          "permissionStatus": "verified"
         },
         "origin": "Mắm cáy Diêm Điền gắn với Thái Bình cũ – vùng biển Diêm Điền.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -539,9 +527,8 @@
         "category": "Sân khấu truyền thống",
         "image": {
           "file": "assets/images/Thái Bình/culture/hat-cheo.jpg",
-          "alt": "Chèo Thái Bình – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chèo Thái Bình.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng và các phường chèo ở Thái Bình cũ.",
         "origin": "Chèo là nghệ thuật sân khấu dân gian vùng đồng bằng Bắc Bộ; Thái Bình cũ có truyền thống thực hành và nghệ nhân.",
@@ -564,9 +551,8 @@
         "category": "Dân ca; diễn xướng đối đáp",
         "image": {
           "file": "assets/images/Hưng Yên/culture/hat-trong-quan.jpg",
-          "alt": "Hát Trống quân Hưng Yên – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Trống quân Hưng Yên.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng ở Hưng Yên cũ.",
         "origin": "Hình thức hát giao duyên đối đáp, thường gắn với sinh hoạt lễ hội và cộng đồng làng xã.",
@@ -589,9 +575,8 @@
         "category": "Nghề thủ công; mỹ nghệ kim loại",
         "image": {
           "file": "assets/images/Thái Bình/culture/nghe-thuat-cham-bac-dong.jpg",
-          "alt": "Nghệ thuật chạm bạc Đồng Xâm – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật chạm bạc Đồng Xâm.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Làng Đồng Xâm, Thái Bình cũ.",
         "origin": "Tri thức nghề thủ công truyền thống trong cộng đồng thợ bạc Đồng Xâm.",
@@ -613,7 +598,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Tỉnh mới hình thành từ toàn bộ Hưng Yên cũ và Thái Bình cũ, chính thức hoạt động từ 01/07/2025.",

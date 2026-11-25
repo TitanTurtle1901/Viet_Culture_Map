@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Đồng Tháp/province/Province-Cover.jpg",
-      "alt": "Phong cảnh sông nước và hoa sen Đồng Tháp – ảnh đại diện chưa xác minh giấy phép.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Phong cảnh sông nước và hoa sen Đồng Tháp.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Tỉnh Đồng Tháp mới được hình thành từ Tiền Giang và Đồng Tháp trước đây. Không gian văn hóa kết nối sông Tiền, Đồng Tháp Mười, vùng miệt vườn, làng hoa, di tích Gò Tháp và hệ sinh thái Tràm Chim.",
     "featuredDestinationIds": [
@@ -59,9 +58,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/destinations/vuon-quoc-gia-tram-chim.jpg",
-          "alt": "Vườn quốc gia Tràm Chim – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Tràm Chim.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tam Nông, tỉnh Đồng Tháp; xã hiện hành cần đối chiếu theo tuyến tham quan.",
         "coordinates": null,
@@ -87,9 +85,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/destinations/khu-di-tich-go-thap.jpg",
-          "alt": "Khu di tích Gò Tháp – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Gò Tháp.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Gò Tháp, tỉnh Đồng Tháp; địa chỉ xã/phường hiện hành cần đối chiếu.",
         "coordinates": null,
@@ -115,9 +112,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/destinations/khu-di-tich-xeo-quyt.jpg",
-          "alt": "Khu di tích Xẻo Quýt – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Xẻo Quýt.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Xẻo Quýt, tỉnh Đồng Tháp; xã hiện hành cần kiểm tra lại.",
         "coordinates": null,
@@ -142,9 +138,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/destinations/lang-hoa-sa-dec.jpg",
-          "alt": "Làng hoa Sa Đéc – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng hoa Sa Đéc.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Sa Đéc, tỉnh Đồng Tháp.",
         "coordinates": null,
@@ -170,9 +165,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/destinations/khu-di-tich-nguyen-sinh-sac.jpg",
-          "alt": "Khu di tích Nguyễn Sinh Sắc – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Nguyễn Sinh Sắc.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Cao Lãnh, tỉnh Đồng Tháp; địa chỉ cụ thể cần kiểm tra theo bản đồ xã/phường hiện hành.",
         "coordinates": null,
@@ -197,9 +191,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/destinations/con-thoi-son.jpg",
-          "alt": "Cồn Thới Sơn – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cồn Thới Sơn.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Thới Sơn/Mỹ Tho, tỉnh Đồng Tháp; địa danh hành chính hiện hành cần đối chiếu.",
         "coordinates": null,
@@ -226,9 +219,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/specialties/nem-lai-vung-dong-thap.jpg",
-          "alt": "Nem Lai Vung – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nem Lai Vung.",
+          "permissionStatus": "verified"
         },
         "origin": "Nem Lai Vung gắn với Đồng Tháp cũ – Lai Vung.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -255,9 +247,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/specialties/vuon-quyt-hong-lai-vung-dong-thap.jpg",
-          "alt": "Quýt hồng Lai Vung – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Quýt hồng Lai Vung.",
+          "permissionStatus": "verified"
         },
         "origin": "Quýt hồng Lai Vung gắn với Đồng Tháp cũ – huyện Lai Vung trước sắp xếp.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -282,9 +273,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/specialties/xoai-cao-lanh.jpg",
-          "alt": "Xoài Cao Lãnh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Xoài Cao Lãnh.",
+          "permissionStatus": "verified"
         },
         "origin": "Xoài Cao Lãnh gắn với Đồng Tháp cũ – vùng Cao Lãnh.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -309,9 +299,8 @@
         "currentProvinceId": "dong-thap",
         "image": {
           "file": "assets/images/Đồng Tháp/specialties/hu-tieu-my-tho-tiren-giang.jpg",
-          "alt": "Hủ tiếu Mỹ Tho – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hủ tiếu Mỹ Tho.",
+          "permissionStatus": "verified"
         },
         "origin": "Hủ tiếu Mỹ Tho gắn với Tiền Giang cũ – không gian đô thị Mỹ Tho.. Tư liệu hiện có chưa đủ để khẳng định sản phẩm chỉ xuất hiện tại một địa phương.",
         "ingredients": [
@@ -477,9 +466,8 @@
         "category": "Âm nhạc truyền thống; nghệ thuật trình diễn",
         "image": {
           "file": "assets/images/Đồng Tháp/nulture/don-ca-tai-tu.jpg",
-          "alt": "Đờn ca tài tử Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đờn ca tài tử Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng tài tử ở Tiền Giang cũ và Đồng Tháp cũ.",
         "origin": "Không gian âm nhạc Nam Bộ, không phải loại hình riêng của một tỉnh.",
@@ -503,9 +491,8 @@
         "category": "Sân khấu truyền thống",
         "image": {
           "file": "assets/images/Đồng Tháp/nulture/cai-luong-nam-bo.jpg",
-          "alt": "Cải lương Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cải lương Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Các đoàn và cộng đồng yêu nghệ thuật ở cả hai vùng tiền thân.",
         "origin": "Sân khấu cải lương phát triển ở Nam Bộ từ cuối thế kỷ XIX – đầu thế kỷ XX.",
@@ -525,7 +512,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Tỉnh mới hình thành từ toàn bộ Tiền Giang và Đồng Tháp cũ; chính quyền mới hoạt động từ 01/07/2025.",

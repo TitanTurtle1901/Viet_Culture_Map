@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Vĩnh Long/province/Province-Cover.jpg",
-      "alt": "Tỉnh Vĩnh Long ",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Vĩnh Long",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Vĩnh Long mới kế thừa ba không gian văn hóa Vĩnh Long, Bến Tre và Trà Vinh trước đây: văn hóa miệt vườn – sông nước, xứ dừa và di sản Khmer Nam Bộ. Các điểm nhấn gồm làng gạch gốm Mang Thít, Khu lưu niệm Nguyễn Đình Chiểu, Ao Bà Om, Ok Om Bok và Đờn ca tài tử.",
     "featuredDestinationIds": [
@@ -67,9 +66,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/destinations/Co-Chien-Brick-and-Pottery-Village.jpg",
-          "alt": "Làng nghề gạch, gốm Mang Thít – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Làng nghề gạch, gốm Mang Thít.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Nhơn Phú và các địa bàn lân cận, tỉnh Vĩnh Long; địa chỉ từng lò cần đối chiếu xã hiện hành.",
         "coordinates": null,
@@ -97,9 +95,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/destinations/cu-lao-an-binh.jpg",
-          "alt": "Cù lao An Bình – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cù lao An Bình.",
+          "permissionStatus": "verified"
         },
         "location": "Xã An Bình, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -127,9 +124,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/destinations/van-thanh-mieu-vinh-long.jpg",
-          "alt": "Văn Thánh Miếu Vĩnh Long – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Văn Thánh Miếu Vĩnh Long.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Phước Hậu, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -156,9 +152,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Bến Tre (cũ)/destinations/mo-va-khu-luu-niem-nguyen-dinh-chieu.jpg",
-          "alt": "Mộ và Khu lưu niệm Nguyễn Đình Chiểu – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mộ và Khu lưu niệm Nguyễn Đình Chiểu.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Ba Tri, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -186,9 +181,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/destinations/Con-Phung-Tourist-Area.jpg",
-          "alt": "Cồn Phụng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cồn Phụng.",
+          "permissionStatus": "verified"
         },
         "location": "Xã Phú Túc, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -216,9 +210,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Trà Vinh (cũ)/destinations/ao-ba-om-chua-ang.jpg",
-          "alt": "Khu danh thắng Ao Bà Om và chùa Âng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu danh thắng Ao Bà Om và chùa Âng.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Nguyệt Hóa, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -247,9 +240,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Trà Vinh (cũ)/destinations/bao-tang-van-hoa-dan-toc-khme.jpg",
-          "alt": "Bảo tàng Văn hóa dân tộc Khmer – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bảo tàng Văn hóa dân tộc Khmer.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Nguyệt Hóa, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -278,9 +270,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Trà Vinh (cũ)/destinations/bien-ba-dong.jpg",
-          "alt": "Biển Ba Động – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Biển Ba Động.",
+          "permissionStatus": "verified"
         },
         "location": "Phường Trường Long Hòa, tỉnh Vĩnh Long.",
         "coordinates": null,
@@ -310,9 +301,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/specialties/Cau-Ke-Wax-Coconut.jpg",
-          "alt": "Dừa sáp Cầu Kè – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Dừa sáp Cầu Kè.",
+          "permissionStatus": "verified"
         },
         "origin": "Dừa sáp Cầu Kè gắn với Trà Vinh cũ – huyện Cầu Kè, nay thuộc các xã của tỉnh Vĩnh Long.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -340,9 +330,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/specialties/Coconut-Candy.jpg",
-          "alt": "Kẹo dừa Bến Tre – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Kẹo dừa Bến Tre.",
+          "permissionStatus": "verified"
         },
         "origin": "Kẹo dừa Bến Tre gắn với Bến Tre cũ – các làng nghề và cơ sở chế biến dừa.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -368,9 +357,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Trà Vinh (cũ)/specialties/banh-tet-tra-cuon.jpg",
-          "alt": "Bánh tét Trà Cuôn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh tét Trà Cuôn.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh tét Trà Cuôn gắn với Trà Vinh cũ – vùng Trà Cuôn, nay thuộc tỉnh Vĩnh Long.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -396,9 +384,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/specialties/My-Long-Son-Doc-Rice-Paper.jpg",
-          "alt": "Bánh tráng Mỹ Lồng và bánh phồng Sơn Đốc – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh tráng Mỹ Lồng và bánh phồng Sơn Đốc.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh tráng Mỹ Lồng và bánh phồng Sơn Đốc gắn với Bến Tre cũ – khu vực Mỹ Lồng và Sơn Đốc.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -423,9 +410,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/specialties/Binh-Minh-Nam-Roi-Pomelo.jpg",
-          "alt": "Bưởi Năm Roi Mỹ Hòa – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bưởi Năm Roi Mỹ Hòa.",
+          "permissionStatus": "verified"
         },
         "origin": "Bưởi Năm Roi Mỹ Hòa gắn với Vĩnh Long cũ – vùng Mỹ Hòa, Bình Minh.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -450,9 +436,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Vĩnh Long/specialties/cam-sanh-tam-binh.jpg",
-          "alt": "Cam sành Tam Bình – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cam sành Tam Bình.",
+          "permissionStatus": "verified"
         },
         "origin": "Cam sành Tam Bình gắn với Vĩnh Long cũ – vùng Tam Bình.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -477,9 +462,8 @@
         "currentProvinceId": "vinh-long",
         "image": {
           "file": "assets/images/Bến Tre (cũ)/specialties/sau-rieng-cai-mon.jpg",
-          "alt": "Sầu riêng Cái Mơn – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Sầu riêng Cái Mơn.",
+          "permissionStatus": "verified"
         },
         "origin": "Sầu riêng Cái Mơn gắn với Bến Tre cũ – vùng Chợ Lách và Cái Mơn.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -818,9 +802,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng",
         "image": {
           "file": "assets/images/Vĩnh Long/culture/Don-Ca-Tai-Tu-Southern-Amateur-Music-Artist.jpg",
-          "alt": "Đờn ca tài tử Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đờn ca tài tử Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cả ba vùng Vĩnh Long, Bến Tre và Trà Vinh cũ; phạm vi thực hành Nam Bộ.",
         "origin": null,
@@ -845,9 +828,8 @@
         "category": "Diễn xướng dân gian; hát chúc tụng",
         "image": {
           "file": "assets/images/Bến Tre (cũ)/culture/hat-sac-bua-phu-le.jpg",
-          "alt": "Hát Sắc bùa Phú Lễ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Sắc bùa Phú Lễ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Phú Lễ, Ba Tri, Bến Tre cũ.",
         "origin": null,
@@ -870,9 +852,8 @@
         "category": "Sân khấu múa – kịch truyền thống",
         "image": {
           "file": "assets/images/Trà Vinh (cũ)/culture/ro-bam-khmer.jpg",
-          "alt": "Nghệ thuật Rô-băm Khmer – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nghệ thuật Rô-băm Khmer.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer tại Trà Vinh cũ và Nam Bộ.",
         "origin": null,
@@ -895,9 +876,8 @@
         "category": "Sân khấu ca kịch truyền thống",
         "image": {
           "file": "assets/images/Trà Vinh (cũ)/culture/du-ke-khmer.jpg",
-          "alt": "Sân khấu Dù kê Khmer – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Sân khấu Dù kê Khmer.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Khmer Nam Bộ; có thực hành tại Trà Vinh cũ.",
         "origin": null,
@@ -920,7 +900,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ ba tỉnh Vĩnh Long + Bến Tre + Trà Vinh; chính quyền mới hoạt động từ 01/07/2025.",

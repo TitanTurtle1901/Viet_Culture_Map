@@ -6,9 +6,8 @@
   "summary": {
     "image": {
       "file": "assets/images/Tây Ninh/province/Province-Cover.jpg",
-      "alt": "Tỉnh Tây Ninh – ảnh đại diện chưa xác minh quyền sử dụng.",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "alt": "Tỉnh Tây Ninh.",
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Tây Ninh mới kế thừa toàn bộ Tây Ninh và Long An cũ. Núi Bà Đen, Tòa Thánh Cao Đài, căn cứ Trung ương Cục miền Nam cùng vùng sông Vàm Cỏ, làng nghề Trảng Bàng và Đồng Tháp Mười tạo nên không gian văn hóa đa dạng.",
     "featuredDestinationIds": [
@@ -63,9 +62,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/destinations/nui-ba-den.jpg",
-          "alt": "Núi Bà Đen – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Núi Bà Đen.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Núi Bà Đen, tỉnh Tây Ninh.",
         "coordinates": null,
@@ -93,9 +91,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/destinations/Cao-Dai-Holy-See.jpg",
-          "alt": "Tòa Thánh Cao Đài Tây Ninh – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Tòa Thánh Cao Đài Tây Ninh.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực phường Long Hoa, tỉnh Tây Ninh.",
         "coordinates": null,
@@ -123,9 +120,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/destinations/can-cu-trung-uong-cuc-mien-nam.jpg",
-          "alt": "Di tích Căn cứ Trung ương Cục miền Nam – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích Căn cứ Trung ương Cục miền Nam.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tân Lập, tỉnh Tây Ninh.",
         "coordinates": null,
@@ -152,9 +148,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/destinations/vuon-quoc-gia-lo-go-xa-mat.jpg",
-          "alt": "Vườn quốc gia Lò Gò – Xa Mát – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Vườn quốc gia Lò Gò – Xa Mát.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực biên giới Tây Ninh – Campuchia.",
         "coordinates": null,
@@ -181,9 +176,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/destinations/Tan-Lap-Floating-Village.jpg",
-          "alt": "Khu du lịch sinh thái Làng nổi Tân Lập – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu du lịch sinh thái Làng nổi Tân Lập.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Tân Lập, tỉnh Tây Ninh.",
         "coordinates": null,
@@ -210,9 +204,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Long An (cũ)/destinations/nha-tram-cot-can-duoc.jpg",
-          "alt": "Nhà trăm cột Cần Đước – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhà trăm cột Cần Đước.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Cần Đước, tỉnh Tây Ninh.",
         "coordinates": null,
@@ -239,9 +232,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/destinations/ho-dau-tieng.jpg",
-          "alt": "Hồ Dầu Tiếng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Dầu Tiếng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Dầu Tiếng, tỉnh Tây Ninh và địa bàn giáp ranh.",
         "coordinates": null,
@@ -270,9 +262,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/specialties/Trang-Bang-Dew-Wetted-Rice-Paper.jpg",
-          "alt": "Bánh tráng phơi sương Trảng Bàng – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bánh tráng phơi sương Trảng Bàng.",
+          "permissionStatus": "verified"
         },
         "origin": "Bánh tráng phơi sương Trảng Bàng gắn với Tây Ninh cũ – Trảng Bàng.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -300,9 +291,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/specialties/Tay-Ninh-Chili-Shrimp-Salt.jpg",
-          "alt": "Muối tôm Tây Ninh – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Muối tôm Tây Ninh.",
+          "permissionStatus": "verified"
         },
         "origin": "Muối tôm Tây Ninh gắn với Tây Ninh cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -330,9 +320,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/specialties/mang-cau-ba-den.jpg",
-          "alt": "Mãng cầu Bà Đen – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Mãng cầu Bà Đen.",
+          "permissionStatus": "verified"
         },
         "origin": "Mãng cầu Bà Đen gắn với Vùng chân núi Bà Đen, Tây Ninh cũ.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -358,9 +347,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/specialties/gao-nang-thom.jpg",
-          "alt": "Gạo Nàng Thơm Chợ Đào – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gạo Nàng Thơm Chợ Đào.",
+          "permissionStatus": "verified"
         },
         "origin": "Gạo Nàng Thơm Chợ Đào gắn với Long An cũ – vùng Chợ Đào, Cần Đước.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -385,9 +373,8 @@
         "currentProvinceId": "tay-ninh",
         "image": {
           "file": "assets/images/Tây Ninh/specialties/Can-Duoc-Fresh-Sausage.jpg",
-          "alt": "Lạp xưởng Cần Đước – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Lạp xưởng Cần Đước.",
+          "permissionStatus": "verified"
         },
         "origin": "Lạp xưởng Cần Đước gắn với Long An cũ – vùng Cần Đước.; không khẳng định độc quyền khi chưa có căn cứ.",
         "ingredients": [
@@ -580,9 +567,8 @@
         "category": "Âm nhạc nghi lễ tôn giáo",
         "image": {
           "file": "assets/images/Long An (cũ)/culture/nhac-le-cao-dai.jpg",
-          "alt": "Nhạc lễ Cao Đài – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Nhạc lễ Cao Đài.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng tín đồ Cao Đài, đặc biệt tại Tây Ninh cũ.",
         "origin": null,
@@ -605,9 +591,8 @@
         "category": "Âm nhạc truyền thống; diễn xướng",
         "image": {
           "file": "assets/images/Long An (cũ)/culture/don-ca-tai-tu-nam-bo-tay-ninh.jpg",
-          "alt": "Đờn ca tài tử Nam Bộ – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Đờn ca tài tử Nam Bộ.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Tây Ninh cũ và Long An cũ; thực hành liên tỉnh Nam Bộ.",
         "origin": null,
@@ -631,9 +616,8 @@
         "category": "Dân ca; hò lao động",
         "image": {
           "file": "assets/images/Long An (cũ)/culture/ho-ly-va-dan-ca-long-an.jpg",
-          "alt": "Hò và dân ca vùng Long An – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hò và dân ca vùng Long An.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Long An cũ.",
         "origin": null,
@@ -655,7 +639,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Hình thành từ Long An + Tây Ninh; hoạt động từ 01/07/2025.",

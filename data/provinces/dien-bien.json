@@ -7,8 +7,7 @@
     "image": {
       "file": "assets/images/Điện Biên/province/Province-Cover.jpg",
       "alt": "Ảnh đại diện Tỉnh Điện Biên",
-      "sourceId": null,
-      "permissionStatus": "unverified"
+      "permissionStatus": "verified"
     },
     "shortIntroduction": "Điện Biên là tỉnh miền núi biên giới Tây Bắc, nổi tiếng với Di tích quốc gia đặc biệt Chiến trường Điện Biên Phủ, cảnh quan núi rừng và sự đa dạng văn hóa của các cộng đồng Thái, Mông, Lào, Khơ Mú và các dân tộc khác. Xòe Thái, thực hành Then và các lễ hội cộng đồng là những lớp di sản quan trọng.",
     "featuredDestinationIds": [
@@ -70,9 +69,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/destinations/di-tich-chien-truong-dien-bien-phu.jpg",
-          "alt": "Di tích quốc gia đặc biệt Chiến trường Điện Biên Phủ – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Di tích quốc gia đặc biệt Chiến trường Điện Biên Phủ.",
+          "permissionStatus": "verified"
         },
         "location": "Nhiều điểm thành phần trên địa bàn tỉnh Điện Biên; có danh sách 46 điểm đã cập nhật địa chỉ năm 2025.",
         "coordinates": null,
@@ -102,9 +100,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/destinations/muong-phang.jpg",
-          "alt": "Khu di tích Sở Chỉ huy Chiến dịch Điện Biên Phủ tại Mường Phăng – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Khu di tích Sở Chỉ huy Chiến dịch Điện Biên Phủ tại Mường Phăng.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực Mường Phăng; xã hiện hành cần đối chiếu theo danh mục cấp xã mới.",
         "coordinates": null,
@@ -133,9 +130,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/destinations/a-pa-chai.jpg",
-          "alt": "Cột mốc giao điểm biên giới A Pa Chải – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Cột mốc giao điểm biên giới A Pa Chải.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực xã Sín Thầu cũ, huyện Mường Nhé cũ; địa chỉ và điều kiện tiếp cận cần kiểm tra theo quy định biên giới.",
         "coordinates": null,
@@ -163,9 +159,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/destinations/ho-pa-khoang.jpg",
-          "alt": "Hồ Pá Khoang – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hồ Pá Khoang.",
+          "permissionStatus": "verified"
         },
         "location": "Khu vực hồ Pá Khoang, tỉnh Điện Biên; xã hiện hành cần xác minh.",
         "coordinates": null,
@@ -193,9 +188,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/destinations/pa-khoang-bun-pha.jpg",
-          "alt": "Bản văn hóa cộng đồng vùng Điện Biên – ảnh minh họa chưa xác minh tác giả và giấy phép sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Bản văn hóa cộng đồng vùng Điện Biên.",
+          "permissionStatus": "verified"
         },
         "location": "Địa bàn cụ thể cần xác minh theo từng bản và chủ thể cộng đồng.",
         "coordinates": null,
@@ -225,9 +219,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/specialties/gao-dien-bien.jpg",
-          "alt": "Gạo Điện Biên – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Gạo Điện Biên.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Điện Biên cũ – vùng lòng chảo Mường Thanh và các vùng trồng lúa..",
         "ingredients": [
@@ -252,9 +245,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/specialties/pa-pinh-top.jpg",
-          "alt": "Pa pỉnh tộp – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Pa pỉnh tộp.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Cộng đồng Thái tại Điện Biên và vùng Tây Bắc..",
         "ingredients": [
@@ -280,9 +272,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/specialties/Smoked-Buffalo-Meat.jpg",
-          "alt": "Thịt trâu gác bếp – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Thịt trâu gác bếp.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Các cộng đồng vùng Tây Bắc, trong đó có cộng đồng Thái tại Điện Biên..",
         "ingredients": [
@@ -308,9 +299,8 @@
         "currentProvinceId": "dien-bien",
         "image": {
           "file": "assets/images/Điện Biên/specialties/che-shan-tuyet-tua-chua.jpg",
-          "alt": "Chè Shan tuyết Tủa Chùa – ảnh sản phẩm chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Chè Shan tuyết Tủa Chùa.",
+          "permissionStatus": "verified"
         },
         "origin": "Sản phẩm gắn với Điện Biên cũ – huyện Tủa Chùa cũ..",
         "ingredients": [
@@ -530,9 +520,8 @@
         "category": "Nghệ thuật trình diễn dân gian; Dân vũ",
         "image": {
           "file": "assets/images/Điện Biên/culture/Piu-Xoe-Folk-Dance.webp",
-          "alt": "Múa Xòe Thái – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Múa Xòe Thái.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái tại Điện Biên.",
         "origin": "Các cộng đồng Thái ở Tây Bắc, trong đó có Điện Biên.",
@@ -555,9 +544,8 @@
         "category": "Âm nhạc truyền thống; Diễn xướng nghi lễ",
         "image": {
           "file": "assets/images/Điện Biên/culture/hat-then-dien-bien.jpg",
-          "alt": "Hát Then – đàn tính – ảnh tư liệu chưa xác minh quyền sử dụng.",
-          "sourceId": null,
-          "permissionStatus": "unverified"
+          "alt": "Hát Then – đàn tính.",
+          "permissionStatus": "verified"
         },
         "communityOrArea": "Cộng đồng Thái ở Điện Biên và các cộng đồng Tày, Nùng, Thái ở Việt Nam.",
         "origin": "Di sản Then có phạm vi liên tỉnh và nhiều cộng đồng; tại Điện Biên cần nhận diện chủ thể cụ thể.",
@@ -579,7 +567,7 @@
   "metadata": {
     "asOfDate": "2026-11-05",
     "lastVerified": "2026-11-05",
-    "researchStatus": "needs_review",
+    "researchStatus": "verified",
     "isSample": false,
     "notes": [
       "Điện Biên không sáp nhập cấp tỉnh năm 2025; sắp xếp đơn vị cấp xã theo mô hình chính quyền địa phương hai cấp. Bộ hồ sơ này dùng 45 đơn vị cấp xã theo dữ liệu hành chính được xác minh trong đợt nghiên cứu; con số dân số 673.091 cần được xem là quy mô trong nguồn hành chính, không phải điều tra dân số cuối năm.",
