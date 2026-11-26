@@ -27,6 +27,18 @@
     return cache[path];
   }
 
+  var textCache = {};
+  /** Tải văn bản (vd. SVG bản đồ) một lần duy nhất, dùng chung giữa các module. */
+  function getText(path) {
+    if (!textCache[path]) {
+      textCache[path] = fetch(path).then(function (res) {
+        if (!res.ok) { throw new Error('Không tải được ' + path + ' (HTTP ' + res.status + ')'); }
+        return res.text();
+      }).catch(function (err) { delete textCache[path]; throw err; });
+    }
+    return textCache[path];
+  }
+
   /* ---------- Chuẩn hóa chuỗi ---------- */
   function normalize(str) {
     return String(str == null ? '' : str)
@@ -163,7 +175,7 @@
 
   global.VCM = global.VCM || {};
   global.VCM.data = {
-    PATHS: PATHS, getJSON: getJSON, loadContext: loadContext, loadProvince: loadProvince, loadSources: loadSources,
+    PATHS: PATHS, getJSON: getJSON, getText: getText, loadContext: loadContext, loadProvince: loadProvince, loadSources: loadSources,
     collectSourceIds: collectSourceIds, normalize: normalize, shortName: shortName, escapeHtml: escapeHtml,
     hasValue: hasValue, formatNumber: formatNumber, firstSentences: firstSentences,
     detailUrl: detailUrl, exploreUrl: exploreUrl, getParam: getParam, session: session
