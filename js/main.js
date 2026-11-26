@@ -31,7 +31,7 @@
 
   function loadSilhouettes() {
     if (!silhouettes) {
-      silhouettes = fetch(D.PATHS.mapSvg).then(function (r) { return r.text(); }).then(function (text) {
+      silhouettes = D.getText(D.PATHS.mapSvg).then(function (text) {
         var doc = new DOMParser().parseFromString(text, 'image/svg+xml');
         var out = {};
         $(doc).find('path.province').each(function () {
@@ -259,19 +259,25 @@
     }).map(function (entry) { return entry.row; });
   }
 
+  /** Khoảng cách chỉnh sửa (có hoán vị kề nhau) – chỉ giữ 3 hàng thay vì cả ma trận. */
   function editDistance(a, b) {
-    var rows = a.length + 1, cols = b.length + 1, dp = [];
-    for (var i = 0; i < rows; i++) { dp[i] = [i]; }
-    for (var j = 1; j < cols; j++) { dp[0][j] = j; }
-    for (var r = 1; r < rows; r++) {
-      for (var c = 1; c < cols; c++) {
-        dp[r][c] = Math.min(dp[r - 1][c] + 1, dp[r][c - 1] + 1, dp[r - 1][c - 1] + (a.charAt(r - 1) === b.charAt(c - 1) ? 0 : 1));
+    var n = a.length, m = b.length;
+    if (!n) { return m; }
+    if (!m) { return n; }
+    var prev2 = new Array(m + 1), prev = new Array(m + 1), cur = new Array(m + 1), tmp, c, r, v;
+    for (c = 0; c <= m; c++) { prev[c] = c; }
+    for (r = 1; r <= n; r++) {
+      cur[0] = r;
+      for (c = 1; c <= m; c++) {
+        v = Math.min(prev[c] + 1, cur[c - 1] + 1, prev[c - 1] + (a.charAt(r - 1) === b.charAt(c - 1) ? 0 : 1));
         if (r > 1 && c > 1 && a.charAt(r - 1) === b.charAt(c - 2) && a.charAt(r - 2) === b.charAt(c - 1)) {
-          dp[r][c] = Math.min(dp[r][c], dp[r - 2][c - 2] + 1);
+          v = Math.min(v, prev2[c - 2] + 1);
         }
+        cur[c] = v;
       }
+      tmp = prev2; prev2 = prev; prev = cur; cur = tmp;
     }
-    return dp[a.length][b.length];
+    return prev[m];
   }
 
   function fuzzyQuickSearchMatches(query) {
@@ -284,11 +290,14 @@
       var words = row.normalized.split(' '), score = 0;
       for (var i = 0; i < tokens.length; i++) {
         var best = Infinity, token = tokens[i];
+        var tokenLimit = token.length >= 8 ? 2 : 1;
         words.forEach(function (word) {
-          var distance = word.indexOf(token) >= 0 || token.indexOf(word) >= 0 ? 0 : editDistance(token, word);
+          if (word.indexOf(token) >= 0 || token.indexOf(word) >= 0) { best = 0; return; }
+          // Chênh lệch độ dài lớn hơn giới hạn thì chắc chắn vượt giới hạn: bỏ qua, kết quả không đổi.
+          if (best === 0 || Math.abs(word.length - token.length) > tokenLimit) { return; }
+          var distance = editDistance(token, word);
           if (distance < best) { best = distance; }
         });
-        var tokenLimit = token.length >= 8 ? 2 : 1;
         if (best > tokenLimit) { return null; }
         score += best;
       }

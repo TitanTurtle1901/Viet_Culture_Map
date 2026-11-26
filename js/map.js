@@ -58,10 +58,7 @@
   /* ---------- Khởi tạo ---------- */
   function init() {
     if (!$('#map-container').length) { return; }
-    Promise.all([D.loadContext(), fetch(D.PATHS.mapSvg).then(function (r) {
-      if (!r.ok) { throw new Error('Không tải được bản đồ SVG'); }
-      return r.text();
-    })]).then(function (res) {
+    Promise.all([D.loadContext(), D.getText(D.PATHS.mapSvg)]).then(function (res) {
       ctx = res[0];
       mountMap(res[1]);
       buildPanel();
@@ -378,7 +375,14 @@
     view = { x: x, y: y, w: w, h: h };
     svgEl.setAttribute('viewBox', [x, y, w, h].join(' '));
     $svg.toggleClass('is-zoomed', zoomLevel() > 1.02);
-    updateLabels();
+    scheduleLabels();
+  }
+
+  /** Gộp các lần cập nhật nhãn khi kéo/zoom liên tục: tối đa một lần mỗi khung hình. */
+  var labelsFrame = 0;
+  function scheduleLabels() {
+    if (labelsFrame) { return; }
+    labelsFrame = global.requestAnimationFrame(function () { labelsFrame = 0; updateLabels(); });
   }
 
   function zoomBy(factor, cx, cy) {
