@@ -142,7 +142,8 @@
     var $host = $('#site-header');
     if (!$host.length) { return; }
     var page = $('body').data('page');
-    var onHero = $('body').data('hero') === true || $('body').attr('data-hero') === 'true';
+    // Mọi trang đều dùng Global Background: header trong suốt (chữ trắng) ở đầu trang, đổi sang nền kính mờ khi cuộn
+    var onHero = true;
     var user = D.session.get();
     var hash = global.location.hash;
     function cls(active) { return 'nav-link hdr-text' + (active ? ' is-active' : ''); }
@@ -395,7 +396,7 @@
     var $host = $('#site-footer');
     if (!$host.length) { return; }
     $host.html(
-      '<footer class="bg-deep-900 text-cream-200 mt-20">' +
+      '<footer class="site-footer text-cream-200 mt-20">' +
         '<div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid gap-10 md:grid-cols-2 lg:grid-cols-4">' +
           '<div>' +
             '<div class="flex items-center gap-2.5 mb-3"><img src="assets/icons/vietnam-silhouette.svg" alt="" class="h-10 w-auto">' +
