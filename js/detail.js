@@ -119,15 +119,7 @@
         '</div>' +
       '</div>'
     );
-    var $banner = $('#detail-banner').attr('data-province-id', unit.id).removeClass('has-province-background');
-    var bannerElement = $banner[0];
-    var imageFile = prov.summary.image && prov.summary.image.file;
-    bannerElement.style.removeProperty('--province-background-image');
-    if (imageFile && imageFile.indexOf('assets/images/') === 0) {
-      var imageUrl = new global.URL(imageFile, global.location.href).href;
-      bannerElement.style.setProperty('--province-background-image', 'url("' + imageUrl + '")');
-      $banner.addClass('has-province-background');
-    }
+    $('#detail-banner').attr('data-province-id', unit.id); // nền do Global Background đảm nhiệm, không có nền riêng theo tỉnh
   }
 
   /* ---------- Tab Tổng quan ---------- */

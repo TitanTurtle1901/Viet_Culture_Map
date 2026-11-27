@@ -1,6 +1,6 @@
 /* =========================================================
    home.js – CÁC KHU VỰC CỦA TRANG CHỦ (jQuery)
-   Hero toàn màn hình (ảnh nền ngẫu nhiên / slideshow từ ảnh bìa các tỉnh),
+   Hero toàn màn hình (nền do Global Background chung),
    địa phương nổi bật, khám phá theo vùng miền, số liệu giới thiệu,
    ô tìm kiếm ở Hero. Phụ thuộc: jQuery, data.js, main.js
    ========================================================= */
@@ -51,128 +51,8 @@
     $root.find('[data-count]').each(function () { io.observe(this); });
   }
 
-  /* ---------- Hero: ảnh nền ngẫu nhiên / slideshow ----------
-     Ảnh KHÔNG được tự đặt đường dẫn: chỉ lấy ảnh bìa (summary.image.file) của các tỉnh trong
-     data/provinces/index.json. Danh sách dưới đây chỉ chọn những tỉnh có ảnh bìa phong cảnh
-     ngang, đủ nét cho màn hình lớn (>= 900px) và không dính logo/watermark. Muốn thêm/bớt ảnh
-     chỉ cần sửa danh sách; focus = vị trí cắt ảnh (object-position) cho từng ảnh. */
-  var HERO_POOL = [
-    { id: 'lang-son',  focus: 'center 40%' },
-    { id: 'lao-cai',   focus: 'center 45%' },
-    { id: 'hue',       focus: 'center 55%' },
-    { id: 'ha-noi',    focus: 'center 60%' },
-    { id: 'da-nang',   focus: 'center 55%' },
-    { id: 'nghe-an',   focus: 'center 55%' },
-    { id: 'bac-ninh',  focus: 'center 40%' },
-    { id: 'dong-thap', focus: 'center 60%' }
-  ];
-  var HERO_INTERVAL = 7000;           // thời gian giữ mỗi ảnh (ms)
-  var HERO_LAST_KEY = 'vcm_hero_last'; // nhớ ảnh vừa hiển thị để lần tải lại không lặp lại ngay
-
-  function shuffle(arr) {
-    var a = arr.slice();
-    for (var i = a.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
-    }
-    return a;
-  }
-
-  function initHero(ctx) {
-    var host = document.getElementById('hero-media');
-    if (!host) { return; }
-
-    // Chỉ giữ ảnh có trong dữ liệu; nếu ảnh nào lỗi lúc tải sẽ bị loại khỏi vòng lặp
-    var pool = HERO_POOL.map(function (p) {
-      var u = ctx.byId[p.id], img = u && u.summary && u.summary.image;
-      return img && img.file ? { id: p.id, src: encodeURI(img.file), focus: p.focus } : null;
-    }).filter(Boolean);
-    if (!pool.length) { return; } // không có ảnh -> giữ nền gradient dự phòng
-
-    var reduce = global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var saveData = global.navigator.connection && global.navigator.connection.saveData;
-    var auto = !reduce && !saveData && pool.length > 1; // tiết kiệm dữ liệu / giảm chuyển động: chỉ 1 ảnh tĩnh
-
-    var last = null;
-    try { last = global.sessionStorage.getItem(HERO_LAST_KEY); } catch (e) { /* bỏ qua */ }
-
-    // Thứ tự ngẫu nhiên; ảnh đầu tiên khác ảnh của lần tải trước
-    var queue = shuffle(pool);
-    if (queue.length > 1 && queue[0].id === last) { queue.push(queue.shift()); }
-
-    var current = null, timer = null, busy = false;
-
-    function load(item) { // preload từng ảnh một, tránh tải dồn nhiều ảnh cùng lúc
-      return new Promise(function (resolve, reject) {
-        var img = new global.Image();
-        img.className = 'hero-slide';
-        img.alt = '';
-        img.decoding = 'async';
-        img.style.objectPosition = item.focus;
-        img.onload = function () { resolve(img); };
-        img.onerror = function () { reject(item); };
-        img.src = item.src;
-      });
-    }
-
-    function nextItem() {
-      if (!queue.length) { // hết một vòng: xáo lại, không để ảnh đầu vòng mới trùng ảnh đang hiện
-        queue = shuffle(pool);
-        if (queue.length > 1 && current && queue[0].id === current.id) { queue.push(queue.shift()); }
-      }
-      return queue.shift();
-    }
-
-    function drop(item) { // ảnh lỗi: bỏ khỏi vòng lặp
-      pool = pool.filter(function (p) { return p.id !== item.id; });
-      queue = queue.filter(function (p) { return p.id !== item.id; });
-      if (global.console && global.console.warn) { global.console.warn('[Hero] Không tải được ảnh nền:', item.src); }
-    }
-
-    function show(item) {
-      return load(item).then(function (img) {
-        var prev = host.querySelector('.hero-slide.is-active');
-        host.appendChild(img);
-        global.requestAnimationFrame(function () { global.requestAnimationFrame(function () {
-          img.classList.add('is-active');
-          if (prev) {
-            prev.classList.remove('is-active');
-            global.setTimeout(function () { if (prev.parentNode) { prev.parentNode.removeChild(prev); } }, 1800);
-          }
-        }); });
-        current = item;
-        try { global.sessionStorage.setItem(HERO_LAST_KEY, item.id); } catch (e) { /* bỏ qua */ }
-      }, function (bad) { drop(bad); throw bad; });
-    }
-
-    // Thử lần lượt cho tới khi có một ảnh tải được (hoặc hết ảnh -> giữ gradient dự phòng)
-    function advance() {
-      if (busy || !pool.length) { return Promise.resolve(); }
-      busy = true;
-      function attempt() {
-        if (!pool.length) { return Promise.resolve(); }
-        return show(nextItem()).catch(function () { return attempt(); });
-      }
-      return attempt().then(function () { busy = false; }, function () { busy = false; });
-    }
-
-    function schedule() {
-      global.clearTimeout(timer);
-      if (!auto || pool.length < 2) { return; }
-      timer = global.setTimeout(function () { advance().then(schedule); }, HERO_INTERVAL);
-    }
-
-    advance().then(schedule);
-
-    // Dừng slideshow khi tab bị ẩn để không tải/đổi ảnh vô ích
-    document.addEventListener('visibilitychange', function () {
-      if (document.hidden) { global.clearTimeout(timer); } else { schedule(); }
-    });
-  }
-
   function init() {
-    // Hero độc lập với phần còn lại: lỗi dữ liệu không làm mất nội dung Hero (vẫn có nền gradient)
-    D.loadContext().then(initHero).catch(function (e) { if (global.console) { global.console.error('[Hero] Không khởi tạo được ảnh nền:', e); } /* giữ nền dự phòng */ });
-
+    // Hero không còn nền riêng: nền do Global Background (js/components/background.js) đảm nhiệm
     D.loadContext().then(function (ctx) {
       // Địa phương nổi bật
       var html = ctx.featuredIds.map(function (id) { return ctx.byId[id]; }).filter(Boolean).map(function (u) {

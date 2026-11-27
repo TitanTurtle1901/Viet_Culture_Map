@@ -1,0 +1,63 @@
+{
+  "_readme": "Danh sach anh nen slideshow dung chung. Them anh: them 1 muc vao 'images' (src la duong dan tu goc website). Tat anh: dat active=false. Doi thoi gian: sua 'intervalMs'. Chi dung anh da xac minh quyen su dung.",
+  "intervalMs": 9000,
+  "fadeMs": 1600,
+  "images": [
+    {
+      "id": "lang-son",
+      "src": "assets/images/Lạng Sơn/province/Province-Cover.jpg",
+      "alt": "Tỉnh Lạng Sơn",
+      "focus": "center 40%",
+      "active": true
+    },
+    {
+      "id": "lao-cai",
+      "src": "assets/images/Lào Cai/province/background_LaoCai.jpg",
+      "alt": "Ảnh nền tỉnh Lào Cai",
+      "focus": "center 45%",
+      "active": true
+    },
+    {
+      "id": "hue",
+      "src": "assets/images/Huế/province/backgroundHue.jpg",
+      "alt": "Thành phố Huế",
+      "focus": "center 55%",
+      "active": true
+    },
+    {
+      "id": "ha-noi",
+      "src": "assets/images/Hà Nội/province/Province-Cover.jpg",
+      "alt": "Ảnh đại diện toàn cảnh Hà Nội.",
+      "focus": "center 60%",
+      "active": true
+    },
+    {
+      "id": "da-nang",
+      "src": "assets/images/Đà Nẵng/province/backgroundDaNang.jpg",
+      "alt": "Thành phố Đà Nẵng",
+      "focus": "center 55%",
+      "active": true
+    },
+    {
+      "id": "nghe-an",
+      "src": "assets/images/Nghệ An/province/Nghe-An.jpg",
+      "alt": "Tỉnh Nghệ An.",
+      "focus": "center 55%",
+      "active": true
+    },
+    {
+      "id": "bac-ninh",
+      "src": "assets/images/Bắc Ninh (cũ)/province/Province-Cover.jpg",
+      "alt": "Thành phố Bắc Ninh",
+      "focus": "center 40%",
+      "active": true
+    },
+    {
+      "id": "dong-thap",
+      "src": "assets/images/Đồng Tháp/province/Province-Cover.jpg",
+      "alt": "Phong cảnh sông nước và hoa sen Đồng Tháp.",
+      "focus": "center 60%",
+      "active": true
+    }
+  ]
+}

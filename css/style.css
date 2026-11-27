@@ -14,6 +14,10 @@
   --region-bac: #bfdcb0;
   --region-trung: #ecd89f;
   --region-nam: #a9d0d4;
+  --panel-bg: rgba(251, 246, 234, .95); /* nền Content Panel (kem, hơi trong) */
+  --panel-border: rgba(234, 223, 194, .95);
+  --panel-radius: 1.5rem;
+  --bg-fade: 1600ms;                    /* thời gian fade nền – background.js ghi đè theo data/background-images.json */
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
@@ -33,30 +37,11 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 .mobile-menu.is-open { max-height: 28rem; }
 
 /* ---------- Hero (toàn màn hình) ----------
-   Nền: ảnh bìa các tỉnh do home.js chèn vào .hero-media (chuyển cảnh mờ dần).
-   .hero-bg giữ lại làm nền dự phòng khi ảnh chưa tải xong hoặc bị lỗi. */
-.hero-bg {
-  background:
-    radial-gradient(ellipse at 80% 10%, rgba(196, 144, 44, .35), transparent 55%),
-    linear-gradient(160deg, #0f2e3c 0%, #1d4a5e 45%, #2f6a3f 100%);
-}
+   Hero KHÔNG có nền riêng: nội dung nằm trên Global Background (xem phần "Global Background" bên dưới). */
 .hero {
   position: relative; display: flex; flex-direction: column;
   min-height: 100vh; min-height: 100svh; /* fallback cho trình duyệt cũ chưa hỗ trợ svh */
   padding: 6rem 0 1.25rem;
-}
-.hero-media { position: absolute; inset: 0; overflow: hidden; }
-.hero-slide {
-  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 50%;
-  opacity: 0; transition: opacity 1.6s ease; will-change: opacity;
-}
-.hero-slide.is-active { opacity: 1; }
-/* Lớp phủ tối: đậm ở mép trên (navbar) và mép dưới (chỉ dẫn cuộn), nhẹ ở giữa để vẫn thấy ảnh */
-.hero-overlay {
-  position: absolute; inset: 0; pointer-events: none;
-  background:
-    linear-gradient(180deg, rgba(10, 33, 43, .66) 0%, rgba(10, 33, 43, .38) 26%, rgba(10, 33, 43, .46) 60%, rgba(10, 33, 43, .82) 100%),
-    radial-gradient(ellipse at 50% 45%, rgba(10, 33, 43, .32), transparent 70%);
 }
 .hero-content { position: relative; z-index: 2; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; padding-bottom: 2rem; }
 .hero-content .quick-search-wrap-hero { width: 100%; } /* ô tìm kiếm được main.js bọc thêm 1 div: phải giãn đủ rộng trong flex */
@@ -85,10 +70,48 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 }
 @media (max-height: 560px) { .hero-scroll { display: none; } }
 @media (prefers-reduced-motion: reduce) {
-  .hero-slide { transition: none; }
   .hero-cta svg, .hero-scroll-dot { animation: none; }
   .hero-scroll-dot { opacity: 1; }
 }
+
+/* =========================================================
+   Global Background Slideshow (js/components/background.js)
+   Một nền dùng chung cho mọi trang; nội dung nằm ở lớp phía trên.
+   position: fixed (không dùng background-attachment: fixed vì lỗi trên di động).
+   z-index: -1 an toàn vì <body> không tạo stacking context; nền <body> (kem) chỉ còn là lớp dưới cùng.
+   ========================================================= */
+#global-background {
+  position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none;
+  background:
+    radial-gradient(ellipse at 80% 10%, rgba(196, 144, 44, .35), transparent 55%),
+    linear-gradient(160deg, #0f2e3c 0%, #1d4a5e 45%, #2f6a3f 100%); /* nền dự phòng: ảnh chưa tải/lỗi/không có ảnh */
+}
+#global-background .background-slides { position: absolute; inset: 0; }
+.background-slide {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;
+  opacity: 0; transition: opacity var(--bg-fade, 1600ms) ease; will-change: opacity; user-select: none; -webkit-user-drag: none;
+}
+.background-slide.is-active { opacity: 1; }
+/* Lớp phủ xanh đậm bán trong suốt: đậm hơn ở mép trên (navbar) và dưới để chữ trên nền luôn dễ đọc */
+#global-background .background-overlay {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10, 33, 43, .68) 0%, rgba(10, 33, 43, .46) 28%, rgba(10, 33, 43, .54) 62%, rgba(10, 33, 43, .82) 100%),
+    radial-gradient(ellipse at 50% 45%, rgba(10, 33, 43, .28), transparent 70%);
+}
+@media (prefers-reduced-motion: reduce) { .background-slide { transition: none; } }
+
+/* ---------- Content Panel ----------
+   Khối nội dung sáng đặt trên Global Background (thay cho các section phủ kín chiều ngang). */
+.vcm-panel {
+  background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: var(--panel-radius);
+  box-shadow: 0 18px 44px -20px rgba(8, 28, 38, .65); padding: 1.25rem; color: var(--ink);
+}
+@media (min-width: 640px) { .vcm-panel { padding: 2rem; } }
+/* Tiêu đề trang đặt trực tiếp trên nền (explore, login…) */
+.on-bg { color: #fff; text-shadow: 0 2px 18px rgba(0, 0, 0, .5); }
+.on-bg a:hover { color: var(--ochre); }
+.site-footer { background: rgba(10, 33, 43, .9); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 
 /* ---------- Cards ---------- */
 .card-hover { transition: transform .25s ease, box-shadow .25s ease; }
@@ -122,12 +145,8 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 .line-clamp-2-safe { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
 /* ---------- Banner địa phương ---------- */
-#detail-banner { background: linear-gradient(135deg, #0f2e3c 0%, #1d4a5e 55%, #2f6a3f 100%); }
-#detail-banner.has-province-background {
-  background-image: linear-gradient(90deg, rgba(15, 46, 60, .94) 0%, rgba(29, 74, 94, .82) 56%, rgba(47, 106, 63, .62) 100%), var(--province-background-image);
-  background-size: cover;
-  background-position: center;
-}
+/* Không có nền riêng cho từng tỉnh: tiêu đề nằm trên Global Background, chỉ thêm bóng chữ để dễ đọc */
+#detail-banner h1, #detail-banner p, #detail-banner nav { text-shadow: 0 2px 16px rgba(0, 0, 0, .5); }
 
 /* ---------- Bản đồ ---------- */
 .map-stage { position: relative; background: radial-gradient(ellipse at 30% 20%, #fffdf6, #f3ead2); border: 1px solid #eadfc2; border-radius: 1.25rem; overflow: hidden; }
@@ -288,23 +307,23 @@ body.modal-open { overflow: hidden; }
 }
 .ab h1, .ab h2, .ab h3 { font-family: "Playfair Display", Georgia, serif; color: var(--ab-navy); line-height: 1.2; font-weight: 700; }
 
-/* Hero */
-.ab-hero { position: relative; color: #fff; text-align: center; padding: 140px 24px 150px; overflow: hidden;
-  background: linear-gradient(160deg, #16394a 0%, #1d5a63 45%, #2e6b43 100%); }
-.ab-mountains { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 150px; }
-.ab-eyebrow { color: var(--ab-gold); letter-spacing: .28em; font-weight: 600; font-size: .85rem; text-transform: uppercase; }
+/* Hero: tiêu đề nằm trực tiếp trên Global Background */
+.ab-hero { position: relative; color: #fff; text-align: center; padding: 140px 24px 56px; text-shadow: 0 2px 18px rgba(0, 0, 0, .45); }
+.ab-eyebrow { color: #f0c15a; letter-spacing: .28em; font-weight: 600; font-size: .85rem; text-transform: uppercase; }
 .ab-hero h1 { color: #fff; font-size: clamp(2.2rem, 5vw, 4rem); margin: 18px auto; max-width: 900px; }
-.ab-hero p { max-width: 720px; margin: 0 auto; font-size: 1.1rem; opacity: .92; }
+.ab-hero p { max-width: 720px; margin: 0 auto; font-size: 1.1rem; opacity: .95; }
 
 /* Bố cục */
 .ab-wrap { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
-.ab-sec { padding: 70px 0 10px; }
+/* Mỗi section là một Content Panel; .ab-sec-bare = không panel (đã có thẻ/khối riêng bên trong) */
+.ab-sec { margin-top: 28px; padding: 40px; background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: var(--ab-radius); box-shadow: 0 18px 44px -20px rgba(8, 28, 38, .65); }
+.ab-sec-bare { padding: 0; background: none; border: 0; box-shadow: none; }
 .ab-sec-head { margin-bottom: 32px; }
 .ab-tag { color: var(--ab-red); font-weight: 700; letter-spacing: .18em; font-size: .8rem; text-transform: uppercase; }
 .ab-sec-head h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-top: 8px; }
 .ab-sec-head p { color: var(--ab-muted); max-width: 760px; margin-top: 10px; }
 
-.ab-panel { background: #fff; border-radius: var(--ab-radius); padding: 44px; box-shadow: 0 8px 30px rgba(15, 45, 61, .08); margin-top: -80px; position: relative; z-index: 2; }
+.ab-panel { background: var(--panel-bg); border-radius: var(--ab-radius); padding: 44px; box-shadow: 0 18px 44px -20px rgba(8, 28, 38, .65); position: relative; }
 .ab-panel h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-top: 8px; }
 .ab-panel p { font-size: 1.08rem; max-width: 880px; }
 .ab-panel p + p { margin-top: 14px; }
@@ -367,7 +386,7 @@ body.modal-open { overflow: hidden; }
 .ab-team-note { margin-top: 22px; text-align: center; color: var(--ab-muted); font-size: .95rem; }
 
 /* CTA */
-.ab-cta { margin: 80px 0 70px; text-align: center; background: #fff; color: var(--ink); border-radius: var(--ab-radius); padding: 48px 24px; border: 1px solid rgba(15, 45, 61, .1); box-shadow: 0 6px 22px rgba(15, 45, 61, .06); }
+.ab-cta { margin: 28px 0 70px; text-align: center; background: #fff; color: var(--ink); border-radius: var(--ab-radius); padding: 48px 24px; border: 1px solid rgba(15, 45, 61, .1); box-shadow: 0 6px 22px rgba(15, 45, 61, .06); }
 .ab-cta h2 { color: var(--ab-navy); font-size: 1.9rem; margin-bottom: 8px; }
 .ab-cta p { color: var(--ab-muted); margin-bottom: 22px; }
 .ab-cta a { display: inline-block; background: var(--ab-red); color: #fff; padding: 13px 28px; border-radius: 14px; text-decoration: none; font-weight: 600; margin: 4px; border: 2px solid var(--ab-red); transition: .2s; }
@@ -397,6 +416,8 @@ body.modal-open { overflow: hidden; }
 @media (max-width: 960px) {
   .ab-grid3, .ab-reason, .ab-layers, .ab-principles { grid-template-columns: 1fr; }
   .ab-layers, .ab-panel { padding: 30px; }
+  .ab-sec { padding: 28px 20px; }
+  .ab-sec-bare { padding: 0; }
 }
 @media (max-width: 720px) {
   .ab-team { grid-template-columns: repeat(2, 1fr); }
@@ -407,6 +428,8 @@ body.modal-open { overflow: hidden; }
   .ab-team { grid-template-columns: 1fr; }
   .ab-member:nth-child(5) { width: auto; }
   .ab-wrap { padding: 0 16px; }
-  .ab-hero { padding: 120px 16px 140px; }
+  .ab-hero { padding: 110px 16px 40px; }
+  .ab-sec { padding: 24px 16px; }
+  .ab-sec-bare { padding: 0; }
   .ab-quote { padding: 32px 24px; }
 }

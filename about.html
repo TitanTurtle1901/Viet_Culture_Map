@@ -11,8 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/tailwind.css">
+  <script src="js/components/background.js" defer></script>
 </head>
 <body data-page="about" data-hero="true">
+  <div id="global-background" aria-hidden="true">
+    <div class="background-slides"></div>
+    <div class="background-overlay"></div>
+  </div>
   <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:p-3 focus:rounded">Bỏ qua điều hướng</a>
   <div id="site-header"></div>
 
@@ -23,10 +28,6 @@
       <div class="ab-eyebrow">Về chúng tôi</div>
       <h1 id="ab-title">Giữ gìn bản sắc, kết nối mọi miền di sản</h1>
       <p>Viet Culture Map là nền tảng bản đồ tương tác giúp mọi người khám phá văn hóa, lịch sử, ẩm thực và di sản của 34 đơn vị hành chính cấp tỉnh.</p>
-      <svg class="ab-mountains" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M0 150V95L140 40l140 55 150-70 160 80 170-60 170 70 150-50 160 60V150Z" fill="#0f2d3d" opacity=".55"/>
-        <path d="M0 150V120l180-50 150 45 180-65 180 60 190-45 180 55 180-40V150Z" fill="#fbf6ea"/>
-      </svg>
     </section>
 
     <div class="ab-wrap">
@@ -41,7 +42,7 @@
         <p>Trang web hướng tới học sinh, sinh viên, giáo viên, du khách và bất kỳ ai muốn hiểu sâu hơn về quê hương mình, cũng như những vùng đất mình chưa từng đặt chân đến.</p>
       </div>
 
-      <section class="ab-sec" aria-label="Tính năng chính">
+      <section class="ab-sec ab-sec-bare" aria-label="Tính năng chính">
         <div class="ab-grid3">
           <div class="ab-feature reveal">
             <div class="ab-ico" aria-hidden="true">🗺️</div>
@@ -80,7 +81,7 @@
       </section>
 
       <!-- ===== MỘT ĐỊA PHƯƠNG, NHIỀU TẦNG DI SẢN ===== -->
-      <section class="ab-sec" aria-labelledby="ab-layers-title">
+      <section class="ab-sec ab-sec-bare" aria-labelledby="ab-layers-title">
         <div class="ab-layers reveal">
           <div>
             <h2 id="ab-layers-title">Một địa phương, nhiều tầng di sản</h2>

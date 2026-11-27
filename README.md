@@ -31,6 +31,7 @@ data/provinces/<id>.json      hồ sơ đầy đủ từng tỉnh (summary + det
 data/sources.json             354 nguồn tham khảo
 data/regions.json             quy tắc phân vùng Bắc/Trung/Nam + danh sách nổi bật
 data/taxonomy.json, data/image-manifest.json
+data/background-images.json    danh sách ảnh + thời gian của nền slideshow chung
 assets/maps/vietnam-34-provinces.svg   bản đồ (34 id, sinh từ GeoJSON)
 assets/icons/vietnam-silhouette.svg    logo/favicon (từ cùng dữ liệu ranh giới)
 tools/build_map.py, tools/build_data.py   script dựng dữ liệu (chạy một lần, không thuộc website)
@@ -73,6 +74,17 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
 - **Đăng nhập/đăng ký chỉ là mô phỏng** (localStorage), không có xác thực thực tế.
 - Ranh giới giữa các tỉnh nhỏ ở đồng bằng Bắc Bộ khó chạm trên điện thoại; dùng nút +/− hoặc danh sách bên phải.
 - Đã kiểm thử logic bằng môi trường giả lập (jsdom) cho cả 4 trang; **chưa kiểm tra thị giác trên trình duyệt thật** (bố cục Tailwind, popup sát mép, cảm ứng thật). Nên duyệt thủ công trên desktop và điện thoại.
+
+## Giao diện: Global Background (One Background – One Experience)
+
+Mọi trang (`index`, `explore`, `detail`, `about`, `login`) dùng **một** nền slideshow chung; nội dung nằm trong các **Content Panel** (`.vcm-panel`, kem/trắng ngà, bo góc, bóng nhẹ) ở lớp phía trên. Header trong suốt ở đầu trang, chuyển sang nền kính mờ khi cuộn. Không còn nền riêng ở Hero, Khám phá, Giới thiệu hay từng tỉnh. (Bản đồ là mục `#ban-do` của trang chủ, không có trang riêng.)
+
+- Markup: `<div id="global-background">` (có sẵn trong mỗi trang) gồm `.background-slides` + `.background-overlay`; CSS ở phần "Global Background" của `css/style.css` (`position: fixed; inset: 0; z-index: -1`, không dùng `background-attachment: fixed`).
+- Logic: `js/components/background.js` – fade mượt, preload đúng 1 ảnh kế tiếp (DOM tối đa 2 ảnh), ảnh lỗi bị loại khỏi vòng lặp (hết ảnh → nền gradient dự phòng), tạm dừng khi tab ẩn, `prefers-reduced-motion`/Save-Data → 1 ảnh tĩnh.
+- Giữ trạng thái giữa các trang: `sessionStorage["vcm_bg_state"]` (thứ tự ảnh, ảnh hiện tại, thời điểm đổi) → chuyển trang không reset về ảnh đầu, đồng hồ đổi ảnh chạy tiếp. Đóng tab thì bắt đầu phiên mới (thứ tự ngẫu nhiên).
+- **Thêm ảnh nền:** thêm một mục vào `images` trong `data/background-images.json` (`id`, `src` tính từ gốc website, `alt`, `focus` = vị trí cắt ảnh, `active`). Chỉ dùng ảnh đã xác minh quyền sử dụng; nên dùng WebP/JPEG ≤ ~300 KB, rộng ~1600 px (`tools/optimize_images.py`). Hiện danh sách dùng lại 8 ảnh bìa tỉnh đã có (không thêm ảnh mới). Tắt ảnh: `"active": false`. Kiểm tra đường dẫn: `python tools/check_images.py`.
+- **Đổi thời gian:** `intervalMs` (mặc định 9000 ms, tối thiểu 3000) và `fadeMs` (mặc định 1600 ms) trong cùng file JSON.
+- **Panel:** thêm class `vcm-panel` cho khối nội dung; tiêu đề đặt trực tiếp trên nền dùng class `on-bg`. Biến `--panel-bg`, `--panel-radius` ở đầu `css/style.css`.
 
 ## Công cụ bảo trì
 
