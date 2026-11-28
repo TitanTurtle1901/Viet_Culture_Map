@@ -11,11 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/tailwind.css">
-  <script src="js/components/background.js" defer></script>
 </head>
 <body data-page="detail">
+  <!-- Trang chi tiết KHÔNG chạy slideshow chung (không nạp background.js): ảnh riêng của tỉnh (.detail-page-bg) phủ toàn trang, gán bằng detail.js -->
   <div id="global-background" aria-hidden="true">
-    <div class="background-slides"></div>
+    <div class="detail-page-bg"></div>
     <div class="background-overlay"></div>
   </div>
   <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:p-3 focus:rounded">Bỏ qua điều hướng</a>
@@ -37,7 +37,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 pb-4">
        <div class="vcm-panel">
         <!-- Thanh tab -->
-        <div class="sticky top-16 z-30 bg-cream">
+        <div class="sticky top-16 z-30 tab-sticky">
           <div class="tab-list" role="tablist" aria-label="Nội dung địa phương" id="tab-list"></div>
         </div>
 

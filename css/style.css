@@ -14,9 +14,13 @@
   --region-bac: #bfdcb0;
   --region-trung: #ecd89f;
   --region-nam: #a9d0d4;
-  --panel-bg: rgba(251, 246, 234, .95); /* nền Content Panel (kem, hơi trong) */
-  --panel-border: rgba(234, 223, 194, .95);
+  /* Glassmorphism – 3 tầng: Panel lớn (kem, ~58%) > Thẻ thông tin (trắng, ~46%, trong hơn) > Điều khiển (đặc, giữ nguyên) */
+  --panel-bg: rgba(251, 246, 234, .58);
+  --panel-border: rgba(255, 255, 255, .6);
   --panel-radius: 1.5rem;
+  --panel-blur: 18px;
+  --panel-shadow: 0 12px 32px -16px rgba(8, 28, 38, .5);
+  --glass-card-bg: rgba(255, 255, 255, .46);
   --bg-fade: 1600ms;                    /* thời gian fade nền – background.js ghi đè theo data/background-images.json */
 }
 
@@ -55,12 +59,6 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 }
 .hero-cta:hover, .hero-cta:focus-visible { background: #fff; color: var(--deep); border-color: #fff; }
 .hero-cta svg { animation: heroNudge 1.8s ease-in-out infinite; }
-/* Chỉ dẫn cuộn xuống ở cuối Hero */
-.hero-scroll { position: relative; z-index: 2; align-self: center; display: flex; flex-direction: column; align-items: center; gap: .5rem; color: rgba(255, 255, 255, .85); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; padding: .25rem .75rem; }
-.hero-scroll:hover { color: #fff; }
-.hero-scroll-mouse { width: 1.5rem; height: 2.4rem; border: 2px solid currentColor; border-radius: 9999px; display: flex; justify-content: center; padding-top: .4rem; }
-.hero-scroll-dot { width: .22rem; height: .5rem; border-radius: 9999px; background: currentColor; animation: heroScroll 1.8s ease-in-out infinite; }
-@keyframes heroScroll { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: 1; } 80% { opacity: 0; transform: translateY(.85rem); } 100% { opacity: 0; transform: translateY(.85rem); } }
 @keyframes heroNudge { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(3px); } }
 @media (max-width: 639px) {
   .hero { padding-top: 5.25rem; }
@@ -68,10 +66,8 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
   .hero-lead { margin-top: 1rem; }
   .hero-cta { margin-top: 1.25rem; }
 }
-@media (max-height: 560px) { .hero-scroll { display: none; } }
 @media (prefers-reduced-motion: reduce) {
-  .hero-cta svg, .hero-scroll-dot { animation: none; }
-  .hero-scroll-dot { opacity: 1; }
+  .hero-cta svg { animation: none; }
 }
 
 /* =========================================================
@@ -101,13 +97,23 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 }
 @media (prefers-reduced-motion: reduce) { .background-slide { transition: none; } }
 
-/* ---------- Content Panel ----------
-   Khối nội dung sáng đặt trên Global Background (thay cho các section phủ kín chiều ngang). */
-.vcm-panel {
+/* ---------- Content Panel (glassmorphism) ----------
+   Khối nội dung kính mờ đặt trên nền. .ab-sec / .ab-panel (trang Giới thiệu) dùng chung kiểu này. */
+.vcm-panel, .ab-sec:not(.ab-sec-bare), .ab-panel {
   background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: var(--panel-radius);
-  box-shadow: 0 18px 44px -20px rgba(8, 28, 38, .65); padding: 1.25rem; color: var(--ink);
+  box-shadow: var(--panel-shadow); color: var(--ink);
+  -webkit-backdrop-filter: blur(var(--panel-blur)) saturate(1.1); backdrop-filter: blur(var(--panel-blur)) saturate(1.1);
 }
+.vcm-panel { padding: 1.25rem; }
 @media (min-width: 640px) { .vcm-panel { padding: 2rem; } }
+@media (max-width: 639px) { :root { --panel-blur: 12px; } } /* nhẹ hơn trên di động */
+/* Thẻ thông tin NẰM TRONG panel: trắng, trong hơn panel lớn (selector 2 lớp để thắng .bg-white của Tailwind mà không sửa tailwind.css).
+   Chỉ đổi nền: ảnh, bảng, tab, nút/chip/ô nhập (có nền riêng) và popup/modal (ngoài panel) giữ nguyên, đặc. */
+.vcm-panel .bg-white, .ab-panel .bg-white { background-color: var(--glass-card-bg); }
+/* Trình duyệt không hỗ trợ backdrop-filter: tăng độ đặc để chữ vẫn dễ đọc */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root { --panel-bg: rgba(251, 246, 234, .94); --glass-card-bg: rgba(255, 255, 255, .85); }
+}
 /* Tiêu đề trang đặt trực tiếp trên nền (explore, login…) */
 .on-bg { color: #fff; text-shadow: 0 2px 18px rgba(0, 0, 0, .5); }
 .on-bg a:hover { color: var(--ochre); }
@@ -144,9 +150,21 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 
 .line-clamp-2-safe { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
-/* ---------- Banner địa phương ---------- */
-/* Không có nền riêng cho từng tỉnh: tiêu đề nằm trên Global Background, chỉ thêm bóng chữ để dễ đọc */
+/* ---------- Trang chi tiết: ảnh tỉnh phủ TOÀN TRANG ----------
+   .detail-page-bg nằm trong #global-background (position: fixed) – ảnh = summary.image.file của tỉnh (index.json), gán bằng detail.js.
+   Trang này KHÔNG chạy slideshow chung. Ảnh thiếu/lỗi/chưa xác minh quyền -> giữ gradient dự phòng của #global-background. */
+.detail-page-bg {
+  position: absolute; inset: 0; background-size: cover; background-position: center 40%; background-repeat: no-repeat;
+  opacity: 0; transition: opacity .9s ease; /* hiện dần sau khi ảnh tải xong, không chớp */
+}
+.detail-page-bg.is-loaded { opacity: 1; }
+body[data-page="detail"] #global-background .background-overlay { /* nhẹ hơn slideshow để ảnh tỉnh rõ, vẫn đủ tối cho chữ trắng ở banner */
+  background: linear-gradient(180deg, rgba(10, 33, 43, .62) 0%, rgba(10, 33, 43, .3) 35%, rgba(10, 33, 43, .34) 70%, rgba(10, 33, 43, .6) 100%);
+}
 #detail-banner h1, #detail-banner p, #detail-banner nav { text-shadow: 0 2px 16px rgba(0, 0, 0, .5); }
+/* Thanh tab dính: kính mờ, nhẹ hơn panel */
+.tab-sticky { background: rgba(251, 246, 234, .5); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .tab-sticky { background: rgba(251, 246, 234, .96); } }
 
 /* ---------- Bản đồ ---------- */
 .map-stage { position: relative; background: radial-gradient(ellipse at 30% 20%, #fffdf6, #f3ead2); border: 1px solid #eadfc2; border-radius: 1.25rem; overflow: hidden; }
@@ -316,14 +334,14 @@ body.modal-open { overflow: hidden; }
 /* Bố cục */
 .ab-wrap { max-width: 1200px; margin: 0 auto; padding: 0 28px; }
 /* Mỗi section là một Content Panel; .ab-sec-bare = không panel (đã có thẻ/khối riêng bên trong) */
-.ab-sec { margin-top: 28px; padding: 40px; background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: var(--ab-radius); box-shadow: 0 18px 44px -20px rgba(8, 28, 38, .65); }
+.ab-sec { margin-top: 28px; padding: 40px; border-radius: var(--ab-radius); } /* nền/viền/bóng/blur: xem khối Content Panel phía trên */
 .ab-sec-bare { padding: 0; background: none; border: 0; box-shadow: none; }
 .ab-sec-head { margin-bottom: 32px; }
 .ab-tag { color: var(--ab-red); font-weight: 700; letter-spacing: .18em; font-size: .8rem; text-transform: uppercase; }
 .ab-sec-head h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-top: 8px; }
 .ab-sec-head p { color: var(--ab-muted); max-width: 760px; margin-top: 10px; }
 
-.ab-panel { background: var(--panel-bg); border-radius: var(--ab-radius); padding: 44px; box-shadow: 0 18px 44px -20px rgba(8, 28, 38, .65); position: relative; }
+.ab-panel { border-radius: var(--ab-radius); padding: 44px; position: relative; }
 .ab-panel h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-top: 8px; }
 .ab-panel p { font-size: 1.08rem; max-width: 880px; }
 .ab-panel p + p { margin-top: 14px; }
