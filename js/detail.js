@@ -9,7 +9,7 @@
 (function (global, $) {
   'use strict';
 
-  var D = global.VCM.data, U = global.VCM.ui, esc = D.escapeHtml, has = D.hasValue;
+  var D = global.VCM.data, U = global.VCM.ui, C = global.VCM.community, esc = D.escapeHtml, has = D.hasValue;
 
   var ctx, prov, unit, sources;
   var registry = { destinations: [], specialties: [], arts: [], culture: [] };
@@ -101,6 +101,7 @@
     var former = prov.formerUnits.length > 1
       ? '<p class="mt-3 text-sm text-white/85">Hợp nhất từ: ' + prov.formerUnits.map(function (f) { return '<span class="inline-block bg-white/15 rounded-full px-3 py-0.5 mr-1.5 mb-1">' + esc(f.name) + '</span>'; }).join('') + '</p>' : '';
     var status = prov.metadata && prov.metadata.researchStatus;
+    var saved = C.isFavorite(unit.id);
     $('#detail-banner').html(
       '<div class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-12 sm:pb-16">' +
         '<nav aria-label="Breadcrumb" class="text-sm text-white/75 mb-5"><a class="hover:text-ochre-400" href="index.html">Trang chủ</a> <span aria-hidden="true">›</span> ' +
@@ -115,6 +116,8 @@
           '<div class="mt-6 flex flex-wrap gap-3">' +
             '<a href="explore.html" id="back-btn" class="btn-secondary">← Quay lại</a>' +
             '<a href="index.html#ban-do" class="btn-secondary !bg-transparent !text-white !border-white/50 hover:!bg-white/10">Xem trên bản đồ</a>' +
+            '<button type="button" id="toggle-favorite" class="btn-secondary favorite-toggle" aria-pressed="' + saved + '">' +
+              (saved ? '♥ Đã lưu yêu thích' : '♡ Lưu yêu thích') + '</button>' +
           '</div>' +
         '</div>' +
       '</div>'
@@ -441,7 +444,49 @@
     $('#related-grid').html(pool.slice(0, 4).map(function (u) { return U.provinceCard(u, ctx); }).join(''));
     U.hydrateSilhouettes($('#related-grid'));
 
+    renderCommunity();
     activateTab(tabFromHash(), false);
+  }
+
+  /* ---------- Yêu thích và bình luận (bản demo localStorage) ---------- */
+  function renderFavoriteButton() {
+    var saved = C.isFavorite(unit.id);
+    $('#toggle-favorite').attr('aria-pressed', String(saved)).text(saved ? '♥ Đã lưu yêu thích' : '♡ Lưu yêu thích');
+  }
+
+  function renderCommunity() {
+    var user = D.session.get();
+    var form = user
+      ? '<form id="comment-form" class="community-form">' +
+          '<label for="new-comment" class="block text-sm font-semibold text-deep-700 mb-2">Bình luận với tên ' + esc(user.fullName || user.username) + '</label>' +
+          '<textarea id="new-comment" class="field community-textarea" rows="4" maxlength="600" placeholder="Chia sẻ điều bạn yêu thích về địa phương này…" required></textarea>' +
+          '<div class="flex flex-wrap items-center justify-between gap-3 mt-3">' +
+            '<p class="text-xs text-gray-500">Tối đa 600 ký tự. Không đăng thông tin riêng tư.</p>' +
+            '<div class="flex items-center gap-3"><span class="text-xs text-gray-500"><span id="comment-count">0</span>/600</span>' +
+              '<button type="submit" class="btn-primary">Gửi bình luận</button></div>' +
+          '</div><p id="comment-status" class="field-error mt-2" role="status" aria-live="polite"></p>' +
+        '</form>'
+      : '<div class="community-login-note">' +
+          '<p>Đăng nhập để viết bình luận. Bạn vẫn có thể đọc chia sẻ của mọi người.</p>' +
+          '<a class="btn-forest mt-3" href="' + esc(C.loginHref()) + '">Đăng nhập</a>' +
+        '</div>';
+    $('#comment-form-host').html(form);
+
+    var comments = C.listComments(unit.id), currentUserId = C.accountId();
+    if (!comments.length) {
+      $('#comment-list').html('<p class="community-empty">Chưa có bình luận nào. Hãy là người đầu tiên chia sẻ trải nghiệm.</p>');
+      return;
+    }
+    $('#comment-list').html(comments.map(function (comment) {
+      var date = new Date(comment.createdAt);
+      var dateLabel = isNaN(date.getTime()) ? '' : date.toLocaleString('vi-VN', { dateStyle: 'medium', timeStyle: 'short' });
+      var content = esc(comment.content || '').replace(/\r\n|\r|\n/g, '<br>');
+      var remove = comment.userId === currentUserId
+        ? '<button type="button" class="community-delete" data-comment-id="' + esc(comment.id) + '">Xóa bình luận</button>' : '';
+      return '<article class="community-item"><div class="community-meta"><strong>' + esc(comment.displayName || 'Người dùng') + '</strong>' +
+        (dateLabel ? '<time datetime="' + esc(comment.createdAt) + '">' + esc(dateLabel) + '</time>' : '') + remove + '</div>' +
+        '<p class="community-content">' + content + '</p></article>';
+    }).join(''));
   }
 
   /* ---------- Sự kiện ---------- */
@@ -455,6 +500,33 @@
       if (n !== null) { e.preventDefault(); activateTab(order[n], true); $('#tab-' + order[n]).trigger('focus'); }
     });
     $(global).on('hashchange', function () { activateTab(tabFromHash(), false); });
+
+    $(document).on('click', '#toggle-favorite', function () {
+      if (!D.session.get()) { global.location.href = C.loginHref(); return; }
+      try {
+        var saved = C.toggleFavorite(unit.id);
+        renderFavoriteButton();
+        U.toast(saved ? 'Đã lưu địa phương vào danh sách yêu thích.' : 'Đã xóa địa phương khỏi danh sách yêu thích.');
+      } catch (err) { U.toast('Chưa lưu được. Bộ nhớ trình duyệt có thể đã đầy hoặc bị chặn.'); }
+    });
+
+    $(document).on('input', '#new-comment', function () { $('#comment-count').text(String(this.value.length)); });
+    $(document).on('submit', '#comment-form', function (e) {
+      e.preventDefault();
+      $('#comment-status').text('');
+      try {
+        C.addComment(unit.id, $('#new-comment').val());
+        renderCommunity();
+        U.toast('Đã đăng bình luận.');
+      } catch (err) { $('#comment-status').text(err.message || 'Chưa gửi được bình luận.'); }
+    });
+    $(document).on('click', '.community-delete', function () {
+      var commentId = String($(this).data('comment-id'));
+      if (!global.confirm('Xóa bình luận này?')) { return; }
+      try {
+        if (C.deleteComment(unit.id, commentId)) { renderCommunity(); U.toast('Đã xóa bình luận.'); }
+      } catch (err) { U.toast('Chưa xóa được bình luận.'); }
+    });
 
     $('#tab-panels').on('click', '.chip[data-filter-kind]', function () {
       var kind = $(this).data('filter-kind');

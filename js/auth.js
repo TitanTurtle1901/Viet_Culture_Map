@@ -63,8 +63,18 @@
 
   function afterSuccess(user, remember) {
     D.session.set(user, remember);
-    status('Xin chào ' + (user.fullName || user.username) + '! Đang chuyển về trang chủ…', 'ok');
-    setTimeout(function () { global.location.href = 'index.html'; }, 900);
+    var destination = 'index.html';
+    var next = D.getParam('next');
+    if (next) {
+      try {
+        var target = new URL(next, global.location.href);
+        if (target.origin === global.location.origin && !/\/login\.html$/i.test(target.pathname)) {
+          destination = target.href;
+        }
+      } catch (e) { /* Giá trị không hợp lệ thì dùng trang chủ. */ }
+    }
+    status('Xin chào ' + (user.fullName || user.username) + '! Đang chuyển trang…', 'ok');
+    setTimeout(function () { global.location.href = destination; }, 900);
   }
 
   /* ---------- Xử lý biểu mẫu ---------- */
@@ -120,8 +130,8 @@
   $(function () {
     if (!$('#form-login').length) { return; }
     setMode(modeFromHash());
-    $('.tab-btn[data-mode]').on('click', function () { var m = $(this).data('mode'); global.history.replaceState(null, '', '#' + m); setMode(m); });
-    $('[data-switch]').on('click', function (e) { e.preventDefault(); var m = $(this).data('switch'); global.history.replaceState(null, '', '#' + m); setMode(m); });
+    $('.tab-btn[data-mode]').on('click', function () { var m = $(this).data('mode'); global.history.replaceState(null, '', global.location.pathname + global.location.search + '#' + m); setMode(m); });
+    $('[data-switch]').on('click', function (e) { e.preventDefault(); var m = $(this).data('switch'); global.history.replaceState(null, '', global.location.pathname + global.location.search + '#' + m); setMode(m); });
     $(global).on('hashchange', function () { setMode(modeFromHash()); });
     $('#forgot-link').on('click', function () { $('#form-forgot').toggleClass('hidden'); $('#forgot-email').trigger('focus'); });
     $('#form-login').on('submit', onLogin);
