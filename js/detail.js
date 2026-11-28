@@ -119,7 +119,34 @@
         '</div>' +
       '</div>'
     );
-    $('#detail-banner').attr('data-province-id', unit.id); // nền do Global Background đảm nhiệm, không có nền riêng theo tỉnh
+    $('#detail-banner').attr('data-province-id', unit.id);
+    applyBannerBackground();
+  }
+
+  /* ---------- Nền toàn trang riêng theo tỉnh (fixed, nằm trong #global-background) ----------
+     Lấy ảnh từ unit.summary.image (data/provinces/index.json) theo ID tỉnh hiện tại – không hardcode đường dẫn.
+     Chỉ dùng ảnh có file và permissionStatus === 'verified'; ngược lại (hoặc ảnh lỗi) giữ nền gradient dự phòng.
+     Trường tùy chọn image.focus (vd. "center 30%") chỉnh vị trí lấy nét; không có thì dùng "center 40%" như ảnh bìa ở thẻ. */
+  function bannerImage(u) {
+    var img = u && u.summary && u.summary.image;
+    return img && has(img.file) && img.permissionStatus === 'verified' ? img : null;
+  }
+
+  function safeFocus(v) { return typeof v === 'string' && /^[a-z0-9%. -]{1,40}$/i.test(v) ? v : 'center 40%'; }
+
+  function applyBannerBackground() {
+    var img = bannerImage(unit), bg = document.querySelector('#global-background .detail-page-bg');
+    if (!img || !bg) { return; }
+    var probe = new global.Image();
+    probe.onload = function () {
+      bg.style.backgroundImage = 'url("' + encodeURI(img.file) + '")'; // encodeURI: đường dẫn có dấu cách/tiếng Việt
+      bg.style.backgroundPosition = safeFocus(img.focus);
+      global.requestAnimationFrame(function () { bg.classList.add('is-loaded'); }); // fade-in sau khi đã tải xong
+    };
+    probe.onerror = function () {
+      if (global.console && global.console.warn) { global.console.warn('[Nền tỉnh] Không tải được ảnh nền của ' + unit.id + ': ' + img.file); }
+    };
+    probe.src = img.file;
   }
 
   /* ---------- Tab Tổng quan ---------- */
