@@ -15,7 +15,7 @@ Chỉ còn Google Fonts tải từ Internet (có font dự phòng của hệ th�
 ## Cấu trúc
 
 ```
-index.html  explore.html  detail.html  login.html
+index.html  explore.html  detail.html  favorites.html  login.html
 css/style.css      CSS riêng của dự án
 css/tailwind.css  CSS Tailwind đã biên dịch (KHÔNG sửa tay – sinh từ tools/tailwind)
 js/vendor/jquery-3.7.1.min.js
@@ -25,6 +25,8 @@ js/map.js       bản đồ: hover, click, cảm ứng, zoom/kéo, lọc miền,
 js/home.js      khu vực nổi bật / vùng miền / số liệu của trang chủ
 js/explore.js   tìm kiếm, lọc, sắp xếp, phân trang (đồng bộ URL)
 js/detail.js    5 tab, lọc theo đơn vị tiền thân, modal, nguồn
+js/community.js lưu yêu thích và bình luận (bản demo localStorage)
+js/favorites.js dựng trang địa phương đã lưu
 js/auth.js      đăng nhập/đăng ký MÔ PHỎNG
 data/provinces/index.json     34 đơn vị + summary (Hover, Khám phá)
 data/provinces/<id>.json      hồ sơ đầy đủ từng tỉnh (summary + detail + metadata)
@@ -71,13 +73,13 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
   `permissionStatus: verified` (người biên soạn xác nhận quyền sử dụng, dự án phi lợi nhuận); đối tượng ảnh gồm `file`, `alt`, `permissionStatus`. 6 mục chưa có file ảnh giữ `unverified`. Nếu một địa phương chưa có `image.file` hoặc ảnh tải lỗi, giao diện hiện ảnh giữ chỗ
   (nền theo miền + biểu tượng, ghi \"Chưa có ảnh bìa\"), không dùng mảnh bản đồ địa giới.
 - **Tagline** và **thông tin liên hệ** chưa có trong dữ liệu nên không được bịa; banner hiển thị loại đơn vị, vùng và đơn vị tiền thân; footer ghi chưa cấu hình kênh liên hệ.
-- **Đăng nhập/đăng ký chỉ là mô phỏng** (localStorage), không có xác thực thực tế.
+- **Đăng nhập/đăng ký, yêu thích và bình luận hiện là bản mô phỏng trên trình duyệt.** Tài khoản dùng localStorage; yêu thích lưu riêng theo tên đăng nhập; bình luận lưu trên trình duyệt hiện tại và có thể xóa bình luận của mình. Dữ liệu không đồng bộ giữa thiết bị/người dùng trên các trình duyệt khác và chưa có máy chủ, xác thực thật hay công cụ kiểm duyệt. Không nhập thông tin riêng tư vào bình luận. Muốn mở cho nhiều người dùng thật, cần thay bằng dịch vụ xác thực/cơ sở dữ liệu và chính sách phân quyền phía máy chủ.
 - Ranh giới giữa các tỉnh nhỏ ở đồng bằng Bắc Bộ khó chạm trên điện thoại; dùng nút +/− hoặc danh sách bên phải.
 - Đã kiểm thử logic bằng môi trường giả lập (jsdom) cho cả 4 trang; **chưa kiểm tra thị giác trên trình duyệt thật** (bố cục Tailwind, popup sát mép, cảm ứng thật). Nên duyệt thủ công trên desktop và điện thoại.
 
 ## Giao diện: Global Background (One Background – One Experience)
 
-Mọi trang (`index`, `explore`, `detail`, `about`, `login`) dùng **một** nền slideshow chung; nội dung nằm trong các **Content Panel** (`.vcm-panel`, kem/trắng ngà, bo góc, bóng nhẹ) ở lớp phía trên. Header trong suốt ở đầu trang, chuyển sang nền kính mờ khi cuộn. Không còn nền riêng ở Hero, Khám phá, Giới thiệu hay từng tỉnh. (Bản đồ là mục `#ban-do` của trang chủ, không có trang riêng.)
+Mọi trang (`index`, `explore`, `detail`, `favorites`, `about`, `login`) dùng **một** nền slideshow chung; nội dung nằm trong các **Content Panel** (`.vcm-panel`, kem/trắng ngà, bo góc, bóng nhẹ) ở lớp phía trên. Header trong suốt ở đầu trang, chuyển sang nền kính mờ khi cuộn. Không còn nền riêng ở Hero, Khám phá, Giới thiệu hay từng tỉnh. (Bản đồ là mục `#ban-do` của trang chủ, không có trang riêng.)
 
 - Markup: `<div id="global-background">` (có sẵn trong mỗi trang) gồm `.background-slides` + `.background-overlay`; CSS ở phần "Global Background" của `css/style.css` (`position: fixed; inset: 0; z-index: -1`, không dùng `background-attachment: fixed`).
 - Logic: `js/components/background.js` – fade mượt, preload đúng 1 ảnh kế tiếp (DOM tối đa 2 ảnh), ảnh lỗi bị loại khỏi vòng lặp (hết ảnh → nền gradient dự phòng), tạm dừng khi tab ẩn, `prefers-reduced-motion`/Save-Data → 1 ảnh tĩnh.

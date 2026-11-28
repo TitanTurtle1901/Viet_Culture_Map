@@ -168,6 +168,7 @@
           '<nav class="hidden lg:flex items-center gap-7" aria-label="Điều hướng chính">' +
             '<a href="index.html" class="' + cls(page === 'home' && hash !== '#ban-do') + '">Trang chủ</a>' +
             '<a href="explore.html" class="' + cls(page === 'explore' || page === 'detail') + '">Khám phá</a>' +
+            '<a href="favorites.html" class="' + cls(page === 'favorites') + '">Đã lưu</a>' +
             '<a href="index.html#ban-do" class="' + cls(page === 'home' && hash === '#ban-do') + '">Bản đồ</a>' +
             '<a href="about.html" class="' + cls(page === 'about') + '">Giới thiệu</a>' +
           '</nav>' +
@@ -187,6 +188,7 @@
           '<nav class="px-4 py-3 flex flex-col" aria-label="Điều hướng di động">' +
             '<a href="index.html" class="py-3 font-medium text-deep-700 border-b border-cream-200">Trang chủ</a>' +
             '<a href="explore.html" class="py-3 font-medium text-deep-700 border-b border-cream-200">Khám phá</a>' +
+            '<a href="favorites.html" class="py-3 font-medium text-deep-700 border-b border-cream-200">Địa phương đã lưu</a>' +
             '<a href="index.html#ban-do" class="py-3 font-medium text-deep-700 border-b border-cream-200">Bản đồ</a>' +
             '<a href="about.html" class="py-3 font-medium text-deep-700 mb-3">Giới thiệu</a>' +
             accountMobile +
@@ -406,6 +408,7 @@
           '<div><h2 class="font-semibold text-white mb-3">Điều hướng</h2><ul class="space-y-2 text-sm">' +
             '<li><a class="hover:text-ochre-400" href="index.html">Trang chủ</a></li>' +
             '<li><a class="hover:text-ochre-400" href="explore.html">Khám phá</a></li>' +
+            '<li><a class="hover:text-ochre-400" href="favorites.html">Địa phương đã lưu</a></li>' +
             '<li><a class="hover:text-ochre-400" href="index.html#ban-do">Bản đồ</a></li>' +
             '<li><a class="hover:text-ochre-400" href="about.html">Giới thiệu</a></li>' +
             '<li><a class="hover:text-ochre-400" href="login.html">Đăng nhập / Đăng ký</a></li></ul></div>' +
@@ -415,7 +418,7 @@
             '<li>Ảnh: chưa dùng ảnh chưa xác minh giấy phép.</li></ul></div>' +
           '<div><h2 class="font-semibold text-white mb-3">Liên hệ</h2>' +
             '<p class="text-sm opacity-90" id="footer-contact">Kênh liên hệ chưa được cấu hình cho bản này.</p>' +
-            '<p class="text-xs opacity-70 mt-3">Đăng nhập/đăng ký trên website là mô phỏng phía trình duyệt, không có xác thực tài khoản thực tế.</p></div>' +
+            '<p class="text-xs opacity-70 mt-3">Đăng nhập/đăng ký, yêu thích và bình luận hiện là bản mô phỏng trên trình duyệt, chưa đồng bộ qua máy chủ.</p></div>' +
         '</div>' +
         '<div class="border-t border-white/10"><p class="max-w-7xl mx-auto px-4 sm:px-6 py-5 text-xs opacity-70">© ' + new Date().getFullYear() + ' Viet Culture Map. Nội dung hồ sơ ở trạng thái “cần rà soát” cho đến khi được xác minh; xem ghi chú dữ liệu trong từng trang địa phương.</p></div>' +
       '</footer>'
