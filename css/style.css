@@ -21,6 +21,19 @@
   --panel-blur: 18px;
   --panel-shadow: 0 12px 32px -16px rgba(8, 28, 38, .5);
   --glass-card-bg: rgba(255, 255, 255, .46);
+  /* Glassmorphism dùng chung (thẻ & khối ở trang Giới thiệu): kính sáng cho thẻ trắng, kính tối cho khối xanh đậm */
+  --glass-blur: 12px;
+  --glass-light-bg: rgba(255, 255, 255, .5);   /* kính sáng: trong hơn, thấy nền rõ hơn */
+  --glass-light-blur: 22px;                    /* kính sáng: mờ mạnh hơn kính tối */
+  --glass-light-border: rgba(255, 255, 255, .6);
+  --glass-dark-bg: rgba(12, 38, 52, .62);
+  --glass-dark-border: rgba(255, 255, 255, .18);
+  --glass-dark-inner-bg: rgba(255, 255, 255, .09);
+  --glass-shadow: 0 10px 30px -12px rgba(5, 22, 30, .5);
+  /* Reveal animation dùng chung */
+  --reveal-duration: .7s;
+  --reveal-ease: cubic-bezier(.22, .61, .36, 1);
+  --reveal-distance: 18px;
   --bg-fade: 1600ms;                    /* thời gian fade nền – background.js ghi đè theo data/background-images.json */
 }
 
@@ -106,7 +119,7 @@ body { background: var(--cream); color: var(--ink); font-family: "Be Vietnam Pro
 }
 .vcm-panel { padding: 1.25rem; }
 @media (min-width: 640px) { .vcm-panel { padding: 2rem; } }
-@media (max-width: 639px) { :root { --panel-blur: 12px; } } /* nhẹ hơn trên di động */
+@media (max-width: 639px) { :root { --panel-blur: 12px; --glass-blur: 8px; --glass-light-blur: 14px; } } /* nhẹ hơn trên di động */
 /* Thẻ thông tin NẰM TRONG panel: trắng, trong hơn panel lớn (selector 2 lớp để thắng .bg-white của Tailwind mà không sửa tailwind.css).
    Chỉ đổi nền: ảnh, bảng, tab, nút/chip/ô nhập (có nền riêng) và popup/modal (ngoài panel) giữ nguyên, đặc. */
 .vcm-panel .bg-white, .ab-panel .bg-white { background-color: var(--glass-card-bg); }
@@ -294,13 +307,29 @@ body.modal-open { overflow: hidden; }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes spin { to { transform: rotate(360deg); } }
-.reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+.reveal { opacity: 0; transform: translateY(var(--reveal-distance, 16px)); transition: opacity var(--reveal-duration, .6s) var(--reveal-ease, ease), transform var(--reveal-duration, .6s) var(--reveal-ease, ease); }
 .reveal { transition-delay: var(--reveal-delay, 0ms); }
+/* Biến thể: chỉ mờ dần (không trượt) / mờ dần + phóng nhẹ 0.98 → 1 (dùng cho khung bản đồ SVG) */
+.reveal.reveal-fade { transform: none; }
+.reveal.reveal-scale { transform: scale(.98); }
+/* Độ trễ lần lượt (stagger) – dùng như .reveal-d1 … .reveal-d4 */
+.reveal-d1 { --reveal-delay: 80ms; }
+.reveal-d2 { --reveal-delay: 160ms; }
+.reveal-d3 { --reveal-delay: 240ms; }
+.reveal-d4 { --reveal-delay: 320ms; }
+/* Stagger tự động cho các lưới ở trang Giới thiệu (:where giữ độ ưu tiên thấp) */
+:where(.ab-grid3, .ab-principles) > .reveal:nth-child(2) { --reveal-delay: 90ms; }
+:where(.ab-grid3, .ab-principles) > .reveal:nth-child(3) { --reveal-delay: 180ms; }
+:where(.ab-principles) > .reveal:nth-child(4) { --reveal-delay: 270ms; }
 .reveal.is-in { opacity: 1; transform: none; }
+/* main.js thêm .is-revealed khi hiện xong: bỏ độ trễ để hover/tương tác không bị trễ */
+.reveal.is-revealed { --reveal-delay: 0ms; }
+/* Không chạy JS: luôn hiển thị nội dung */
+@media (scripting: none) { .reveal { opacity: 1; transform: none; } }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
-  .reveal { opacity: 1; transform: none; }
+  .reveal, .reveal.reveal-fade, .reveal.reveal-scale { opacity: 1; transform: none; }
 }
 
 /* ---------- Màu chữ header trên hero (trong suốt) ---------- */
@@ -350,10 +379,11 @@ body.modal-open { overflow: hidden; }
 /* Tính năng */
 .ab-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .ab-feature { background: #fff; border-radius: var(--ab-radius); padding: 30px; box-shadow: 0 6px 22px rgba(15, 45, 61, .07); border-top: 5px solid var(--ab-green);
-  transition: opacity .6s ease, transform .3s ease, box-shadow .3s ease; }
+  transition: opacity var(--reveal-duration, .7s) var(--reveal-ease, ease) var(--reveal-delay, 0ms), transform var(--reveal-duration, .7s) var(--reveal-ease, ease) var(--reveal-delay, 0ms), box-shadow .3s ease; }
+.ab-feature.is-revealed { transition: transform .3s ease, box-shadow .3s ease; } /* sau khi hiện xong: hover nhanh, không trễ */
 .ab-feature:hover { transform: translateY(-5px); box-shadow: 0 14px 34px rgba(15, 45, 61, .13); }
-.ab-feature:nth-child(2) { border-color: var(--ab-gold); }
-.ab-feature:nth-child(3) { border-color: var(--ab-red); }
+.ab-feature:nth-child(2) { border-top-color: var(--ab-gold); }
+.ab-feature:nth-child(3) { border-top-color: var(--ab-red); }
 .ab-ico { font-size: 2rem; margin-bottom: 10px; }
 .ab-feature h3 { font-size: 1.35rem; margin-bottom: 8px; }
 .ab-feature p { color: var(--ab-muted); font-size: .98rem; }
@@ -411,6 +441,29 @@ body.modal-open { overflow: hidden; }
 .ab-cta a:hover { background: #741f1f; border-color: #741f1f; }
 .ab-cta a.ab-ghost { background: transparent; color: var(--ab-navy); border-color: rgba(15, 45, 61, .25); }
 .ab-cta a.ab-ghost:hover { background: var(--cream); border-color: var(--ab-navy); }
+
+/* ---------- Glassmorphism (trang Giới thiệu) ----------
+   Đặt SAU các rule gốc để ghi đè nền đặc; chỉ đổi nền/viền/bóng/blur, giữ nguyên kích thước & bố cục.
+   .glass-light / .glass-dark là class dùng lại được cho khối mới. */
+.glass-light, .ab-feature, .ab-cta {
+  background: var(--glass-light-bg); border: 1px solid var(--glass-light-border); box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-light-blur)) saturate(1.25); backdrop-filter: blur(var(--glass-light-blur)) saturate(1.25);
+  --ab-muted: #1f2d34; /* chữ phụ đậm hơn một chút để đủ tương phản trên nền kính */
+}
+.glass-dark, .ab-layers {
+  background: var(--glass-dark-bg); border: 1px solid var(--glass-dark-border); box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.1); backdrop-filter: blur(var(--glass-blur)) saturate(1.1);
+}
+.ab-feature { border-top: 5px solid var(--ab-green); }           /* giữ vạch màu xanh / vàng / đỏ gạch */
+.ab-feature:nth-child(2) { border-top-color: var(--ab-gold); }
+.ab-feature:nth-child(3) { border-top-color: var(--ab-red); }
+.ab-feature:hover { box-shadow: 0 16px 36px -14px rgba(5, 22, 30, .55); }
+/* Thẻ số liệu nằm trong khối kính tối: nền trắng mờ + viền sáng (không cần blur riêng vì đã nằm trong lớp kính của khối cha) */
+.ab-stat, #about-stats > li { background: var(--glass-dark-inner-bg); border: 1px solid var(--glass-dark-border); } /* #about-stats: thẻ số liệu ở trang chủ */
+.ab-stat span { color: rgba(255, 255, 255, .92); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root { --glass-light-bg: rgba(255, 255, 255, .94); --glass-dark-bg: rgba(12, 38, 52, .94); }
+}
 
 /* Live search results */
 .quick-search-wrap { position: relative; }

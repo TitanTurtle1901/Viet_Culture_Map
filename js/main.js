@@ -474,7 +474,16 @@
     // Hiệu ứng xuất hiện khi cuộn
     if ('IntersectionObserver' in global) {
       var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (en) { if (en.isIntersecting) { $(en.target).addClass('is-in'); io.unobserve(en.target); } });
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) { return; }
+          var el = en.target;
+          el.classList.add('is-in'); io.unobserve(el);
+          // Hiện xong thì bỏ độ trễ stagger (class .is-revealed) để hover/tương tác không bị trễ
+          el.addEventListener('transitionend', function done(e) {
+            if (e.target !== el || e.propertyName !== 'opacity') { return; }
+            el.removeEventListener('transitionend', done); el.classList.add('is-revealed');
+          });
+        });
       }, { threshold: 0.12 });
       global.VCM.ui.observeReveal = function ($root) { ($root || $(document)).find('.reveal:not(.is-in)').each(function () { io.observe(this); }); };
     } else {

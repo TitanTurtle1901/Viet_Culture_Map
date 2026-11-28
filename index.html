@@ -41,21 +41,21 @@
     <!-- ============ BẢN ĐỒ ============ -->
     <section id="ban-do" class="max-w-7xl mx-auto px-4 sm:px-6 pt-14 sm:pt-20" aria-labelledby="map-heading">
       <div class="vcm-panel">
-        <div class="max-w-3xl">
+        <div class="max-w-3xl reveal">
           <h2 id="map-heading" class="font-display text-3xl font-bold text-deep-700">Bản đồ hành chính 34 tỉnh, thành phố</h2>
           <p class="mt-2 text-gray-700 leading-relaxed">Tên 6 thành phố trực thuộc Trung ương luôn hiển thị trên bản đồ. Rê chuột vào địa phương để xem tên và thông tin nhanh; nhấn để mở hồ sơ đầy đủ. Nhấn vào Hoàng Sa hoặc Trường Sa để xem thông tin quần đảo. Trên điện thoại, chạm vào địa phương hoặc quần đảo để xem thông tin nhanh.</p>
         </div>
 
         <div class="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] items-start">
           <!-- Khung bản đồ -->
-          <div>
+          <div class="reveal reveal-d1">
             <div class="map-stage">
               <div class="map-controls" role="group" aria-label="Điều khiển bản đồ">
                 <button type="button" class="map-btn" id="map-zoom-in" aria-label="Phóng to">+</button>
                 <button type="button" class="map-btn" id="map-zoom-out" aria-label="Thu nhỏ">−</button>
                 <button type="button" class="map-btn !text-base" id="map-reset" aria-label="Đặt lại khung nhìn" title="Đặt lại">⟲</button>
               </div>
-              <div id="map-container" aria-live="polite">
+              <div id="map-container" class="reveal reveal-scale reveal-d2" aria-live="polite">
                 <div class="map-loading" style="min-height:24rem"><div class="spinner" role="status" aria-label="Đang tải bản đồ"></div></div>
               </div>
             </div>
@@ -64,12 +64,12 @@
 
           <!-- Bảng điều khiển bên phải -->
           <div class="space-y-5">
-            <div>
+            <div class="reveal reveal-fade reveal-d2">
               <h3 class="font-semibold text-deep-700 mb-2">Lọc theo miền</h3>
               <div class="flex flex-wrap gap-2" id="region-chips" role="group" aria-label="Lọc bản đồ theo miền"></div>
               <ul class="flex flex-wrap gap-x-5 gap-y-1 mt-3 text-sm text-gray-600" id="map-legend"></ul>
             </div>
-            <div>
+            <div class="reveal reveal-d3">
               <h3 class="font-semibold text-deep-700 mb-2">Danh sách địa phương <span class="text-sm font-normal text-gray-500" id="province-count"></span></h3>
               <div id="province-list" class="grid sm:grid-cols-2 gap-x-3 max-h-[26rem] overflow-y-auto pr-1" role="list"></div>
               <p class="text-xs text-gray-500 mt-2">Di chuột hoặc dùng bàn phím trên danh sách để làm nổi bật địa phương tương ứng trên bản đồ.</p>
@@ -106,7 +106,7 @@
 
     <!-- ============ GIỚI THIỆU ============ -->
     <section id="gioi-thieu" class="max-w-7xl mx-auto px-4 sm:px-6 mt-20" aria-labelledby="about-heading">
-      <div class="reveal grid gap-10 lg:grid-cols-2 items-center bg-deep-800 text-cream-200 rounded-3xl p-8 sm:p-12">
+      <div class="reveal glass-dark grid gap-10 lg:grid-cols-2 items-center text-cream-200 rounded-3xl p-8 sm:p-12">
         <div>
           <h2 id="about-heading" class="font-display text-3xl font-bold text-white">Một địa phương, nhiều tầng di sản</h2>
           <p class="mt-4 leading-relaxed">Sau đợt sắp xếp đơn vị hành chính cấp tỉnh năm 2025, Việt Nam có 34 đơn vị cấp tỉnh. Mỗi hồ sơ trên Viet Culture Map giữ <strong class="text-white">thông tin hành chính hiện hành</strong> tách biệt với <strong class="text-white">lịch sử và văn hóa của tất cả đơn vị tiền thân</strong>, để bản sắc của từng vùng đất không bị mất đi sau sáp nhập.</p>

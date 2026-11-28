@@ -12,33 +12,83 @@ Dữ liệu nạp bằng `fetch()` nên **phải chạy qua máy chủ cục b�
 
 Chỉ còn Google Fonts tải từ Internet (có font dự phòng của hệ thống khi offline). jQuery và Tailwind đã nằm trong dự án.
 
-## Cấu trúc
+## Cấu trúc dự án
+
+### Sơ đồ thư mục
 
 ```
-index.html  explore.html  detail.html  favorites.html  login.html
-css/style.css      CSS riêng của dự án
-css/tailwind.css  CSS Tailwind đã biên dịch (KHÔNG sửa tay – sinh từ tools/tailwind)
-js/vendor/jquery-3.7.1.min.js
-js/data.js      lớp dữ liệu (JS thuần): tải JSON, chuẩn hóa chuỗi, phiên mô phỏng
-js/main.js      header/footer dùng chung, menu, thẻ địa phương, ảnh giữ chỗ (jQuery)
-js/map.js       bản đồ: hover, click, cảm ứng, zoom/kéo, lọc miền, danh sách
-js/home.js      khu vực nổi bật / vùng miền / số liệu của trang chủ
-js/explore.js   tìm kiếm, lọc, sắp xếp, phân trang (đồng bộ URL)
-js/detail.js    5 tab, lọc theo đơn vị tiền thân, modal, nguồn
-js/community.js lưu yêu thích và bình luận (bản demo localStorage)
-js/favorites.js dựng trang địa phương đã lưu
-js/auth.js      đăng nhập/đăng ký MÔ PHỎNG
-data/provinces/index.json     34 đơn vị + summary (Hover, Khám phá)
-data/provinces/<id>.json      hồ sơ đầy đủ từng tỉnh (summary + detail + metadata)
-data/sources.json             354 nguồn tham khảo
-data/regions.json             quy tắc phân vùng Bắc/Trung/Nam + danh sách nổi bật
-data/taxonomy.json, data/image-manifest.json
-data/background-images.json    danh sách ảnh + thời gian của nền slideshow chung
-assets/maps/vietnam-34-provinces.svg   bản đồ (34 id, sinh từ GeoJSON)
-assets/icons/vietnam-silhouette.svg    logo/favicon (từ cùng dữ liệu ranh giới)
-tools/build_map.py, tools/build_data.py   script dựng dữ liệu (chạy một lần, không thuộc website)
-tools/tailwind/          cấu hình + lệnh build css/tailwind.css
-tools/optimize_images.py nén/đổi cỡ ảnh   |   tools/check_images.py kiểm tra đường dẫn ảnh
+Viet-Culture-Map/
+│
+├── 📄 TRANG WEB (6 trang HTML, mở bằng Live Server)
+│   ├── index.html        Trang chủ: Hero, bản đồ #ban-do, địa phương nổi bật, vùng miền
+│   ├── explore.html      Khám phá: tìm kiếm, lọc, sắp xếp, phân trang
+│   ├── detail.html       Hồ sơ đầy đủ của một tỉnh (5 tab)
+│   ├── favorites.html    Danh sách địa phương đã lưu
+│   ├── about.html        Giới thiệu dự án + nhóm tác giả
+│   └── login.html        Đăng nhập / đăng ký (MÔ PHỎNG)
+│
+├── 🎨 css/
+│   ├── style.css         CSS riêng của dự án (bản đồ, glass, reveal, nền chung...)
+│   └── tailwind.css      Tailwind đã biên dịch – KHÔNG sửa tay (sinh từ tools/tailwind)
+│
+├── ⚙️ js/
+│   ├── data.js           Lớp dữ liệu (JS thuần): tải JSON, chuẩn hóa chuỗi, phiên mô phỏng
+│   ├── main.js           Dùng chung mọi trang: header/footer, menu, tìm nhanh, thẻ, reveal
+│   ├── map.js            Bản đồ: hover, click, cảm ứng, zoom/kéo, lọc miền, danh sách
+│   ├── home.js           Trang chủ: nổi bật, vùng miền, số liệu, đếm số
+│   ├── explore.js        Trang Khám phá: tìm kiếm, lọc, phân trang (đồng bộ URL)
+│   ├── detail.js         Trang chi tiết: 5 tab, lọc tiền thân, modal, nguồn
+│   ├── about.js          Trang Giới thiệu: tính số liệu thật, đếm số
+│   ├── community.js      Yêu thích + bình luận (demo localStorage)
+│   ├── favorites.js      Dựng trang địa phương đã lưu
+│   ├── auth.js           Đăng nhập/đăng ký MÔ PHỎNG
+│   ├── components/
+│   │   └── background.js Nền slideshow chung cho mọi trang
+│   └── vendor/
+│       └── jquery-3.7.1.min.js
+│
+├── 🗂️ data/              (chỉ chứa dữ liệu, không chứa giao diện)
+│   ├── provinces/
+│   │   ├── index.json        34 đơn vị + summary (dùng cho Hover, Khám phá, thẻ)
+│   │   └── <id>.json         Hồ sơ đầy đủ từng tỉnh (34 file: ha-noi.json, hue.json...)
+│   ├── regions.json          Phân vùng Bắc/Trung/Nam + danh sách nổi bật
+│   ├── sources.json          354 nguồn tham khảo
+│   ├── taxonomy.json         Phân loại nội dung
+│   ├── image-manifest.json   Danh mục ảnh
+│   └── background-images.json  Danh sách ảnh + thời gian của nền slideshow
+│
+├── 🖼️ assets/
+│   ├── maps/vietnam-34-provinces.svg   Bản đồ (34 id, sinh từ GeoJSON)
+│   ├── icons/vietnam-silhouette.svg    Logo / favicon
+│   └── images/<tên địa phương>/{culture, destinations, specialties}/   Ảnh nội dung
+│
+└── 🛠️ tools/             (công cụ bảo trì, KHÔNG thuộc website khi chạy)
+    ├── build_map.py          Dựng lại bản đồ SVG từ GeoJSON
+    ├── build_data.py         Tách/chuẩn hóa dữ liệu từ bundle JSON
+    ├── optimize_images.py    Nén / đổi cỡ ảnh
+    ├── check_images.py       Kiểm tra đường dẫn ảnh (sai hoa/thường, tên không an toàn)
+    └── tailwind/             Cấu hình + lệnh build css/tailwind.css
+```
+
+### Mỗi trang nạp những file JS nào
+
+Thứ tự nạp luôn là `jQuery → data.js → main.js → file riêng của trang`.
+
+| Trang | Nền slideshow | File JS riêng |
+|---|---|---|
+| `index.html` | `components/background.js` | `map.js`, `home.js` |
+| `explore.html` | `components/background.js` | `explore.js` |
+| `about.html` | `components/background.js` | `about.js` |
+| `favorites.html` | `components/background.js` | `community.js`, `favorites.js` |
+| `login.html` | `components/background.js` | `auth.js` |
+| `detail.html` | (ảnh nền riêng của tỉnh, gán bởi `detail.js`) | `community.js`, `detail.js` |
+
+### Luồng dữ liệu
+
+```
+data/*.json ──fetch──▶ js/data.js ──▶ js/main.js (giao diện chung)
+                                  └──▶ js/<trang>.js ──▶ HTML hiển thị
+assets/maps/*.svg ──▶ js/map.js (chỉ trang chủ)
 ```
 
 Phân công JS: `data.js` thuần (không đụng DOM); mọi thao tác DOM/sự kiện dùng jQuery. Ngoại lệ duy nhất: `wheel` dùng
@@ -79,7 +129,7 @@ Hồ sơ lấy từ file `viet-culture-map-34-provinces.json` do Hoang Nhat cung
 
 ## Giao diện: Global Background (One Background – One Experience)
 
-Mọi trang (`index`, `explore`, `detail`, `favorites`, `about`, `login`) dùng **một** nền slideshow chung; nội dung nằm trong các **Content Panel** (`.vcm-panel`, kem/trắng ngà, bo góc, bóng nhẹ) ở lớp phía trên. Header trong suốt ở đầu trang, chuyển sang nền kính mờ khi cuộn. Không còn nền riêng ở Hero, Khám phá, Giới thiệu hay từng tỉnh. (Bản đồ là mục `#ban-do` của trang chủ, không có trang riêng.)
+Mọi trang (`index`, `explore`, `favorites`, `about`, `login`) dùng **một** nền slideshow chung (trang `detail` dùng ảnh nền riêng của từng tỉnh); nội dung nằm trong các **Content Panel** (`.vcm-panel`, kem/trắng ngà, bo góc, bóng nhẹ) ở lớp phía trên. Header trong suốt ở đầu trang, chuyển sang nền kính mờ khi cuộn. Không còn nền riêng ở Hero, Khám phá, Giới thiệu hay từng tỉnh. (Bản đồ là mục `#ban-do` của trang chủ, không có trang riêng.)
 
 - Markup: `<div id="global-background">` (có sẵn trong mỗi trang) gồm `.background-slides` + `.background-overlay`; CSS ở phần "Global Background" của `css/style.css` (`position: fixed; inset: 0; z-index: -1`, không dùng `background-attachment: fixed`).
 - Logic: `js/components/background.js` – fade mượt, preload đúng 1 ảnh kế tiếp (DOM tối đa 2 ảnh), ảnh lỗi bị loại khỏi vòng lặp (hết ảnh → nền gradient dự phòng), tạm dừng khi tab ẩn, `prefers-reduced-motion`/Save-Data → 1 ảnh tĩnh.
@@ -87,6 +137,26 @@ Mọi trang (`index`, `explore`, `detail`, `favorites`, `about`, `login`) dùng 
 - **Thêm ảnh nền:** thêm một mục vào `images` trong `data/background-images.json` (`id`, `src` tính từ gốc website, `alt`, `focus` = vị trí cắt ảnh, `active`). Chỉ dùng ảnh đã xác minh quyền sử dụng; nên dùng WebP/JPEG ≤ ~300 KB, rộng ~1600 px (`tools/optimize_images.py`). Hiện danh sách dùng lại 8 ảnh bìa tỉnh đã có (không thêm ảnh mới). Tắt ảnh: `"active": false`. Kiểm tra đường dẫn: `python tools/check_images.py`.
 - **Đổi thời gian:** `intervalMs` (mặc định 9000 ms, tối thiểu 3000) và `fadeMs` (mặc định 1600 ms) trong cùng file JSON.
 - **Panel:** thêm class `vcm-panel` cho khối nội dung; tiêu đề đặt trực tiếp trên nền dùng class `on-bg`. Biến `--panel-bg`, `--panel-radius` ở đầu `css/style.css`.
+
+## Giao diện: Glassmorphism và Reveal animation
+
+Chỉ là lớp hiệu ứng trong `css/style.css` (và một đoạn nhỏ trong observer của `js/main.js`); không ảnh hưởng dữ liệu hay logic.
+
+**Glassmorphism** (nền bán trong suốt + `backdrop-filter: blur()`), áp dụng cho trang Giới thiệu (thẻ tính năng, khối "Một địa phương, nhiều tầng di sản", CTA) và khối cùng tên ở trang chủ:
+
+- Class dùng lại được: `.glass-light` (thẻ sáng, trong và mờ hơn) và `.glass-dark` (khối xanh đậm).
+- Biến ở đầu `css/style.css`: `--glass-light-bg`, `--glass-light-blur`, `--glass-dark-bg`, `--glass-blur`, `--glass-light-border`, `--glass-dark-border`, `--glass-dark-inner-bg`, `--glass-shadow`. Muốn mờ hơn: tăng `*-blur` hoặc giảm độ đặc (số cuối của `rgba`).
+- Trình duyệt không hỗ trợ `backdrop-filter` tự chuyển sang nền đặc hơn để chữ vẫn dễ đọc. Chữ phụ trong thẻ sáng được làm đậm để giữ độ tương phản.
+- Thẻ lồng trong khối kính (ví dụ thẻ 34/63/240/175) không blur riêng vì blur lồng nhau không có tác dụng.
+
+**Reveal animation** (mờ dần + trượt nhẹ khi cuộn tới), dùng một IntersectionObserver chung trong `js/main.js`:
+
+- Thêm class `reveal` vào phần tử là đủ. Biến thể: `reveal-fade` (chỉ mờ dần), `reveal-scale` (mờ dần + phóng 0.98 → 1, dùng cho khung bản đồ SVG).
+- Hiện lần lượt (stagger): `reveal-d1` … `reveal-d4` (80–320 ms). Lưới thẻ ở trang Giới thiệu tự có stagger.
+- Biến: `--reveal-duration`, `--reveal-ease`, `--reveal-distance`.
+- Chỉ dùng `opacity` và `transform` nên không gây layout shift; sau khi hiện xong `transform` trả về `none`, không ảnh hưởng zoom/click bản đồ.
+- `prefers-reduced-motion: reduce` → tắt hiệu ứng, nội dung hiện ngay. Trình duyệt tắt JavaScript (`@media (scripting: none)`) cũng hiện đủ nội dung.
+- Trên trang chủ, phần bản đồ có reveal cho: tiêu đề + mô tả, khung bản đồ, SVG, bộ lọc miền, danh sách tỉnh.
 
 ## Công cụ bảo trì
 
